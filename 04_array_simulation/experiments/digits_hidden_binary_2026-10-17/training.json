@@ -1,0 +1,258 @@
+{
+  "selected": {
+    "seed": 19,
+    "lr": 0.003,
+    "epoch": 225,
+    "training": {
+      "correct": 1001,
+      "cross_entropy": 0.23072454484557453
+    },
+    "selected_training_epoch": 220,
+    "selected_training": {
+      "correct": 1031,
+      "cross_entropy": 0.16970181679313975
+    },
+    "validation": {
+      "correct": 255,
+      "cross_entropy": 0.24436147375459144
+    }
+  },
+  "continuous_history": [
+    {
+      "epoch": 0,
+      "training": {
+        "correct": 71,
+        "cross_entropy": 2.365208664858563
+      },
+      "selected_training_epoch": 0,
+      "selected_training": {
+        "correct": 71,
+        "cross_entropy": 2.365208664858563
+      }
+    },
+    {
+      "epoch": 25,
+      "training": {
+        "correct": 1299,
+        "cross_entropy": 0.3290775478765656
+      },
+      "selected_training_epoch": 25,
+      "selected_training": {
+        "correct": 1299,
+        "cross_entropy": 0.3290775478765656
+      }
+    },
+    {
+      "epoch": 50,
+      "training": {
+        "correct": 1326,
+        "cross_entropy": 0.13463222635402758
+      },
+      "selected_training_epoch": 50,
+      "selected_training": {
+        "correct": 1326,
+        "cross_entropy": 0.13463222635402758
+      }
+    },
+    {
+      "epoch": 75,
+      "training": {
+        "correct": 1340,
+        "cross_entropy": 0.07667794444892463
+      },
+      "selected_training_epoch": 75,
+      "selected_training": {
+        "correct": 1340,
+        "cross_entropy": 0.07667794444892463
+      }
+    },
+    {
+      "epoch": 100,
+      "training": {
+        "correct": 1345,
+        "cross_entropy": 0.0503529902433644
+      },
+      "selected_training_epoch": 100,
+      "selected_training": {
+        "correct": 1345,
+        "cross_entropy": 0.0503529902433644
+      }
+    },
+    {
+      "epoch": 125,
+      "training": {
+        "correct": 1347,
+        "cross_entropy": 0.03622921332633058
+      },
+      "selected_training_epoch": 125,
+      "selected_training": {
+        "correct": 1347,
+        "cross_entropy": 0.03622921332633058
+      }
+    },
+    {
+      "epoch": 150,
+      "training": {
+        "correct": 1347,
+        "cross_entropy": 0.027295626890364598
+      },
+      "selected_training_epoch": 150,
+      "selected_training": {
+        "correct": 1347,
+        "cross_entropy": 0.027295626890364598
+      }
+    },
+    {
+      "epoch": 175,
+      "training": {
+        "correct": 1347,
+        "cross_entropy": 0.0216362940212347
+      },
+      "selected_training_epoch": 175,
+      "selected_training": {
+        "correct": 1347,
+        "cross_entropy": 0.0216362940212347
+      }
+    },
+    {
+      "epoch": 200,
+      "training": {
+        "correct": 1347,
+        "cross_entropy": 0.01773677049087153
+      },
+      "selected_training_epoch": 200,
+      "selected_training": {
+        "correct": 1347,
+        "cross_entropy": 0.01773677049087153
+      }
+    }
+  ],
+  "binary_history": [
+    {
+      "epoch": 0,
+      "training": {
+        "correct": 892,
+        "cross_entropy": 1.0691054547666248
+      },
+      "selected_training_epoch": 0,
+      "selected_training": {
+        "correct": 892,
+        "cross_entropy": 1.0691054547666248
+      }
+    },
+    {
+      "epoch": 25,
+      "training": {
+        "correct": 1254,
+        "cross_entropy": 0.23611508543031562
+      },
+      "selected_training_epoch": 6,
+      "selected_training": {
+        "correct": 1275,
+        "cross_entropy": 0.2296966590907617
+      }
+    },
+    {
+      "epoch": 50,
+      "training": {
+        "correct": 1238,
+        "cross_entropy": 0.26162123095223394
+      },
+      "selected_training_epoch": 45,
+      "selected_training": {
+        "correct": 1256,
+        "cross_entropy": 0.22431224239184672
+      }
+    },
+    {
+      "epoch": 75,
+      "training": {
+        "correct": 1222,
+        "cross_entropy": 0.2675502237408972
+      },
+      "selected_training_epoch": 73,
+      "selected_training": {
+        "correct": 1260,
+        "cross_entropy": 0.2133906422781448
+      }
+    },
+    {
+      "epoch": 100,
+      "training": {
+        "correct": 1143,
+        "cross_entropy": 0.41369453175685506
+      },
+      "selected_training_epoch": 77,
+      "selected_training": {
+        "correct": 1262,
+        "cross_entropy": 0.19543145203527948
+      }
+    },
+    {
+      "epoch": 125,
+      "training": {
+        "correct": 1239,
+        "cross_entropy": 0.24398248498601424
+      },
+      "selected_training_epoch": 122,
+      "selected_training": {
+        "correct": 1276,
+        "cross_entropy": 0.18438726799643712
+      }
+    },
+    {
+      "epoch": 150,
+      "training": {
+        "correct": 1230,
+        "cross_entropy": 0.29434974291403354
+      },
+      "selected_training_epoch": 122,
+      "selected_training": {
+        "correct": 1276,
+        "cross_entropy": 0.18438726799643712
+      }
+    },
+    {
+      "epoch": 175,
+      "training": {
+        "correct": 1143,
+        "cross_entropy": 0.453024040289418
+      },
+      "selected_training_epoch": 173,
+      "selected_training": {
+        "correct": 1279,
+        "cross_entropy": 0.16902115137335696
+      }
+    },
+    {
+      "epoch": 200,
+      "training": {
+        "correct": 1161,
+        "cross_entropy": 0.37169252607740655
+      },
+      "selected_training_epoch": 173,
+      "selected_training": {
+        "correct": 1279,
+        "cross_entropy": 0.16902115137335696
+      }
+    },
+    {
+      "epoch": 225,
+      "training": {
+        "correct": 1238,
+        "cross_entropy": 0.2832890762665639
+      },
+      "selected_training_epoch": 173,
+      "selected_training": {
+        "correct": 1279,
+        "cross_entropy": 0.16902115137335696
+      }
+    }
+  ],
+  "training_seconds": 5.0437631999993755,
+  "binary_signs_per_layer": [
+    1024,
+    160
+  ],
+  "method": "Binary forward pass in both layers; clipped shadow weights, learned digital gains/biases, Adam with straight-through sign and activation-rounding derivatives. Finite validation-selected search, not a global optimum claim."
+}

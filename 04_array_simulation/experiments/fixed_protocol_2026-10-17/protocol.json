@@ -1,0 +1,134 @@
+{
+  "model": "Native COMSOL isothermal bounded finite-span Ti, 696 physical states; no electrothermal extension",
+  "units": "V, tau, normalized conductance/current; tau is not calibrated seconds",
+  "gates": {
+    "history_relative_read_error": 0.01,
+    "hold_relative_error": 0.01,
+    "halfselect_sham_relative_error": 0.01,
+    "inventory_absolute": 1e-06,
+    "numerical_relative_read_error": 0.001
+  },
+  "operations": {
+    "write_amplitude_V": 0.8,
+    "rise_tau": 0.05,
+    "width_tau": 0.2,
+    "fall_tau": 0.05,
+    "gap_tau": 0.2,
+    "read_amplitude_V": 0.02,
+    "read_rise_tau": 0.02,
+    "read_width_tau": 0.1,
+    "read_fall_tau": 0.02
+  },
+  "initialization_candidates": [
+    8,
+    32,
+    128
+  ],
+  "programming_pulses": 16,
+  "experiments": [
+    {
+      "order": 0,
+      "name": "Freeze source",
+      "status": "pass",
+      "evidence": "report.html"
+    },
+    {
+      "order": 1,
+      "name": "Polarity and numerical pulse check",
+      "status": "pass",
+      "evidence": "report.html"
+    },
+    {
+      "order": 2,
+      "name": "Initialization from four histories",
+      "status": "fail",
+      "evidence": "report.html"
+    },
+    {
+      "order": 3,
+      "name": "Unidirectional programming convergence",
+      "status": "fail",
+      "evidence": "report.html"
+    },
+    {
+      "order": 4,
+      "name": "Hold and read disturbance",
+      "status": "completed",
+      "evidence": "report.html"
+    },
+    {
+      "order": 5,
+      "name": "2x2 half-select vs ideal isolation",
+      "status": "completed",
+      "evidence": "report.html"
+    },
+    {
+      "order": 6,
+      "name": "Independent LUT validation",
+      "status": "segmented reference pass; single-segment continuous fail",
+      "evidence": "report.html"
+    },
+    {
+      "order": 7,
+      "name": "Bit-serial task and bounded-memory scheduling",
+      "status": "encoding pass; system integration pending acceptance gate",
+      "evidence": "report.html"
+    }
+  ],
+  "decision": "Parameters are predeclared screening candidates, not calibrated device specifications. If initialization convergence fails, do not deploy history-free LUT. COMSOL-only device extraction; Python orchestrates and analyses.",
+  "initialization_candidate_policy": "Try 8, then 32, then 128 cumulative RESET pulses; standard READ checkpoint before each extension. Stop at first candidate meeting <=1% spread over all 17 levels. Probe branches never feed back into the initialization branch.",
+  "halfselect_scope": "First test: ideal driven 2x2 passive crossbar, zero wire/port resistance. Actual cell biases are exactly V,V/2,V/2,0. Equivalent independent native device histories; do not claim finite-line coupled solution or a transistor model.",
+  "results": [
+    {
+      "order": 0,
+      "experiment": "Model and initial-state freeze",
+      "status": "pass",
+      "detail": "Two native MPH copies have identical SHA-256; the 26 fingerprints of the original freeze package pass."
+    },
+    {
+      "order": 1,
+      "experiment": "Fixed pulse polarity and tolerance",
+      "status": "pass",
+      "detail": "+0.8 V is SET, −0.8 V is RESET; read-conductance tolerance recheck difference 1.716e-09."
+    },
+    {
+      "order": 2,
+      "experiment": "Uniform RESET initialisation",
+      "status": "fail",
+      "detail": "8 pulses: initialisation read spread 48.092%; 32 pulses: initialisation read spread 31.405%; 128 pulses: initialisation read spread 18.418%"
+    },
+    {
+      "order": 3,
+      "experiment": "16 unidirectional SET pulses after initialisation",
+      "status": "fail",
+      "detail": "8-pulse initialisation: max spread over full curve 48.092%; 32-pulse initialisation: max spread over full curve 82.790%; 128-pulse initialisation: max spread over full curve 34.013%"
+    },
+    {
+      "order": 4,
+      "experiment": "Retention and cumulative reads",
+      "status": "completed",
+      "detail": "3 states, 1/10/100 τ retention and 1/16/80 reads; retention pass 5/9, read disturb pass 9/9."
+    },
+    {
+      "order": 5,
+      "experiment": "2×2 half-select and ideal-isolation control",
+      "status": "completed",
+      "detail": "Zero-line-resistance array assembled from native device trajectories; 81 initial-state combinations, max column readout relative error 25.650%. Real 1T1R not modelled."
+    },
+    {
+      "order": 6,
+      "experiment": "Independent native reference verification",
+      "status": "segmented reference pass; single-segment continuous fail",
+      "detail": "Max read relative difference between independent reference and original segmented continuation 2.803e-08. This check does not mean the history-independent table has passed."
+    },
+    {
+      "order": 7,
+      "experiment": "Fixed-amplitude input encoding and system integration",
+      "status": "encoding pass; system integration pending acceptance gate",
+      "detail": "450 samples, 5-bit serial, max digit-score difference 8.882e-15, prediction difference 0. The failed device table was not fed into the neural network or hardware timing simulation."
+    }
+  ],
+  "history_convergence_passed": false,
+  "history_free_lookup_release": false,
+  "system_deployment": "not performed: requires all relevant device and addressing gates plus a calibrated or explicitly assumed tau-to-second mapping"
+}

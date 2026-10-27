@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "byte_memory_and_direct_logits_max_errors": {
+    "nominal": 3.730349362740526e-14,
+    "mixed_0": 4.063416270128073e-14
+  },
+  "output_memory_roundtrip": true,
+  "weights_unchanged_after_450_images": true,
+  "programming_calls": 10,
+  "inference_weight_reads": 0,
+  "prior_ready_predictions_accuracy_matched": true,
+  "source_files_unchanged": true
+}

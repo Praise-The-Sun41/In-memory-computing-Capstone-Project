@@ -1,0 +1,38 @@
+{
+  "all_pass": true,
+  "jacobians": [
+    {
+      "kind": "Ti",
+      "voltage": 0.15,
+      "jac_relative": 1.5377107294984705e-09
+    },
+    {
+      "kind": "Ti",
+      "voltage": 1.0,
+      "jac_relative": 1.2589020381981103e-09
+    },
+    {
+      "kind": "Pt",
+      "voltage": 0.15,
+      "jac_relative": 1.6533256291767813e-09
+    },
+    {
+      "kind": "Pt",
+      "voltage": 1.0,
+      "jac_relative": 8.435953680908185e-10
+    },
+    {
+      "kind": "Pt_contact",
+      "voltage": 0.15,
+      "jac_relative": 1.963476458561097e-09
+    },
+    {
+      "kind": "Pt_contact",
+      "voltage": 1.0,
+      "jac_relative": 2.4998280629984583e-09
+    }
+  ],
+  "exact_300K_regression": true,
+  "frozen_thermal_analytic": true,
+  "checks_scope": "RHS/Jacobian/circuit/unit checks; dynamic conservation separately checked on every run"
+}

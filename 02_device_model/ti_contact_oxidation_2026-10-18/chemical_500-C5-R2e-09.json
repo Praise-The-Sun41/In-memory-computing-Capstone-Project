@@ -1,0 +1,327 @@
+{
+  "config": {
+    "chemistry": {
+      "interface_depth_nm": 1.0,
+      "bound_site_fraction": 0.25,
+      "binding_delta_g_eV": -0.08,
+      "capture_rate_per_tau": 0.1,
+      "capture_Ea_eV": 0.45,
+      "passivation_barrier_eV": 0.1
+    },
+    "thermal": {
+      "bath_K": 300.0,
+      "reference_G_S": 0.0001,
+      "series_ohm": 1000.0,
+      "compliance_A": 0.0003,
+      "thermal_R_K_W": 100000.0,
+      "thermal_tau": 0.05,
+      "oxide_migration_Ea_eV": 0.65,
+      "metal_migration_Ea_eV": 0.5,
+      "exchange_Ea_eV": 0.4,
+      "contact_reference_barrier_eV": 0.5
+    },
+    "mode": "thermal",
+    "L": 256,
+    "M": 256,
+    "rtol": 2e-09,
+    "rows": [
+      [
+        2,
+        0,
+        1,
+        "C1-pos-rise",
+        "linear"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C1-pos-fall",
+        "linear"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C1-neg-rise",
+        "linear"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C1-neg-fall",
+        "linear"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C2-pos-rise",
+        "linear"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C2-pos-fall",
+        "linear"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C2-neg-rise",
+        "linear"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C2-neg-fall",
+        "linear"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C3-pos-rise",
+        "linear"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C3-pos-fall",
+        "linear"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C3-neg-rise",
+        "linear"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C3-neg-fall",
+        "linear"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C4-pos-rise",
+        "linear"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C4-pos-fall",
+        "linear"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C4-neg-rise",
+        "linear"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C4-neg-fall",
+        "linear"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C5-pos-rise",
+        "linear"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C5-pos-fall",
+        "linear"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C5-neg-rise",
+        "linear"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C5-neg-fall",
+        "linear"
+      ]
+    ],
+    "source_sha": "18486450814c03fbe15f7b19935bdce4f0bc8321a09f19f7bc6662204361a866",
+    "runner_sha": "4b8b853cdee9bb1b507eeb2714a758d5672a3b868889bbd8799a7b48dfc0edc1",
+    "chemistry_source_sha": "49e3a447c5d74584569664a6282cbba580efebf5734c7a93e542f619ded1fda9",
+    "thermal_source_sha": "ef183f59e51d9421b93561b1715e151b4fd83851dc8d913bd3a808cd7dcd703f",
+    "contact": {
+      "reference_ohm": 500.0,
+      "chemical_sensitivity_eV": 0.2
+    },
+    "reference_b": 0.7795009318830616,
+    "initial_sha": "ba1ad5b5e7c16f787c600bdee5e7b4f0511c1ac63cce77532155973e1158e4d2"
+  },
+  "checks": {
+    "internal_node_mass_error": 5.843268979788263e-09,
+    "internal_node_minimum": 1.4397071783589834e-10,
+    "internal_node_maximum": 0.9734203026407064,
+    "sampled_mass_error": 5.835259386799407e-09,
+    "thermal_balance_Wtau": 1.2538628718205408e-17,
+    "power_balance_W": 5.421010862427522e-20,
+    "voltage_balance_V": 1.1102230246251565e-16,
+    "current_excess_A": 0.0,
+    "minimum_binding_dissipation": 2.466843411327176e-10,
+    "minimum_ionic_dissipation": 2.0511864540294333e-06,
+    "oxide_voltage_balance_V": 3.3306690738754696e-16
+  },
+  "stats": [
+    {
+      "label": "C1-pos-rise",
+      "steps": 570,
+      "nfev": 2175,
+      "njev": 225
+    },
+    {
+      "label": "C1-pos-fall",
+      "steps": 214,
+      "nfev": 588,
+      "njev": 6
+    },
+    {
+      "label": "C1-neg-rise",
+      "steps": 302,
+      "nfev": 847,
+      "njev": 6
+    },
+    {
+      "label": "C1-neg-fall",
+      "steps": 859,
+      "nfev": 2664,
+      "njev": 86
+    },
+    {
+      "label": "C2-pos-rise",
+      "steps": 451,
+      "nfev": 1567,
+      "njev": 52
+    },
+    {
+      "label": "C2-pos-fall",
+      "steps": 198,
+      "nfev": 516,
+      "njev": 6
+    },
+    {
+      "label": "C2-neg-rise",
+      "steps": 234,
+      "nfev": 669,
+      "njev": 6
+    },
+    {
+      "label": "C2-neg-fall",
+      "steps": 817,
+      "nfev": 2544,
+      "njev": 68
+    },
+    {
+      "label": "C3-pos-rise",
+      "steps": 418,
+      "nfev": 1441,
+      "njev": 39
+    },
+    {
+      "label": "C3-pos-fall",
+      "steps": 188,
+      "nfev": 496,
+      "njev": 5
+    },
+    {
+      "label": "C3-neg-rise",
+      "steps": 220,
+      "nfev": 615,
+      "njev": 5
+    },
+    {
+      "label": "C3-neg-fall",
+      "steps": 756,
+      "nfev": 2411,
+      "njev": 58
+    },
+    {
+      "label": "C4-pos-rise",
+      "steps": 399,
+      "nfev": 1329,
+      "njev": 33
+    },
+    {
+      "label": "C4-pos-fall",
+      "steps": 180,
+      "nfev": 466,
+      "njev": 4
+    },
+    {
+      "label": "C4-neg-rise",
+      "steps": 208,
+      "nfev": 554,
+      "njev": 4
+    },
+    {
+      "label": "C4-neg-fall",
+      "steps": 693,
+      "nfev": 2137,
+      "njev": 48
+    },
+    {
+      "label": "C5-pos-rise",
+      "steps": 372,
+      "nfev": 1251,
+      "njev": 25
+    },
+    {
+      "label": "C5-pos-fall",
+      "steps": 176,
+      "nfev": 461,
+      "njev": 4
+    },
+    {
+      "label": "C5-neg-rise",
+      "steps": 194,
+      "nfev": 502,
+      "njev": 4
+    },
+    {
+      "label": "C5-neg-fall",
+      "steps": 665,
+      "nfev": 2053,
+      "njev": 44
+    }
+  ],
+  "data_sha": "8e09cc11a2c3690c096ec1dc43ff3648f4944bedbb5480808cd750da30a27ec0",
+  "elapsed_s": 192.4552254999944,
+  "COMSOL_verified": false,
+  "experiment_calibrated": false,
+  "phase_identified": false,
+  "absolute_oxygen_calibrated": false,
+  "thermal_scope": "Electronic Joule heat only; reaction heat not converted without an absolute oxygen amount scale.",
+  "origin": {
+    "parent_sha": "300bbad2764acc2d738bb3a0327b39d24c3d3b414d12fc44720979bf98bd3fce",
+    "parent_index": 600,
+    "parent_time_tau": 21.4
+  }
+}

@@ -1,0 +1,59 @@
+Native COMSOL SET-preparation / RESET-level experiment
+
+Outputs stay in this directory. Original models and histories are read-only inputs
+from ../fixed_protocol_2026-10-17; source_manifest.json records their hashes.
+History 0 is row zero of polarity_positive.csv (the original native reference).
+Histories 1, 2, 3 are the last rows of history_high, history_low and history_aged.
+All 1137 native variables are transferred at full exported double precision.
+
+COMSOL 6.4 build 293. Compile SetProtocol.java using comsolcompile.exe.
+python screen_protocol.py 8 > screen8.log
+python run_campaign.py > campaign.log
+The campaign waits for the first completed screen, then runs conditional further
+screens, operating-window checks, and a refined numerical reference. Completion
+requires EXPERIMENT_CAMPAIGN_COMPLETE and campaign_result.json, not just exit zero.
+Each subprocess has its own preferences/temp directories and -np 1 -alloc native.
+Python does not integrate the device equations. Native batch logs are retained.
+
+python report_results.py
+This reanalyses existing native exports, checks completeness and conservation,
+verifies source hashes, and generates report.html and figures. No COMSOL rerun.
+
+Conditional extension: if the original campaign has no accepted protocol, run
+python extend_reset.py > extension.log
+before report_results.py. It selects one stationary fixed-wait protocol with a
+shared region and continues its native RESET-count-16 state up to count 32. An extra
+checkpoint READ occurs at that boundary and is part of the protocol. It does not
+change amplitudes, widths or acceptance thresholds. Require RESET_EXTENSION_COMPLETE
+when an extension was executed; extension_decision.json records an ineligible skip.
+
+The scripts resume validated existing exports. Do not erase an archived run to
+reproduce it. A new directory needs its SetProtocol.ROOT changed and recompiled.
+All amplitudes, timing, gates, conditional selection order and stopping rules are
+recorded in protocol.json. A failed candidate is not an exhaustive impossibility
+result. No 1T1R, finite-line array, neural-network or memory timing simulation is
+part of this experiment. Accepted levels, if any, apply only within the declared
+nominal model, tested histories and operating windows.
+
+Adaptive follow-up (selected after the first extension failed):
+  python -c "from extend_reset import main; main((32,10))" > stable_extension.log
+  python report_results.py
+This tests the previously short-window-stable SET32/wait10 region through RESET32,
+with unchanged gates. first_extension_* preserves the earlier extension result.
+followup_stable_region.py coordinates this step after finish_campaign.py completes.
+protocol.json explicitly records the post-result selection of this one extra
+protocol; it is not part of the original predeclared maximum-span rule.
+
+The final run also used precompute_far_levels.py to compute RESET30/31 with two
+extra native workers while the main coordinator was at RESET21. This changes
+execution order only. Do not run this concurrently with a coordinator already
+working on the same levels.
+
+Numerical boundary diagnostic:
+  python boundary_reference.py > boundary.log
+This waits for FAR_LEVELS_COMPLETE in far_levels.log, then repeats the last SET
+block, wait, extended RESET probe and READ8 branches for histories0/3 at rtol1e-9.
+These histories produced the short-envelope extrema near RESET19/20. The scope
+and errors are saved in boundary_reference.json. report_results.py waits for
+this diagnostic if boundary.log exists. It is a sensitivity check, not a new
+acceptance rule or a full convergence study of all branches and histories.

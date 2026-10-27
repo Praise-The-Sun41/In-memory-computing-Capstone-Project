@@ -1,0 +1,39 @@
+{
+  "frozen_dependencies": {
+    "comsol/bounded-span-field.py": "23bef680a41c00bc5f891aa536be3795e391e344c1b0c2e5d433f59c7866d3b8",
+    "comsol/ti-spatial-device.py": "02881ea6b831eac272ca279ba24c4979403dc0a8e54777b2920d0dd00aa470b4",
+    "comsol/local-reset-mesh.py": "752efbf6c584426d506cf9f9a67e7de325e03261cf0b06620d5ad3772bfd25a9",
+    "comsol/formed-channel-set-v3.py": "699933834b0e4e3f310cc14df1778d35a48bd5a319844d2c7ac574b43d7b4a1a",
+    "comsol/ti-finite-oxide-coupling.py": "7d3f5504f37214fbd6f49de0d375d473faadc61f78caffe4126b2f755ef1b84a",
+    "comsol/ti-spatial-reservoir.py": "edf4e8d8e5e13fac5ae2c0a91afa87c69c74f8429f05c1b6fedc613f0aafc9c2",
+    "comsol/run-bounded-history.py": "975d5aeed810c49d87d4e2857e9feb6079fd46999d747c21f71b4e09991a5619",
+    "comsol/pt_blocking_2026-10-06/pt_model.py": "d8e68b80a29cf1cd53c409d623b87798e1dfe48f688e37809d0c927e324311a7",
+    "comsol/pt_contacts_2026-10-06/contact_model.py": "09252e69d2736c0fffe7d0c315ecd4b00b0ab4ebc8814328c8d4f1325318baa1"
+  },
+  "new_sources": {
+    "build_native.py": "4605a2468a22e227a12d84f6519a159c5ed785094b536c2db82560b370b75e27",
+    "check_history.py": "9e42114c92849616aa39cff48eb49015562e2e49364624a3bb8695b1c78a50ac",
+    "check_native_states.py": "d3cc24f7f90fa3bf80adb21a177885dc4eeccf41c7380dc4058eee61c1d30225",
+    "check_state_accuracy.py": "45e3d6619cfe96b32b50e2125c24d4d49d6f91425a35e5704f2d782cae37781c",
+    "compare_native.py": "38644d0f1b22c6d99db27ac7124883422b9edc4c07de0ef8b24dc52584fb4898",
+    "coupled.py": "ef183f59e51d9421b93561b1715e151b4fd83851dc8d913bd3a808cd7dcd703f",
+    "export_native_states.py": "3bf1677bee99c751ac3297fa77b2a9758c9863f65be5d62bffd48c75077426f5",
+    "ExportThermalAdaptiveStates.java": "462e80f1c7f137d860246b6618860c639b001c9e6f2d526e08c7606725022c72",
+    "ExportThermalStates.java": "617450224a8e9c3bf63cad27769a05ad4fd2d856538f9490fa5894e2f109ebac",
+    "NativeThermalAdaptive.java": "a5a6a4267a2fe25380efb6572c36eb5d1f035ab06faf9ee1228652b3565fefd5",
+    "NativeThermalTi.java": "ed303a4d329f059e1a874e035a0afc6ed53489e00085fc38a590132175ffac69",
+    "plot_history.py": "de1a7382caf3695bc20e66e8bd3147702f925a3eddb9bab50f84cb59ad3a3bc3",
+    "plot_native_comparison.py": "dc903d0d2f6b5261d4db79d62280c6a4f5b354555d4c0abf3c04496712504a99",
+    "README.md": "e87941209a43e1adca8e66b8db92393d2931651d0b036dee2f57343dde14e6d1",
+    "refresh_manifest.py": "b810421313e12fa90138d9bbf50802460a2efa4a049f456eb266dd0cfb348103",
+    "run_native.ps1": "597eaba1c65a09a4485c2ed07b43908cecd42c74ec8a44fc6b8bea9288e5169b",
+    "run_scenario.py": "31e8c00d1ade18a75056465f7b80df72c4863f07041b3d5aec7fb9f293556eb9",
+    "validate_and_report.py": "a3f40970473a49088eaca59ee9e958b9719194b97cd9d3174ebe7305e1817489"
+  },
+  "frozen_dependencies_unchanged": true,
+  "frozen_inputs": {
+    "comsol/outputs/ti-capacity-T30-L256-O8-C10-R1e-08.json": "f701f9b7f1322be9ba7b4d7c7822f9dc77ae28dbf4cb9309eb72702ce403906f",
+    "comsol/outputs/bounded-comsol-linear10-L256-sparse-raw.csv": "78b1322c04c17857550e2e26ee4d4ed7953b38eec1c00682f2c30f6cc94b37b5",
+    "comsol/presentation_geometry_2026-10-04/Memristor_Geometry_Bound.mph": "bc02dca64352fa9b3772c76c4feb78b4b769090c9f3b89e8807f4dc3eef6d905"
+  }
+}

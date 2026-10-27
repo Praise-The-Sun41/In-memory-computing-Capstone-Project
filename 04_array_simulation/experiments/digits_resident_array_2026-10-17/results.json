@@ -1,0 +1,744 @@
+{
+  "nominal": {
+    "name": "nominal",
+    "correct": 429,
+    "accuracy": 0.9533333333333334
+  },
+  "mixed_ready": {
+    "mean": 0.9527777777777778,
+    "minimum": 0.9444444444444444,
+    "maximum": 0.96
+  },
+  "scenarios": [
+    {
+      "name": "nominal",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "history_0",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "history_1",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "history_2",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "history_3",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_0",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_1",
+      "correct": 427,
+      "accuracy": 0.9488888888888889
+    },
+    {
+      "name": "mixed_2",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_3",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_4",
+      "correct": 431,
+      "accuracy": 0.9577777777777777
+    },
+    {
+      "name": "mixed_5",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_6",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_7",
+      "correct": 427,
+      "accuracy": 0.9488888888888889
+    },
+    {
+      "name": "mixed_8",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_9",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_10",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_11",
+      "correct": 431,
+      "accuracy": 0.9577777777777777
+    },
+    {
+      "name": "mixed_12",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_13",
+      "correct": 427,
+      "accuracy": 0.9488888888888889
+    },
+    {
+      "name": "mixed_14",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_15",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_16",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_17",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_18",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_19",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_20",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_21",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_22",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_23",
+      "correct": 431,
+      "accuracy": 0.9577777777777777
+    },
+    {
+      "name": "mixed_24",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_25",
+      "correct": 427,
+      "accuracy": 0.9488888888888889
+    },
+    {
+      "name": "mixed_26",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_27",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_28",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_29",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_30",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_31",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_32",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_33",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_34",
+      "correct": 431,
+      "accuracy": 0.9577777777777777
+    },
+    {
+      "name": "mixed_35",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_36",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_37",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_38",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_39",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_40",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_41",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_42",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_43",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_44",
+      "correct": 427,
+      "accuracy": 0.9488888888888889
+    },
+    {
+      "name": "mixed_45",
+      "correct": 427,
+      "accuracy": 0.9488888888888889
+    },
+    {
+      "name": "mixed_46",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_47",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_48",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_49",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_50",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_51",
+      "correct": 427,
+      "accuracy": 0.9488888888888889
+    },
+    {
+      "name": "mixed_52",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_53",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_54",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_55",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_56",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_57",
+      "correct": 431,
+      "accuracy": 0.9577777777777777
+    },
+    {
+      "name": "mixed_58",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_59",
+      "correct": 427,
+      "accuracy": 0.9488888888888889
+    },
+    {
+      "name": "mixed_60",
+      "correct": 427,
+      "accuracy": 0.9488888888888889
+    },
+    {
+      "name": "mixed_61",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_62",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_63",
+      "correct": 427,
+      "accuracy": 0.9488888888888889
+    },
+    {
+      "name": "mixed_64",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_65",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_66",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_67",
+      "correct": 426,
+      "accuracy": 0.9466666666666667
+    },
+    {
+      "name": "mixed_68",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_69",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_70",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_71",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_72",
+      "correct": 427,
+      "accuracy": 0.9488888888888889
+    },
+    {
+      "name": "mixed_73",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_74",
+      "correct": 427,
+      "accuracy": 0.9488888888888889
+    },
+    {
+      "name": "mixed_75",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_76",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_77",
+      "correct": 431,
+      "accuracy": 0.9577777777777777
+    },
+    {
+      "name": "mixed_78",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_79",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_80",
+      "correct": 427,
+      "accuracy": 0.9488888888888889
+    },
+    {
+      "name": "mixed_81",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_82",
+      "correct": 432,
+      "accuracy": 0.96
+    },
+    {
+      "name": "mixed_83",
+      "correct": 431,
+      "accuracy": 0.9577777777777777
+    },
+    {
+      "name": "mixed_84",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_85",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_86",
+      "correct": 425,
+      "accuracy": 0.9444444444444444
+    },
+    {
+      "name": "mixed_87",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_88",
+      "correct": 427,
+      "accuracy": 0.9488888888888889
+    },
+    {
+      "name": "mixed_89",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_90",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_91",
+      "correct": 429,
+      "accuracy": 0.9533333333333334
+    },
+    {
+      "name": "mixed_92",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_93",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_94",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_95",
+      "correct": 426,
+      "accuracy": 0.9466666666666667
+    },
+    {
+      "name": "mixed_96",
+      "correct": 428,
+      "accuracy": 0.9511111111111111
+    },
+    {
+      "name": "mixed_97",
+      "correct": 430,
+      "accuracy": 0.9555555555555556
+    },
+    {
+      "name": "mixed_98",
+      "correct": 431,
+      "accuracy": 0.9577777777777777
+    },
+    {
+      "name": "mixed_99",
+      "correct": 426,
+      "accuracy": 0.9466666666666667
+    }
+  ],
+  "timing": {
+    "startup_tau": 434.80000000000007,
+    "startup_seconds": 1.3780000000000002e-06,
+    "inference_tau": 819.0000000001068,
+    "inference_seconds": 0.0003167999999999683,
+    "total_tau": 1253.8000000001068,
+    "total_seconds": 0.0003181779999999683,
+    "mean_image_tau": 1.8200000000002372,
+    "mean_image_seconds": 7.039999999999295e-07,
+    "breakdown": {
+      "memory_tau": 0.0,
+      "memory_seconds": 0.00011117800000000126,
+      "initial_programming_tau": 434.80000000000007,
+      "initial_programming_seconds": 0.0,
+      "readout_control_tau": 0.0,
+      "readout_control_seconds": 0.00011700000000001355,
+      "inference_reads_tau": 818.9999999999332,
+      "inference_reads_seconds": 0.0,
+      "digital_activation_tau": 0.0,
+      "digital_activation_seconds": 9.000000000000135e-05
+    }
+  },
+  "memory": {
+    "read_requests": 461,
+    "requested_read_bytes": 29536,
+    "cache_misses": 462,
+    "dram_read_bytes": 29568,
+    "cache_hits": 5,
+    "cache_evictions": 454,
+    "write_requests": 450,
+    "dram_write_bytes": 36000
+  },
+  "memory_sweep": [
+    {
+      "name": "baseline",
+      "latency_s": 5e-08,
+      "bandwidth_Bps": 1000000000.0,
+      "cache_bytes": 512,
+      "timing": {
+        "startup_tau": 434.80000000000007,
+        "startup_seconds": 1.3780000000000002e-06,
+        "inference_tau": 819.0000000001068,
+        "inference_seconds": 0.0003167999999999683,
+        "total_tau": 1253.8000000001068,
+        "total_seconds": 0.0003181779999999683,
+        "mean_image_tau": 1.8200000000002372,
+        "mean_image_seconds": 7.039999999999295e-07,
+        "breakdown": {
+          "memory_tau": 0.0,
+          "memory_seconds": 0.00011117800000000126,
+          "initial_programming_tau": 434.80000000000007,
+          "initial_programming_seconds": 0.0,
+          "readout_control_tau": 0.0,
+          "readout_control_seconds": 0.00011700000000001355,
+          "inference_reads_tau": 818.9999999999332,
+          "inference_reads_seconds": 0.0,
+          "digital_activation_tau": 0.0,
+          "digital_activation_seconds": 9.000000000000135e-05
+        }
+      },
+      "memory": {
+        "read_requests": 461,
+        "requested_read_bytes": 29536,
+        "cache_misses": 462,
+        "dram_read_bytes": 29568,
+        "cache_hits": 5,
+        "cache_evictions": 454,
+        "write_requests": 450,
+        "dram_write_bytes": 36000
+      }
+    },
+    {
+      "name": "slow",
+      "latency_s": 2e-07,
+      "bandwidth_Bps": 100000000.0,
+      "cache_bytes": 512,
+      "timing": {
+        "startup_tau": 434.80000000000007,
+        "startup_seconds": 1.0090000000000002e-05,
+        "inference_tau": 819.0000000001068,
+        "inference_seconds": 0.001034999999999977,
+        "total_tau": 1253.8000000001068,
+        "total_seconds": 0.0010450899999999768,
+        "mean_image_tau": 1.8200000000002372,
+        "mean_image_seconds": 2.2999999999999483e-06,
+        "breakdown": {
+          "memory_tau": 0.0,
+          "memory_seconds": 0.0008380900000000069,
+          "initial_programming_tau": 434.80000000000007,
+          "initial_programming_seconds": 0.0,
+          "readout_control_tau": 0.0,
+          "readout_control_seconds": 0.00011700000000001355,
+          "inference_reads_tau": 818.9999999999332,
+          "inference_reads_seconds": 0.0,
+          "digital_activation_tau": 0.0,
+          "digital_activation_seconds": 9.000000000000135e-05
+        }
+      },
+      "memory": {
+        "read_requests": 461,
+        "requested_read_bytes": 29536,
+        "cache_misses": 462,
+        "dram_read_bytes": 29568,
+        "cache_hits": 5,
+        "cache_evictions": 454,
+        "write_requests": 450,
+        "dram_write_bytes": 36000
+      }
+    },
+    {
+      "name": "fast",
+      "latency_s": 1e-08,
+      "bandwidth_Bps": 10000000000.0,
+      "cache_bytes": 512,
+      "timing": {
+        "startup_tau": 434.80000000000007,
+        "startup_seconds": 2.0680000000000003e-07,
+        "inference_tau": 819.0000000001068,
+        "inference_seconds": 0.0002224799999999856,
+        "total_tau": 1253.8000000001068,
+        "total_seconds": 0.0002226867999999856,
+        "mean_image_tau": 1.8200000000002372,
+        "mean_image_seconds": 4.94399999999968e-07,
+        "breakdown": {
+          "memory_tau": 0.0,
+          "memory_seconds": 1.5686800000000176e-05,
+          "initial_programming_tau": 434.80000000000007,
+          "initial_programming_seconds": 0.0,
+          "readout_control_tau": 0.0,
+          "readout_control_seconds": 0.00011700000000001355,
+          "inference_reads_tau": 818.9999999999332,
+          "inference_reads_seconds": 0.0,
+          "digital_activation_tau": 0.0,
+          "digital_activation_seconds": 9.000000000000135e-05
+        }
+      },
+      "memory": {
+        "read_requests": 461,
+        "requested_read_bytes": 29536,
+        "cache_misses": 462,
+        "dram_read_bytes": 29568,
+        "cache_hits": 5,
+        "cache_evictions": 454,
+        "write_requests": 450,
+        "dram_write_bytes": 36000
+      }
+    },
+    {
+      "name": "uncached",
+      "latency_s": 5e-08,
+      "bandwidth_Bps": 1000000000.0,
+      "cache_bytes": 0,
+      "timing": {
+        "startup_tau": 434.80000000000007,
+        "startup_seconds": 1.938e-06,
+        "inference_tau": 819.0000000001068,
+        "inference_seconds": 0.00031679999999996824,
+        "total_tau": 1253.8000000001068,
+        "total_seconds": 0.00031873799999996823,
+        "mean_image_tau": 1.8200000000002372,
+        "mean_image_seconds": 7.039999999999294e-07,
+        "breakdown": {
+          "memory_tau": 0.0,
+          "memory_seconds": 0.00011173800000000128,
+          "initial_programming_tau": 434.80000000000007,
+          "initial_programming_seconds": 0.0,
+          "readout_control_tau": 0.0,
+          "readout_control_seconds": 0.00011700000000001355,
+          "inference_reads_tau": 818.9999999999332,
+          "inference_reads_seconds": 0.0,
+          "digital_activation_tau": 0.0,
+          "digital_activation_seconds": 9.000000000000135e-05
+        }
+      },
+      "memory": {
+        "read_requests": 461,
+        "requested_read_bytes": 29536,
+        "cache_misses": 467,
+        "dram_read_bytes": 29888,
+        "write_requests": 450,
+        "dram_write_bytes": 36000
+      }
+    }
+  ],
+  "program_calls": 10,
+  "weight_program_calls_during_inference": 0,
+  "allocated_bytes": 65568,
+  "checks": {
+    "nominal": 3.730349362740526e-14,
+    "mixed_0": 4.063416270128073e-14
+  },
+  "previous_ready_scenarios_exactly_matched": true,
+  "host_runtime_s": 0.7548312000000124,
+  "limits": [
+    "Ten permanently assigned16x16 arrays. No weight-tile time multiplexing, reprogramming between images, or hidden-layer spilling to external memory. Input bitplanes remain serial; arrays within a layer read concurrently.",
+    "Same trained64-16-10 network and two conductance levels. No retraining or changes to the device baseline. Digital positive gains, biases and8-bit hidden activation are retained.",
+    "Conductance snapshots are nominal or four-history ready-state tables. Accuracy does not validate retention over450 images or cumulative read disturbance. No automatic refresh policy is established.",
+    "Separate timing ledger in tau and seconds. No physical tau-to-second calibration. A conversion selected in the viewer is an assumption only.",
+    "The initial write ledger uses10 serialized array writes, each43.48tau, with ideal independently masked parallel programming inside an array. It is an optimistic addressing assumption, not a demonstrated standard1T1R write circuit. Row-serial full-protocol sensitivity multiplies initial writing by16.",
+    "Resident-state assignment uses post-program snapshots without evolving during initialization. Real sequential loading creates different array ages; prior short retention data cannot validate this initialization or sustained operation.",
+    "Eight simultaneous first-layer array read paths and two second-layer paths are provisioned. Each path senses its differential columns concurrently;20ns slot overhead and100ns digital activation per layer are design assumptions. No shared ADC serialization, wire resistance, ADC quantization/noise, transistor or power-supply constraints.",
+    "Main memory128KiB,512B LRU read cache,64B lines, write-through/no-write-allocate. Baseline50ns transaction latency and1GB/s bandwidth; cache-hit2ns. Static dataset provisioning is excluded; all weight loading, parameter loading, inference inputs and output writes are counted.",
+    "Digital sums/logits use float64 storage; inputs and hidden activations are uint8. On-chip input64B, hidden16B and sum128B buffers plus digital parameters are separate from the512B memory cache.",
+    "Same450-image exploratory test cohort.100 random history maps retain the previous hidden-network logical mapping policy. Scenario averages are not confidence intervals or device yield estimates."
+  ]
+}

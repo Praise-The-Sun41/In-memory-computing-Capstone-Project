@@ -1,0 +1,125 @@
+{
+  "mechanism": "Two opposed effective thermionic contacts; ionic blocking",
+  "absolute_barriers_calibrated": false,
+  "native_verified_scenarios": [
+    "medium"
+  ],
+  "scenarios": {
+    "weak": {
+      "C5_ratio": 2.473206295179327,
+      "hold1000_ratio": 1.905961248193861,
+      "oxide_voltage_at_C5_plus1": 0.9998699448311797,
+      "bottom_voltage_at_C5_plus1": 1.6072659949502776e-05,
+      "top_voltage_at_C5_plus1": 0.00011398250887062318,
+      "barrier_shift_at_C5_plus1_eV": -0.014738648286267914
+    },
+    "medium": {
+      "C5_ratio": 2.4390955165211126,
+      "hold1000_ratio": 1.8822357217236252,
+      "oxide_voltage_at_C5_plus1": 0.9837832232023733,
+      "bottom_voltage_at_C5_plus1": 0.0015445135007170964,
+      "top_voltage_at_C5_plus1": 0.014672263296909599,
+      "barrier_shift_at_C5_plus1_eV": -0.014594637847520953
+    },
+    "strong": {
+      "C5_ratio": 1.0112698430147558,
+      "hold1000_ratio": 1.0048304763052063,
+      "oxide_voltage_at_C5_plus1": 0.036350294685797875,
+      "bottom_voltage_at_C5_plus1": 0.005837136706145038,
+      "top_voltage_at_C5_plus1": 0.9578125686080569,
+      "barrier_shift_at_C5_plus1_eV": 0.0003403512649845092
+    },
+    "medium_fixed": {
+      "C5_ratio": 2.4361134271500884,
+      "hold1000_ratio": 1.8801268772593516,
+      "oxide_voltage_at_C5_plus1": 0.9826952431478925,
+      "bottom_voltage_at_C5_plus1": 0.0026547783028497366,
+      "top_voltage_at_C5_plus1": 0.014649978549258008,
+      "barrier_shift_at_C5_plus1_eV": -0.0
+    },
+    "ideal": {
+      "C5_ratio": 2.473568754965613,
+      "hold1000_ratio": 1.9061975348240292,
+      "oxide_voltage_at_C5_plus1": 1.0
+    }
+  },
+  "native": {
+    "port_peak_errors": {
+      "V": 3.552713678800501e-15,
+      "G": 4.005380957479545e-05,
+      "I": 3.541851227638973e-05,
+      "TiOx_drop": 1.0105111139080692e-06,
+      "AlOx_drop": 3.541837254283243e-05,
+      "power": 3.0400889704469278e-05,
+      "joule": 3.040088970436326e-05,
+      "Vbottom": 4.4300011784128916e-05,
+      "Vtop": 2.0249489687701703e-05,
+      "Voxide": 4.4052176309605197e-07,
+      "bulkG": 4.0358599684400217e-05,
+      "contact_power": 3.206615813137879e-05,
+      "bulk_joule": 3.037035627574757e-05,
+      "barrier_change_eV": 9.0392632864747e-06,
+      "Is_bottom": 3.608323324127937e-06,
+      "Is_top": 0.0
+    },
+    "theta_absolute_error": 0.00045973827098105824,
+    "voltage_residual": 4.237085942521146e-12,
+    "power_residual": 1.6479092163281417e-20,
+    "contact_continuity_scaled": 7.081327604863324e-12
+  },
+  "native_holds": {
+    "pos": {
+      "G_peak_error": 1.0187435191933483e-06,
+      "theta_absolute_error": 3.622399123992537e-06,
+      "initial_state_continuity": 4.18554080283684e-14
+    },
+    "neg": {
+      "G_peak_error": 6.658072648699803e-06,
+      "theta_absolute_error": 5.860957137171496e-06,
+      "initial_state_continuity": 3.1530333899354446e-14
+    }
+  },
+  "checks": {
+    "weak_continuity": true,
+    "weak_inventory": true,
+    "weak_source_fingerprint": true,
+    "weak_zero_exchange": true,
+    "weak_voltage": true,
+    "weak_power": true,
+    "medium_continuity": true,
+    "medium_inventory": true,
+    "medium_source_fingerprint": true,
+    "medium_zero_exchange": true,
+    "medium_voltage": true,
+    "medium_power": true,
+    "strong_continuity": true,
+    "strong_inventory": true,
+    "strong_source_fingerprint": true,
+    "strong_zero_exchange": true,
+    "strong_voltage": true,
+    "strong_power": true,
+    "medium_fixed_continuity": true,
+    "medium_fixed_inventory": true,
+    "medium_fixed_source_fingerprint": true,
+    "medium_fixed_zero_exchange": true,
+    "medium_fixed_voltage": true,
+    "medium_fixed_power": true,
+    "ideal_continuity": true,
+    "ideal_inventory": true,
+    "native_times": true,
+    "native_ports": true,
+    "native_theta": true,
+    "native_inventory": true,
+    "native_blocking": true,
+    "native_bounds": true,
+    "native_voltage": true,
+    "native_power": true,
+    "native_contact_current_continuity": true,
+    "native_hold_pos": true,
+    "native_hold_neg": true,
+    "geometry_mapping": true,
+    "saved_model_reopen": true,
+    "unit_tests": true
+  },
+  "all_pass": true
+}

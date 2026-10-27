@@ -1,0 +1,87 @@
+{
+  "config": {
+    "system": {
+      "case": "Ti_dynamic5000",
+      "kind": "Ti",
+      "reference_R": 5000.0,
+      "chemical_sensitivity_eV": 0.2,
+      "binding_frozen": false,
+      "initial_sha": "ba1ad5b5e7c16f787c600bdee5e7b4f0511c1ac63cce77532155973e1158e4d2",
+      "origin": {
+        "parent_sha": "300bbad2764acc2d738bb3a0327b39d24c3d3b414d12fc44720979bf98bd3fce",
+        "parent_index": 600,
+        "parent_time_tau": 21.4
+      },
+      "thermal": {
+        "bath_K": 300.0,
+        "reference_G_S": 0.0001,
+        "series_ohm": 1000.0,
+        "compliance_A": 0.0003,
+        "thermal_R_K_W": 100000.0,
+        "thermal_tau": 0.05,
+        "oxide_migration_Ea_eV": 0.65,
+        "metal_migration_Ea_eV": 0.5,
+        "exchange_Ea_eV": 0.4,
+        "contact_reference_barrier_eV": 0.5
+      },
+      "shared_oxide_initial": true,
+      "Pt_oxygen_states": 0,
+      "irreversible_damage": false,
+      "new_history_COMSOL_verified": false
+    },
+    "rows": [
+      [
+        2,
+        0,
+        -1.0,
+        "write-rise"
+      ],
+      [
+        2,
+        -1.0,
+        0,
+        "write-fall"
+      ]
+    ],
+    "rtol": 2e-09,
+    "sources": {
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\ti_pt_history_2026-10-18\\model.py": "9ad27dad56eff637b2acc7bb23a62db763c0b6003cb47c9d827ac6cf73d6c05a",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\ti_contact_oxidation_2026-10-18\\interface.py": "18486450814c03fbe15f7b19935bdce4f0bc8321a09f19f7bc6662204361a866",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\ti_chemistry_2026-10-18\\chemistry.py": "49e3a447c5d74584569664a6282cbba580efebf5734c7a93e542f619ded1fda9",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\electrothermal_2026-10-10\\coupled.py": "ef183f59e51d9421b93561b1715e151b4fd83851dc8d913bd3a808cd7dcd703f",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\pt_contacts_2026-10-06\\contact_model.py": "09252e69d2736c0fffe7d0c315ecd4b00b0ab4ebc8814328c8d4f1325318baa1",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\pt_blocking_2026-10-06\\pt_model.py": "d8e68b80a29cf1cd53c409d623b87798e1dfe48f688e37809d0c927e324311a7",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\bounded-span-field.py": "23bef680a41c00bc5f891aa536be3795e391e344c1b0c2e5d433f59c7866d3b8"
+    },
+    "runner_sha": "3a74da98a2afc0020053fcd88d6e7637620fc0807ba19240608a6a64355d180c",
+    "initial_sha": "6633e4265d5c5ea6da8f304a0b0f642ff351789c6564e506bf30da3b94ed77a3"
+  },
+  "checks": {
+    "mass_error": 1.3990586467116373e-11,
+    "min_occupancy": 0.10340704438540906,
+    "max_occupancy": 0.9673130596057301,
+    "heat_error": 8.701569467143427e-18,
+    "power_error": 2.0328790734103208e-20,
+    "voltage_error": 5.551115123125783e-17,
+    "max_T": 311.65123861238106,
+    "current_excess": 0.0,
+    "min_ionic_dissipation": 2.5415178655200914e-06,
+    "min_binding_dissipation": 7.003826418847866e-08
+  },
+  "stats": [
+    {
+      "label": "write-rise",
+      "steps": 150,
+      "nfev": 418,
+      "njev": 1
+    },
+    {
+      "label": "write-fall",
+      "steps": 156,
+      "nfev": 426,
+      "njev": 2
+    }
+  ],
+  "data_sha": "3f7edbb08655ab1b5d456b1743dab6c28e18d3968c8f9414bcac66d551d35ce8",
+  "elapsed_s": 2.258061800006544
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "binary_sign_counts": [
+    1024,
+    160
+  ],
+  "partitions_disjoint": true,
+  "validation_selection_verified": true,
+  "direct_vs_tiled_max_error": 0.0,
+  "two_layer_current_bit_plane_errors": {
+    "ready": 6.039613253960852e-14,
+    "read8": 4.085620730620576e-14
+  }
+}

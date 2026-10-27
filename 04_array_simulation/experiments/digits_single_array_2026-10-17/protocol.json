@@ -1,0 +1,105 @@
+{
+  "configurations": [
+    {
+      "name": "baseline",
+      "tau_s": 1e-06,
+      "latency_s": 5e-08,
+      "bandwidth_Bps": 1000000000.0,
+      "cache_bytes": 512,
+      "slot_overhead_s": 2e-08,
+      "activation_s": 1e-07
+    },
+    {
+      "name": "slow_memory",
+      "tau_s": 1e-06,
+      "latency_s": 2e-07,
+      "bandwidth_Bps": 100000000.0,
+      "cache_bytes": 512,
+      "slot_overhead_s": 2e-08,
+      "activation_s": 1e-07
+    },
+    {
+      "name": "fast_memory",
+      "tau_s": 1e-06,
+      "latency_s": 1e-08,
+      "bandwidth_Bps": 10000000000.0,
+      "cache_bytes": 512,
+      "slot_overhead_s": 2e-08,
+      "activation_s": 1e-07
+    },
+    {
+      "name": "no_cache",
+      "tau_s": 1e-06,
+      "latency_s": 5e-08,
+      "bandwidth_Bps": 1000000000.0,
+      "cache_bytes": 0,
+      "slot_overhead_s": 2e-08,
+      "activation_s": 1e-07
+    },
+    {
+      "name": "tau_100ns",
+      "tau_s": 1e-07,
+      "latency_s": 5e-08,
+      "bandwidth_Bps": 1000000000.0,
+      "cache_bytes": 512,
+      "slot_overhead_s": 2e-08,
+      "activation_s": 1e-07
+    },
+    {
+      "name": "tau_10ns",
+      "tau_s": 1e-08,
+      "latency_s": 5e-08,
+      "bandwidth_Bps": 1000000000.0,
+      "cache_bytes": 512,
+      "slot_overhead_s": 2e-08,
+      "activation_s": 1e-07
+    },
+    {
+      "name": "tau_10us",
+      "tau_s": 1e-05,
+      "latency_s": 5e-08,
+      "bandwidth_Bps": 1000000000.0,
+      "cache_bytes": 512,
+      "slot_overhead_s": 2e-08,
+      "activation_s": 1e-07
+    },
+    {
+      "name": "row_serial_programming",
+      "tau_s": 1e-06,
+      "latency_s": 5e-08,
+      "bandwidth_Bps": 1000000000.0,
+      "cache_bytes": 512,
+      "slot_overhead_s": 2e-08,
+      "activation_s": 1e-07,
+      "programming_rows_parallel": 1
+    }
+  ],
+  "scope": [
+    "Conditional system simulation using existing native COMSOL tables; no new device solve, retraining or measured hardware timing.",
+    "Tau is not calibrated to seconds. All tau-to-second conversions, memory speeds and peripheral budgets are explicit assumptions.",
+    "One 16x16 array, sample-major: reload all 10 tiles for every image. Packed 1-bit/device weight map, 8-bit activations, float64 digital sums. Serial execution, no prefetch overlap.",
+    "Ideal independently masked devices (1T1R-like isolation), fully parallel SET and masked RESET across the array. No transistor, wire, ADC noise, half-select or supply-current model. Serial per-cell writing would have much longer unvalidated retention.",
+    "Each tile: four SET8 blocks including verification, hold10, RESET19 including verification and extra RESET16 checkpoint. High cells stop after RESET12 and wait4.62 tau. Programming cost43.48 tau; fixed pulse counts, no adaptive verify retry.",
+    "A physical-cell history map is reused on all tiles. Every reprogramming is assumed to return to the corresponding characterized protocol-conditioned state. Closure under4500 arbitrary rewrite cycles is NOT established by the four original histories.",
+    "Hold conductance is piecewise-linear through program/ready/sham8/hold1/hold10 observations. Excess read disturbance is interpolated from read8 minus equal-age hold, indexed by energized-row read count. Additivity and transfer to gapped reads are unvalidated approximations.",
+    "Coverage is only the marginal age <=10.12 tau and <=8 reads envelope, not validation of all joint waiting/read histories. Out-of-envelope configurations have timing only and no accuracy.",
+    "All100 mixed seeds plus16 coherent branch-pair combinations use the same four history labels. The physical mapping differs from earlier independent logical-weight maps because one array is reused.",
+    "The450-image test cohort is reused. No test-based training or calibration. Setup population of weights/dataset is excluded; inference parameter load, input/output traffic and all reprogramming are included.",
+    "Conductance/current units are uncalibrated. Fixed read amplitude0.02 V is modeled with ideal linear current sums; memory latency limits are simulated, host Python runtime is reported separately.",
+    "Row-serial sensitivity repeats the complete43.48 tau conditioning protocol for each row (not an optimized interleaved programming scheduler). Earliest rows then wait15x43.48 tau. It has timing only: native retention data cannot support accuracy there. Full-array independently masked writing is an optimistic architecture bound, not a demonstrated conventional1T1R implementation."
+  ],
+  "architecture": [
+    64,
+    16,
+    10
+  ],
+  "logical_tiles": 10,
+  "physical_arrays": 1,
+  "images": 450,
+  "weight_levels": [
+    12,
+    19
+  ],
+  "read_slots_per_image": 56,
+  "program_tau_per_tile": 43.48
+}

@@ -1,0 +1,97 @@
+{
+  "stack_nm": [
+    30,
+    20,
+    5,
+    30
+  ],
+  "electrodes": [
+    "Pt",
+    "Pt"
+  ],
+  "blocking_ionic_boundaries": true,
+  "electrode_oxygen_states": 0,
+  "oxide_oxygen_inventory_conserved": true,
+  "clock_and_current_calibrated": false,
+  "Pt_contact_barriers_modelled": false,
+  "cycle_metrics": [
+    {
+      "cycle": 1,
+      "endpoint_ratio": 2.7920781224904254,
+      "positive_opening": 3.5025849677722807
+    },
+    {
+      "cycle": 5,
+      "endpoint_ratio": 2.473568754965613,
+      "positive_opening": 2.2442206405825336
+    },
+    {
+      "cycle": 10,
+      "endpoint_ratio": 2.2722737494128955,
+      "positive_opening": 2.061204365324739
+    }
+  ],
+  "retention_R0": 2.473568754965613,
+  "retention_R1000": 1.9061975348240292,
+  "SET_fraction_1000": 1.2829173567920646,
+  "RESET_fraction_1000": 1.6647720034203455,
+  "max_oxide_inventory_drift": 4.587952129320172e-09,
+  "max_exchange": 0.0,
+  "Ti_baseline": {
+    "retention_R0": 2.4595327428961085,
+    "retention_R1000": 1.3487235121720782
+  },
+  "native": {
+    "port_peak_errors": {
+      "V": 3.552713678800501e-15,
+      "G": 3.0239158328070645e-05,
+      "I": 2.6097184576462077e-05,
+      "TiOx_drop": 4.24622386234387e-07,
+      "AlOx_drop": 2.6096787348622998e-05,
+      "P": 2.1965130353118518e-05,
+      "Joule": 2.1965130352597362e-05
+    },
+    "theta_max_absolute": 0.0002144143146646238,
+    "vacancy_inventory_drift": 8.459899447643693e-14,
+    "voltage_residual": 8.83654564451386e-12,
+    "power_residual": 6.084906022062582e-20,
+    "no_python_state_input": true,
+    "checks_pass": true
+  },
+  "native_hold_pos": {
+    "G_peak_error": 9.223033307229542e-07,
+    "theta_max_absolute": 3.304571902118525e-06,
+    "inventory_drift": 2.220446049250313e-16,
+    "native_source_theta_error": 4.18554080283684e-14
+  },
+  "native_hold_neg": {
+    "G_peak_error": 6.527344806872987e-06,
+    "theta_max_absolute": 5.8274686882131554e-06,
+    "inventory_drift": 4.440892098500626e-16,
+    "native_source_theta_error": 3.1530333899354446e-14
+  },
+  "geometry_mapping_max_error": 0.0,
+  "saved_model_reopen_max_error": 0.0,
+  "checks": {
+    "zero_exchange": true,
+    "oxide_inventory": true,
+    "hold_pos_continuity": true,
+    "hold_neg_continuity": true,
+    "native_times": true,
+    "native_port": true,
+    "native_theta": true,
+    "native_inventory": true,
+    "native_zero_exchange": true,
+    "native_bounds": true,
+    "native_voltage": true,
+    "native_power": true,
+    "native_hold_pos": true,
+    "native_hold_pos_continuity": true,
+    "native_hold_neg": true,
+    "native_hold_neg_continuity": true,
+    "geometry_mapping": true,
+    "saved_model_reopen": true,
+    "source_files_unchanged": true
+  },
+  "all_pass": true
+}

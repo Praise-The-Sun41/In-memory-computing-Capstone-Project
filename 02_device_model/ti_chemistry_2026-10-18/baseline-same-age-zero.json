@@ -1,0 +1,68 @@
+{
+  "config": {
+    "chemistry": {
+      "interface_depth_nm": 1.0,
+      "bound_site_fraction": 0.0,
+      "binding_delta_g_eV": -0.08,
+      "capture_rate_per_tau": 0.0,
+      "capture_Ea_eV": 0.45,
+      "passivation_barrier_eV": 0.0
+    },
+    "thermal": {
+      "bath_K": 300.0,
+      "reference_G_S": 0.0001,
+      "series_ohm": 1000.0,
+      "compliance_A": 0.0003,
+      "thermal_R_K_W": 100000.0,
+      "thermal_tau": 0.05,
+      "oxide_migration_Ea_eV": 0.65,
+      "metal_migration_Ea_eV": 0.5,
+      "exchange_Ea_eV": 0.4,
+      "contact_reference_barrier_eV": 0.5
+    },
+    "mode": "thermal",
+    "L": 256,
+    "M": 256,
+    "rtol": 2e-09,
+    "rows": [
+      [
+        80,
+        0,
+        0,
+        "same-age-zero",
+        "linear"
+      ]
+    ],
+    "source_sha": "49e3a447c5d74584569664a6282cbba580efebf5734c7a93e542f619ded1fda9",
+    "thermal_source_sha": "ef183f59e51d9421b93561b1715e151b4fd83851dc8d913bd3a808cd7dcd703f",
+    "initial_sha": "7145ce9dc6ca1259d6d58a3b9a82170b8881888c733333af7e72c1d8267bdb77"
+  },
+  "checks": {
+    "internal_node_mass_error": 7.608136343151273e-12,
+    "internal_node_minimum": 0.00025333683075549966,
+    "internal_node_maximum": 0.5281828371377782,
+    "sampled_mass_error": 7.608136343151273e-12,
+    "thermal_balance_Wtau": 2.3061413889629135e-19,
+    "power_balance_W": 0.0,
+    "voltage_balance_V": 0.0,
+    "current_excess_A": 0.0,
+    "minimum_binding_dissipation": 0.0
+  },
+  "stats": [
+    {
+      "label": "same-age-zero",
+      "steps": 220,
+      "nfev": 528,
+      "njev": 1
+    }
+  ],
+  "data_sha": "74803db3fdca3dcbf85d8650894721a1ed7a951fcfd047713c852cb260ec9aee",
+  "elapsed_s": 0.4949329000010039,
+  "COMSOL_verified": false,
+  "experiment_calibrated": false,
+  "phase_identified": false,
+  "thermal_scope": "Electronic Joule heat only; reaction heat not converted without an absolute oxygen amount scale.",
+  "parent_history_sha": "2bdf7cd06abcac5c0f9331e78733ee906b0f9264bda2ef07f7c97bcfc9f2f7ca",
+  "parent_index": 600,
+  "time_origin_tau": 21.4
+}

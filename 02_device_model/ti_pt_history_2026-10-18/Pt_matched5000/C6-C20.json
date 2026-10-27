@@ -1,0 +1,782 @@
+{
+  "config": {
+    "system": {
+      "case": "Pt_matched5000",
+      "kind": "Pt",
+      "reference_R": 5000.0,
+      "chemical_sensitivity_eV": 0.0,
+      "binding_frozen": false,
+      "initial_sha": "d9c0f0a2a9175213192393942817a5d123625a49f42cbb9b16129cbc8a5dc06e",
+      "origin": {
+        "parent_sha": "300bbad2764acc2d738bb3a0327b39d24c3d3b414d12fc44720979bf98bd3fce",
+        "parent_index": 600,
+        "parent_time_tau": 21.4
+      },
+      "thermal": {
+        "bath_K": 300.0,
+        "reference_G_S": 0.0001,
+        "series_ohm": 1000.0,
+        "compliance_A": 0.0003,
+        "thermal_R_K_W": 100000.0,
+        "thermal_tau": 0.05,
+        "oxide_migration_Ea_eV": 0.65,
+        "metal_migration_Ea_eV": 0.5,
+        "exchange_Ea_eV": 0.4,
+        "contact_reference_barrier_eV": 0.5
+      },
+      "shared_oxide_initial": true,
+      "Pt_oxygen_states": 0,
+      "irreversible_damage": false,
+      "new_history_COMSOL_verified": false
+    },
+    "rows": [
+      [
+        2,
+        0,
+        1,
+        "C6-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C6-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C6-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C6-neg-fall"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C7-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C7-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C7-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C7-neg-fall"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C8-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C8-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C8-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C8-neg-fall"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C9-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C9-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C9-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C9-neg-fall"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C10-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C10-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C10-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C10-neg-fall"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C11-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C11-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C11-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C11-neg-fall"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C12-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C12-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C12-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C12-neg-fall"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C13-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C13-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C13-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C13-neg-fall"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C14-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C14-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C14-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C14-neg-fall"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C15-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C15-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C15-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C15-neg-fall"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C16-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C16-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C16-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C16-neg-fall"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C17-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C17-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C17-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C17-neg-fall"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C18-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C18-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C18-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C18-neg-fall"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C19-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C19-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C19-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C19-neg-fall"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C20-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C20-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C20-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C20-neg-fall"
+      ]
+    ],
+    "rtol": 2e-09,
+    "sources": {
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\ti_pt_history_2026-10-18\\model.py": "9ad27dad56eff637b2acc7bb23a62db763c0b6003cb47c9d827ac6cf73d6c05a",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\ti_contact_oxidation_2026-10-18\\interface.py": "18486450814c03fbe15f7b19935bdce4f0bc8321a09f19f7bc6662204361a866",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\ti_chemistry_2026-10-18\\chemistry.py": "49e3a447c5d74584569664a6282cbba580efebf5734c7a93e542f619ded1fda9",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\electrothermal_2026-10-10\\coupled.py": "ef183f59e51d9421b93561b1715e151b4fd83851dc8d913bd3a808cd7dcd703f",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\pt_contacts_2026-10-06\\contact_model.py": "09252e69d2736c0fffe7d0c315ecd4b00b0ab4ebc8814328c8d4f1325318baa1",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\pt_blocking_2026-10-06\\pt_model.py": "d8e68b80a29cf1cd53c409d623b87798e1dfe48f688e37809d0c927e324311a7",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\bounded-span-field.py": "23bef680a41c00bc5f891aa536be3795e391e344c1b0c2e5d433f59c7866d3b8"
+    },
+    "runner_sha": "3a74da98a2afc0020053fcd88d6e7637620fc0807ba19240608a6a64355d180c",
+    "initial_sha": "3ec6efee4eb37b2f2001b8238f8cd7f5e573966ffcacc7373a7dd9b69a8990ab"
+  },
+  "checks": {
+    "mass_error": 1.0659667371015757e-08,
+    "min_occupancy": 2.9950399029934633e-12,
+    "max_occupancy": 0.8579761787050189,
+    "heat_error": 2.957966106754105e-17,
+    "power_error": 1.8634724839594607e-20,
+    "voltage_error": 1.1102230246251565e-16,
+    "max_T": 308.9235194273304,
+    "current_excess": 0.0,
+    "min_ionic_dissipation": 2.1688128083358915e-06
+  },
+  "stats": [
+    {
+      "label": "C6-pos-rise",
+      "steps": 249,
+      "nfev": 852,
+      "njev": 34
+    },
+    {
+      "label": "C6-pos-fall",
+      "steps": 217,
+      "nfev": 580,
+      "njev": 7
+    },
+    {
+      "label": "C6-neg-rise",
+      "steps": 440,
+      "nfev": 1386,
+      "njev": 15
+    },
+    {
+      "label": "C6-neg-fall",
+      "steps": 314,
+      "nfev": 820,
+      "njev": 18
+    },
+    {
+      "label": "C7-pos-rise",
+      "steps": 239,
+      "nfev": 808,
+      "njev": 31
+    },
+    {
+      "label": "C7-pos-fall",
+      "steps": 214,
+      "nfev": 582,
+      "njev": 6
+    },
+    {
+      "label": "C7-neg-rise",
+      "steps": 441,
+      "nfev": 1381,
+      "njev": 16
+    },
+    {
+      "label": "C7-neg-fall",
+      "steps": 314,
+      "nfev": 815,
+      "njev": 17
+    },
+    {
+      "label": "C8-pos-rise",
+      "steps": 242,
+      "nfev": 811,
+      "njev": 26
+    },
+    {
+      "label": "C8-pos-fall",
+      "steps": 209,
+      "nfev": 566,
+      "njev": 6
+    },
+    {
+      "label": "C8-neg-rise",
+      "steps": 430,
+      "nfev": 1348,
+      "njev": 13
+    },
+    {
+      "label": "C8-neg-fall",
+      "steps": 323,
+      "nfev": 830,
+      "njev": 14
+    },
+    {
+      "label": "C9-pos-rise",
+      "steps": 238,
+      "nfev": 791,
+      "njev": 21
+    },
+    {
+      "label": "C9-pos-fall",
+      "steps": 206,
+      "nfev": 551,
+      "njev": 6
+    },
+    {
+      "label": "C9-neg-rise",
+      "steps": 417,
+      "nfev": 1310,
+      "njev": 11
+    },
+    {
+      "label": "C9-neg-fall",
+      "steps": 318,
+      "nfev": 812,
+      "njev": 14
+    },
+    {
+      "label": "C10-pos-rise",
+      "steps": 235,
+      "nfev": 782,
+      "njev": 23
+    },
+    {
+      "label": "C10-pos-fall",
+      "steps": 204,
+      "nfev": 551,
+      "njev": 5
+    },
+    {
+      "label": "C10-neg-rise",
+      "steps": 402,
+      "nfev": 1246,
+      "njev": 11
+    },
+    {
+      "label": "C10-neg-fall",
+      "steps": 321,
+      "nfev": 833,
+      "njev": 13
+    },
+    {
+      "label": "C11-pos-rise",
+      "steps": 233,
+      "nfev": 766,
+      "njev": 19
+    },
+    {
+      "label": "C11-pos-fall",
+      "steps": 201,
+      "nfev": 530,
+      "njev": 5
+    },
+    {
+      "label": "C11-neg-rise",
+      "steps": 393,
+      "nfev": 1212,
+      "njev": 11
+    },
+    {
+      "label": "C11-neg-fall",
+      "steps": 320,
+      "nfev": 791,
+      "njev": 13
+    },
+    {
+      "label": "C12-pos-rise",
+      "steps": 230,
+      "nfev": 757,
+      "njev": 20
+    },
+    {
+      "label": "C12-pos-fall",
+      "steps": 200,
+      "nfev": 524,
+      "njev": 5
+    },
+    {
+      "label": "C12-neg-rise",
+      "steps": 380,
+      "nfev": 1145,
+      "njev": 11
+    },
+    {
+      "label": "C12-neg-fall",
+      "steps": 325,
+      "nfev": 810,
+      "njev": 14
+    },
+    {
+      "label": "C13-pos-rise",
+      "steps": 232,
+      "nfev": 754,
+      "njev": 18
+    },
+    {
+      "label": "C13-pos-fall",
+      "steps": 199,
+      "nfev": 521,
+      "njev": 5
+    },
+    {
+      "label": "C13-neg-rise",
+      "steps": 372,
+      "nfev": 1134,
+      "njev": 10
+    },
+    {
+      "label": "C13-neg-fall",
+      "steps": 329,
+      "nfev": 815,
+      "njev": 13
+    },
+    {
+      "label": "C14-pos-rise",
+      "steps": 223,
+      "nfev": 741,
+      "njev": 18
+    },
+    {
+      "label": "C14-pos-fall",
+      "steps": 199,
+      "nfev": 518,
+      "njev": 5
+    },
+    {
+      "label": "C14-neg-rise",
+      "steps": 362,
+      "nfev": 1095,
+      "njev": 11
+    },
+    {
+      "label": "C14-neg-fall",
+      "steps": 333,
+      "nfev": 823,
+      "njev": 12
+    },
+    {
+      "label": "C15-pos-rise",
+      "steps": 222,
+      "nfev": 739,
+      "njev": 17
+    },
+    {
+      "label": "C15-pos-fall",
+      "steps": 198,
+      "nfev": 516,
+      "njev": 5
+    },
+    {
+      "label": "C15-neg-rise",
+      "steps": 354,
+      "nfev": 1083,
+      "njev": 11
+    },
+    {
+      "label": "C15-neg-fall",
+      "steps": 345,
+      "nfev": 907,
+      "njev": 11
+    },
+    {
+      "label": "C16-pos-rise",
+      "steps": 215,
+      "nfev": 706,
+      "njev": 17
+    },
+    {
+      "label": "C16-pos-fall",
+      "steps": 199,
+      "nfev": 512,
+      "njev": 5
+    },
+    {
+      "label": "C16-neg-rise",
+      "steps": 342,
+      "nfev": 1044,
+      "njev": 11
+    },
+    {
+      "label": "C16-neg-fall",
+      "steps": 330,
+      "nfev": 842,
+      "njev": 11
+    },
+    {
+      "label": "C17-pos-rise",
+      "steps": 222,
+      "nfev": 727,
+      "njev": 16
+    },
+    {
+      "label": "C17-pos-fall",
+      "steps": 203,
+      "nfev": 536,
+      "njev": 5
+    },
+    {
+      "label": "C17-neg-rise",
+      "steps": 335,
+      "nfev": 1029,
+      "njev": 10
+    },
+    {
+      "label": "C17-neg-fall",
+      "steps": 337,
+      "nfev": 882,
+      "njev": 10
+    },
+    {
+      "label": "C18-pos-rise",
+      "steps": 214,
+      "nfev": 715,
+      "njev": 14
+    },
+    {
+      "label": "C18-pos-fall",
+      "steps": 204,
+      "nfev": 537,
+      "njev": 5
+    },
+    {
+      "label": "C18-neg-rise",
+      "steps": 328,
+      "nfev": 1017,
+      "njev": 9
+    },
+    {
+      "label": "C18-neg-fall",
+      "steps": 340,
+      "nfev": 914,
+      "njev": 10
+    },
+    {
+      "label": "C19-pos-rise",
+      "steps": 218,
+      "nfev": 710,
+      "njev": 15
+    },
+    {
+      "label": "C19-pos-fall",
+      "steps": 210,
+      "nfev": 557,
+      "njev": 5
+    },
+    {
+      "label": "C19-neg-rise",
+      "steps": 320,
+      "nfev": 974,
+      "njev": 9
+    },
+    {
+      "label": "C19-neg-fall",
+      "steps": 338,
+      "nfev": 873,
+      "njev": 11
+    },
+    {
+      "label": "C20-pos-rise",
+      "steps": 213,
+      "nfev": 705,
+      "njev": 13
+    },
+    {
+      "label": "C20-pos-fall",
+      "steps": 220,
+      "nfev": 574,
+      "njev": 5
+    },
+    {
+      "label": "C20-neg-rise",
+      "steps": 316,
+      "nfev": 971,
+      "njev": 8
+    },
+    {
+      "label": "C20-neg-fall",
+      "steps": 340,
+      "nfev": 875,
+      "njev": 11
+    }
+  ],
+  "data_sha": "6f9674ecaecceeecc252cabc07a3d2d16f7fdb8d4beae3fb1d5847c4d28cecef",
+  "elapsed_s": 124.45360530000471
+}

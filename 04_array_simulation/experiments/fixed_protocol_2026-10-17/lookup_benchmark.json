@@ -1,0 +1,7 @@
+{
+  "devices": 256,
+  "median_batch_seconds": 6.642800000008719e-07,
+  "history_gate_pass": false,
+  "scope": "Read-only lookup of existing pulse-count states on one recorded reference path; excludes circuit solve, programming, memory scheduling, loading and history coverage.",
+  "deployment_allowed": false
+}

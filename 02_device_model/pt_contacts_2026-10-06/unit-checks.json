@@ -1,0 +1,6 @@
+{
+  "jacobian_relative": 1.8513566690496408e-08,
+  "contact_current_continuity_scaled": 1.6950142365031833e-15,
+  "ideal_contact_limit_relative": 9.999991945619513e-10,
+  "all_pass": true
+}

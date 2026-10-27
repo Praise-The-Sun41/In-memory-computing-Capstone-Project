@@ -1,0 +1,9 @@
+{
+  "scope": "Digital encoding identity only; no COMSOL-device or array accuracy claim",
+  "bit_planes": 5,
+  "maximum_score_error": 8.881784197001252e-15,
+  "prediction_disagreements": 0,
+  "samples": 450,
+  "maximum_array_reads": 18000,
+  "passed": true
+}

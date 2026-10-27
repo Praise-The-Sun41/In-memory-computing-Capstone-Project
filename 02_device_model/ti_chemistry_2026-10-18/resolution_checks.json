@@ -1,0 +1,44 @@
+{
+  "checks": {
+    "time": {
+      "metrics": {
+        "current_peak_normalized": 1.3990981750061927e-05,
+        "bound_fraction_absolute": 2.8076877489624508e-09,
+        "exchange_factor_relative": 5.476618063493532e-07,
+        "temperature_K": 6.0610401590110996e-05,
+        "all_ionic_occupancy_absolute": 7.957423863422242e-05
+      },
+      "gates": {
+        "current": true,
+        "bound_fraction": true,
+        "exchange": true,
+        "temperature": true,
+        "ionic_states": true
+      },
+      "all_pass": true
+    },
+    "Ti_grid": {
+      "metrics": {
+        "current_peak_normalized": 9.006902025335129e-06,
+        "bound_fraction_absolute": 0.00041806885677797556,
+        "exchange_factor_relative": 0.0016183695546965193,
+        "temperature_K": 2.9291700059275172e-05
+      },
+      "gates": {
+        "current": true,
+        "bound_fraction": true,
+        "exchange": true,
+        "temperature": true
+      },
+      "all_pass": true
+    }
+  },
+  "all_pass": true,
+  "data_hashes": {
+    "binding_barrier-C10-L256-M256-R2e-09.npz": "300bbad2764acc2d738bb3a0327b39d24c3d3b414d12fc44720979bf98bd3fce",
+    "binding_barrier-C5-L256-M256-R2e-10.npz": "2fa627d3f4d28d56172d69f0a343fc1a61679acd044ebe7019a61aaadb7f62ed",
+    "binding_barrier-C5-L256-M512-R2e-09.npz": "ca2f96efa565cc6245120bb2fd77e94b7676c51c4780133f49f108c13478ca70"
+  },
+  "source_sha": "49e3a447c5d74584569664a6282cbba580efebf5734c7a93e542f619ded1fda9",
+  "scope": "Own preparation plus five cycles; time and Ti grid only, oxide L256 fixed"
+}

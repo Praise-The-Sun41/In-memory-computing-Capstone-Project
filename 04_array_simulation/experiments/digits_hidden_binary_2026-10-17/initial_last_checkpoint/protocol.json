@@ -1,0 +1,39 @@
+{
+  "architecture": [
+    64,
+    16,
+    10
+  ],
+  "binary_weights": "Both layers use only +/-1 signs times per-output positive digital gains; differential GH/GL pair per sign.",
+  "hidden_activation": "Digital clipped ReLU [0,1], rounded to8 bits; straight-through derivative for rounding during training. Inputs are unchanged5-bit pixels0..16.",
+  "selection": "Four QAT configurations, each up to400 epochs. Choose checkpoint by inner-validation correct count, then cross entropy, then earlier epoch. Refit on all1347 training samples for the selected epoch count. Original450 test images are evaluated only after freezing.",
+  "configs": [
+    {
+      "seed": 7,
+      "lr": 0.001
+    },
+    {
+      "seed": 7,
+      "lr": 0.003
+    },
+    {
+      "seed": 19,
+      "lr": 0.001
+    },
+    {
+      "seed": 19,
+      "lr": 0.003
+    }
+  ],
+  "continuous_initializer": "200 epochs, Adam lr0.003, same architecture and8-bit activations, fit on inner training only during selection.",
+  "inner_training_count": 1077,
+  "validation_count": 270,
+  "test_count": 450,
+  "split_seed": 7301,
+  "read_voltage": 0.02,
+  "levels": [
+    12,
+    19
+  ],
+  "hardware_scope": "Same four COMSOL histories and five short snapshots; same seeds0..99 assignment policy extended to both layer shapes. Frozen-state inference only; ideal periphery/interconnect."
+}

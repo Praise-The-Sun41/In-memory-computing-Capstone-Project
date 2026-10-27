@@ -1,0 +1,219 @@
+{
+  "config": {
+    "chemistry": {
+      "interface_depth_nm": 1.0,
+      "bound_site_fraction": 0.25,
+      "binding_delta_g_eV": -0.08,
+      "capture_rate_per_tau": 0.1,
+      "capture_Ea_eV": 0.45,
+      "passivation_barrier_eV": 0.1
+    },
+    "thermal": {
+      "bath_K": 300.0,
+      "reference_G_S": 0.0001,
+      "series_ohm": 1000.0,
+      "compliance_A": 0.0003,
+      "thermal_R_K_W": 100000.0,
+      "thermal_tau": 0.05,
+      "oxide_migration_Ea_eV": 0.65,
+      "metal_migration_Ea_eV": 0.5,
+      "exchange_Ea_eV": 0.4,
+      "contact_reference_barrier_eV": 0.5
+    },
+    "mode": "thermal",
+    "L": 256,
+    "M": 256,
+    "rtol": 2e-09,
+    "rows": [
+      [
+        2,
+        0,
+        1.0,
+        "SET-rise",
+        "linear"
+      ],
+      [
+        2,
+        1.0,
+        0,
+        "SET-fall",
+        "linear"
+      ],
+      [
+        100,
+        0,
+        0,
+        "SET-hold",
+        "linear"
+      ],
+      [
+        0.2,
+        0,
+        0.02,
+        "SET-read-rise",
+        "linear"
+      ],
+      [
+        1,
+        0.02,
+        0.02,
+        "SET-read",
+        "linear"
+      ],
+      [
+        0.2,
+        0.02,
+        0,
+        "SET-read-fall",
+        "linear"
+      ],
+      [
+        2,
+        0,
+        -1.0,
+        "RESET-rise",
+        "linear"
+      ],
+      [
+        2,
+        -1.0,
+        0,
+        "RESET-fall",
+        "linear"
+      ],
+      [
+        100,
+        0,
+        0,
+        "RESET-hold",
+        "linear"
+      ],
+      [
+        0.2,
+        0,
+        0.02,
+        "RESET-read-rise",
+        "linear"
+      ],
+      [
+        1,
+        0.02,
+        0.02,
+        "RESET-read",
+        "linear"
+      ],
+      [
+        0.2,
+        0.02,
+        0,
+        "RESET-read-fall",
+        "linear"
+      ]
+    ],
+    "source_sha": "18486450814c03fbe15f7b19935bdce4f0bc8321a09f19f7bc6662204361a866",
+    "runner_sha": "4b8b853cdee9bb1b507eeb2714a758d5672a3b868889bbd8799a7b48dfc0edc1",
+    "chemistry_source_sha": "49e3a447c5d74584569664a6282cbba580efebf5734c7a93e542f619ded1fda9",
+    "thermal_source_sha": "ef183f59e51d9421b93561b1715e151b4fd83851dc8d913bd3a808cd7dcd703f",
+    "contact": {
+      "reference_ohm": 0.0,
+      "chemical_sensitivity_eV": 0.0
+    },
+    "reference_b": 0.7795009318830616,
+    "initial_sha": "3aef0f47307b07ee7d3de247c0f3e7e9afdf2c9eb01e9f23e7bc71ef09358f10"
+  },
+  "checks": {
+    "internal_node_mass_error": 1.3939054355205371e-09,
+    "internal_node_minimum": 2.3379372581027812e-08,
+    "internal_node_maximum": 0.8966741336916814,
+    "sampled_mass_error": 1.3679972710178845e-09,
+    "thermal_balance_Wtau": 1.453784315152973e-17,
+    "power_balance_W": 5.421010862427522e-20,
+    "voltage_balance_V": 5.551115123125783e-17,
+    "current_excess_A": 0.0,
+    "minimum_binding_dissipation": 4.4633315905044594e-10,
+    "minimum_ionic_dissipation": 3.031851023736317e-07,
+    "oxide_voltage_balance_V": 2.220446049250313e-16
+  },
+  "stats": [
+    {
+      "label": "SET-rise",
+      "steps": 442,
+      "nfev": 1474,
+      "njev": 35
+    },
+    {
+      "label": "SET-fall",
+      "steps": 200,
+      "nfev": 532,
+      "njev": 6
+    },
+    {
+      "label": "SET-hold",
+      "steps": 275,
+      "nfev": 570,
+      "njev": 1
+    },
+    {
+      "label": "SET-read-rise",
+      "steps": 17,
+      "nfev": 34,
+      "njev": 1
+    },
+    {
+      "label": "SET-read",
+      "steps": 33,
+      "nfev": 66,
+      "njev": 1
+    },
+    {
+      "label": "SET-read-fall",
+      "steps": 18,
+      "nfev": 36,
+      "njev": 1
+    },
+    {
+      "label": "RESET-rise",
+      "steps": 180,
+      "nfev": 472,
+      "njev": 5
+    },
+    {
+      "label": "RESET-fall",
+      "steps": 590,
+      "nfev": 1706,
+      "njev": 29
+    },
+    {
+      "label": "RESET-hold",
+      "steps": 306,
+      "nfev": 758,
+      "njev": 2
+    },
+    {
+      "label": "RESET-read-rise",
+      "steps": 17,
+      "nfev": 34,
+      "njev": 1
+    },
+    {
+      "label": "RESET-read",
+      "steps": 33,
+      "nfev": 66,
+      "njev": 1
+    },
+    {
+      "label": "RESET-read-fall",
+      "steps": 18,
+      "nfev": 36,
+      "njev": 1
+    }
+  ],
+  "data_sha": "b5bc686a59c6a1c725038f4d14d8db3d47859b56e90c088830d37a5691ca1a1c",
+  "elapsed_s": 23.806916000001365,
+  "COMSOL_verified": false,
+  "experiment_calibrated": false,
+  "phase_identified": false,
+  "absolute_oxygen_calibrated": false,
+  "thermal_scope": "Electronic Joule heat only; reaction heat not converted without an absolute oxygen amount scale.",
+  "parent_sha": "d01ff2f63006fc6eb0c969ad3987bbb61450d7d94f5fee65c1287a25ffbef682"
+}

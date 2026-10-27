@@ -1,0 +1,472 @@
+{
+  "summary": {
+    "Ti": {
+      "original": {
+        "checks": {
+          "mass_error": 4.3381595205005397e-08,
+          "thermal_balance_Wtau": 0.0,
+          "voltage_residual_V": 0.0,
+          "power_residual_W": 5.421010862427522e-20,
+          "maximum_current_A": 0.00044048629623563907,
+          "maximum_T_K": 300.0,
+          "compliance_excess_A": 0.0,
+          "minimum_occupancy": 1.301438846108238e-12,
+          "maximum_occupancy": 0.9873185993382141
+        },
+        "C1_ratio_300K": 2.763584258033571,
+        "C5_ratio_300K": 2.459572440568498,
+        "ratios_300K": [
+          2.763584258033571,
+          2.648089885731291,
+          2.572608810979687,
+          2.5111927388750943,
+          2.459572440568498
+        ],
+        "Gpos_300K_S": [
+          0.00038971713470428466,
+          0.0004054933085775092,
+          0.0004171650227788357,
+          0.0004265970302119919,
+          0.00043449791295927285
+        ],
+        "Gneg_300K_S": [
+          0.00014101872724575003,
+          0.00015312671626534647,
+          0.0001621564153082307,
+          0.0001698782509235388,
+          0.00017665587148099786
+        ],
+        "compliance_sample_fraction": 0.0,
+        "max_source_minus_device_V": 1.1102230246251565e-16
+      },
+      "limited": {
+        "checks": {
+          "mass_error": 4.301616129964714e-08,
+          "thermal_balance_Wtau": 0.0,
+          "voltage_residual_V": 1.1102230246251565e-16,
+          "power_residual_W": 5.421010862427522e-20,
+          "maximum_current_A": 0.00029854506818253096,
+          "maximum_T_K": 300.0,
+          "compliance_excess_A": 0.0,
+          "minimum_occupancy": 1.302216608207647e-12,
+          "maximum_occupancy": 0.9770516077942439
+        },
+        "C1_ratio_300K": 2.3917504416811006,
+        "C5_ratio_300K": 1.890073909901259,
+        "ratios_300K": [
+          2.3917504416811006,
+          2.2082816374277137,
+          2.07966519505609,
+          1.9756536483407066,
+          1.890073909901259
+        ],
+        "Gpos_300K_S": [
+          0.0003850701799054854,
+          0.0003985543462955058,
+          0.0004096510491597661,
+          0.00041881121682359673,
+          0.00042633710655770997
+        ],
+        "Gneg_300K_S": [
+          0.00016099931380584564,
+          0.00018048166481144873,
+          0.00019697932635196,
+          0.000211986153127267,
+          0.00022556636770885993
+        ],
+        "compliance_sample_fraction": 0.0,
+        "max_source_minus_device_V": 0.298545068182531
+      },
+      "thermal": {
+        "checks": {
+          "mass_error": 4.65608707145293e-08,
+          "thermal_balance_Wtau": 8.515222218747481e-18,
+          "voltage_residual_V": 5.551115123125783e-17,
+          "power_residual_W": 5.421010862427522e-20,
+          "maximum_current_A": 0.0003,
+          "maximum_T_K": 319.5156782842321,
+          "compliance_excess_A": 0.0,
+          "minimum_occupancy": 1.7518418536293478e-12,
+          "maximum_occupancy": 0.9768733225112222
+        },
+        "C1_ratio_300K": 2.6356504316477434,
+        "C5_ratio_300K": 2.0399229379436763,
+        "ratios_300K": [
+          2.6356504316477434,
+          2.454753402842978,
+          2.297798769506793,
+          2.154954090836372,
+          2.0399229379436763
+        ],
+        "Gpos_300K_S": [
+          0.00038486206563247323,
+          0.00040142463823623545,
+          0.00041530195528914914,
+          0.0004268153937105138,
+          0.0004362252359119288
+        ],
+        "Gneg_300K_S": [
+          0.00014602166547248338,
+          0.00016352951696546164,
+          0.00018073904503756473,
+          0.00019806240677028064,
+          0.00021384397802382736
+        ],
+        "compliance_sample_fraction": 0.06125,
+        "max_source_minus_device_V": 0.4209813406167796
+      }
+    },
+    "Pt": {
+      "original": {
+        "checks": {
+          "mass_error": 3.387037955659977e-08,
+          "thermal_balance_Wtau": 0.0,
+          "voltage_residual_V": 0.0,
+          "power_residual_W": 5.421010862427522e-20,
+          "maximum_current_A": 0.00044441148970541394,
+          "maximum_T_K": 300.0,
+          "compliance_excess_A": 0.0,
+          "minimum_occupancy": 5.710409065899328e-29,
+          "maximum_occupancy": 0.987843976853697
+        },
+        "C1_ratio_300K": 2.792085627590295,
+        "C5_ratio_300K": 2.4735814444757134,
+        "ratios_300K": [
+          2.792085627590295,
+          2.6752742805454583,
+          2.596543153671427,
+          2.530574802777793,
+          2.4735814444757134
+        ],
+        "Gpos_300K_S": [
+          0.00038766980993621515,
+          0.00040480618308135456,
+          0.000418042302153214,
+          0.0004291865241743399,
+          0.00043889736800806857
+        ],
+        "Gneg_300K_S": [
+          0.0001388459602045919,
+          0.0001513138992981382,
+          0.00016099955880267803,
+          0.0001696004100345997,
+          0.00017743396684522544
+        ],
+        "compliance_sample_fraction": 0.0,
+        "max_source_minus_device_V": 1.1102230246251565e-16
+      },
+      "limited": {
+        "checks": {
+          "mass_error": 3.4501626999805524e-08,
+          "thermal_balance_Wtau": 0.0,
+          "voltage_residual_V": 8.326672684688674e-17,
+          "power_residual_W": 5.421010862427522e-20,
+          "maximum_current_A": 0.0003,
+          "maximum_T_K": 300.0,
+          "compliance_excess_A": 0.0,
+          "minimum_occupancy": 1.2386020441940355e-25,
+          "maximum_occupancy": 0.9774699255067291
+        },
+        "C1_ratio_300K": 2.4128345809267016,
+        "C5_ratio_300K": 1.8742609264395156,
+        "ratios_300K": [
+          2.4128345809267016,
+          2.223606853061587,
+          2.086613436357965,
+          1.9715911902275907,
+          1.8742609264395156
+        ],
+        "Gpos_300K_S": [
+          0.00038338510718301716,
+          0.00039859222565872057,
+          0.00041148917499992836,
+          0.00042251732537067167,
+          0.0004319135602508419
+        ],
+        "Gneg_300K_S": [
+          0.00015889407015866366,
+          0.00017925481076383462,
+          0.00019720431577309946,
+          0.00021430270507645066,
+          0.00023044473379239504
+        ],
+        "compliance_sample_fraction": 0.0004166666666666667,
+        "max_source_minus_device_V": 0.300658071656715
+      },
+      "thermal": {
+        "checks": {
+          "mass_error": 3.773902962356246e-08,
+          "thermal_balance_Wtau": 5.607358110823468e-18,
+          "voltage_residual_V": 5.551115123125783e-17,
+          "power_residual_W": 5.421010862427522e-20,
+          "maximum_current_A": 0.0003,
+          "maximum_T_K": 319.6331619954615,
+          "compliance_excess_A": 0.0,
+          "minimum_occupancy": 1.3184427932428685e-25,
+          "maximum_occupancy": 0.9774845052810254
+        },
+        "C1_ratio_300K": 2.661540283553513,
+        "C5_ratio_300K": 1.9733209565534802,
+        "ratios_300K": [
+          2.661540283553513,
+          2.469973416605595,
+          2.284264909827528,
+          2.1128623098463732,
+          1.9733209565534802
+        ],
+        "Gpos_300K_S": [
+          0.0003828224151909458,
+          0.00040169438139146596,
+          0.0004181301467287842,
+          0.00043242133933807294,
+          0.00044459329565656733
+        ],
+        "Gneg_300K_S": [
+          0.00014383491302255496,
+          0.00016263105452507325,
+          0.00018304801029419784,
+          0.0002046613910063616,
+          0.00022530206968108998
+        ],
+        "compliance_sample_fraction": 0.06666666666666667,
+        "max_source_minus_device_V": 0.426323654118401
+      }
+    },
+    "Pt_contact": {
+      "original": {
+        "checks": {
+          "mass_error": 3.494550621097048e-08,
+          "thermal_balance_Wtau": 0.0,
+          "voltage_residual_V": 0.0,
+          "power_residual_W": 8.724439356719293e-20,
+          "maximum_current_A": 0.00043744015801449004,
+          "maximum_T_K": 300.0,
+          "compliance_excess_A": 0.0,
+          "minimum_occupancy": 7.285185414864419e-29,
+          "maximum_occupancy": 0.9875203104903598
+        },
+        "C1_ratio_300K": 2.762710754570079,
+        "C5_ratio_300K": 2.439108569128294,
+        "ratios_300K": [
+          2.762710754570079,
+          2.6442890183638927,
+          2.5640867047554248,
+          2.4969834271185927,
+          2.439108569128294
+        ],
+        "Gpos_300K_S": [
+          0.0003831537719857652,
+          0.00039998030869718053,
+          0.00041300566103585543,
+          0.0004239704937534209,
+          0.0004335188956255806
+        ],
+        "Gneg_300K_S": [
+          0.0001386876173526135,
+          0.00015126194826640445,
+          0.0001610732040651683,
+          0.00016979307477529553,
+          0.00017773661292187364
+        ],
+        "compliance_sample_fraction": 0.0,
+        "max_source_minus_device_V": 6.833422716567839e-14
+      },
+      "limited": {
+        "checks": {
+          "mass_error": 3.5826958455498215e-08,
+          "thermal_balance_Wtau": 0.0,
+          "voltage_residual_V": 1.1102230246251565e-16,
+          "power_residual_W": 5.421010862427522e-20,
+          "maximum_current_A": 0.0002957691537540644,
+          "maximum_T_K": 300.0,
+          "compliance_excess_A": 0.0,
+          "minimum_occupancy": 1.561551486989361e-25,
+          "maximum_occupancy": 0.9771487056177889
+        },
+        "C1_ratio_300K": 2.386579208523699,
+        "C5_ratio_300K": 1.853670031511394,
+        "ratios_300K": [
+          2.386579208523699,
+          2.1975319494642873,
+          2.061437178551029,
+          1.9480112943694512,
+          1.853670031511394
+        ],
+        "Gpos_300K_S": [
+          0.0003787332085573961,
+          0.0003933972568403172,
+          0.0004058415462050489,
+          0.0004164262588324306,
+          0.0004253690362039461
+        ],
+        "Gneg_300K_S": [
+          0.00015869291377581163,
+          0.00017901776442259205,
+          0.00019687310892991283,
+          0.00021376994067543278,
+          0.00022947397809367423
+        ],
+        "compliance_sample_fraction": 0.0,
+        "max_source_minus_device_V": 0.29576915375406543
+      },
+      "thermal": {
+        "checks": {
+          "mass_error": 3.882655902343046e-08,
+          "thermal_balance_Wtau": 8.63126573252132e-18,
+          "voltage_residual_V": 9.71445146547012e-17,
+          "power_residual_W": 6.130400955752999e-20,
+          "maximum_current_A": 0.0003,
+          "maximum_T_K": 319.7006927353802,
+          "compliance_excess_A": 0.0,
+          "minimum_occupancy": 1.4947451726737919e-25,
+          "maximum_occupancy": 0.9772847108712215
+        },
+        "C1_ratio_300K": 2.6364400814411373,
+        "C5_ratio_300K": 1.958195030641064,
+        "ratios_300K": [
+          2.6364400814411373,
+          2.4462413312379128,
+          2.2628672047126037,
+          2.0946827049120853,
+          1.958195030641064
+        ],
+        "Gpos_300K_S": [
+          0.0003784665075477069,
+          0.00039688711727893234,
+          0.0004129083922184776,
+          0.00042680740284516794,
+          0.00043860350335745454
+        ],
+        "Gneg_300K_S": [
+          0.00014355209898827992,
+          0.00016224364792254118,
+          0.0001824713316621331,
+          0.00020375754372931685,
+          0.0002239835647084993
+        ],
+        "compliance_sample_fraction": 0.06541666666666666,
+        "max_source_minus_device_V": 0.4230847895288101
+      }
+    }
+  },
+  "validation": {
+    "Ti": {
+      "old_native_COMSOL_peak_normalized_current_error": 0.00022856986890359168,
+      "active_CC_jacobian_relative_error": 2.3832018458172537e-09,
+      "instantaneous_oxygen_balance": -5.116079001415974e-19
+    },
+    "Pt": {
+      "old_native_COMSOL_peak_normalized_current_error": 2.3846211281169265e-05,
+      "active_CC_jacobian_relative_error": 1.6542619671077743e-09,
+      "instantaneous_oxygen_balance": 1.1519648082658485e-19
+    },
+    "Pt_contact": {
+      "old_native_COMSOL_peak_normalized_current_error": 7.097473608426071e-05,
+      "active_CC_jacobian_relative_error": 1.5598362020493442e-09,
+      "instantaneous_oxygen_balance": -6.776263578034403e-20
+    }
+  },
+  "settings": {
+    "bath_K": 300.0,
+    "reference_G_S": 0.0001,
+    "series_ohm": 1000.0,
+    "compliance_A": 0.0003,
+    "thermal_R_K_W": 100000.0,
+    "thermal_tau": 0.05,
+    "oxide_migration_Ea_eV": 0.65,
+    "metal_migration_Ea_eV": 0.5,
+    "exchange_Ea_eV": 0.4,
+    "contact_reference_barrier_eV": 0.5
+  },
+  "new_thermal_COMSOL_verified": {
+    "Ti": true,
+    "Pt": false,
+    "Pt_contact": false
+  },
+  "new_thermal_COMSOL_report": {
+    "all_pass": true,
+    "gates": {
+      "current": true,
+      "temperature": true,
+      "voltage": true,
+      "layer_voltage": true,
+      "inventory": true,
+      "heat_balance": true,
+      "compliance": true
+    },
+    "metrics": {
+      "current_peak_normalized_error": 2.451974485900207e-05,
+      "temperature_error_K": 6.662637633780832e-05,
+      "device_voltage_error_V": 7.355923456353608e-06,
+      "layer_voltage_error_V": 7.570932998079982e-06,
+      "native_inventory_drift": 5.329070518200751e-15,
+      "native_heat_balance_Wtau": 4.592680402648597e-16,
+      "native_current_excess_A": 0.0
+    },
+    "native_points": 3001,
+    "scope": "Ti lumped temperature + circuit, own preparation + five continuous cycles; Pt thermal native not included",
+    "imported_Python_trajectory": false,
+    "spatial_heat_FEM": false,
+    "native_csv": "Ti-thermal-native.csv",
+    "native_java": "NativeThermalTi.java",
+    "native_csv_sha": "6e759c52d83ed38c75baf424868954ab5cc038762aaebb1631438e0cff54e051",
+    "python_npz_sha": "2ea32f0c50512662ca9c7e362486fe20f0b2ff02d8e5ba085efcd7f95c613857",
+    "java_sha": "ed303a4d329f059e1a874e035a0afc6ed53489e00085fc38a590132175ffac69",
+    "base_java_sha": "ed303a4d329f059e1a874e035a0afc6ed53489e00085fc38a590132175ffac69",
+    "native_rtol": 2e-08,
+    "adaptive_output_interpolation": false,
+    "solved_model": "Ti-thermal-geometry.mph",
+    "solved_model_sha": "fc520bd36fc80f094746e97eeebd87ffe07ecf907a9f4dddac08376127890bed",
+    "unsolved_model_sha": "6959195c94fc08300c13fa4a958170fc9c44aeee10e5714d04ba1638f753bb28"
+  },
+  "new_thermal_COMSOL_states": {
+    "all_pass": true,
+    "metrics": {
+      "minimum_occupancy": 1.751842788380305e-12,
+      "maximum_occupancy": 0.9768732939133511,
+      "oxide_maximum_absolute_difference": 0.00021879334248209314,
+      "metal_maximum_absolute_difference": 2.334108351043085e-08
+    },
+    "gates": {
+      "physical_bounds": true,
+      "oxide_state": true,
+      "metal_state": true
+    },
+    "native_states_csv": "Ti-thermal-states.csv",
+    "native_states_sha": "9587acd88641e188853ebb100cc2d461e13c0e7a6c513ab1cf659845ae9ed334",
+    "presentation_model": "Ti-thermal-presentation.mph",
+    "presentation_model_sha": "18c6a501636b69f7604bff8a7adba899eb237f3e5a90e6c6f6b3a1dbf531a0b8",
+    "python_npz_sha": "2ea32f0c50512662ca9c7e362486fe20f0b2ff02d8e5ba085efcd7f95c613857",
+    "export_java_sha": "617450224a8e9c3bf63cad27769a05ad4fd2d856538f9490fa5894e2f109ebac",
+    "scope": "All 696 ionic states at 3001 output times; no spatial-grid refinement claim"
+  },
+  "python_state_accuracy": {
+    "comparisons_to_rtol_2e10": {
+      "2e-08": {
+        "oxide_maximum_difference": 0.0016474256971683587,
+        "time": 51.449999999999996,
+        "cell": 22,
+        "oxide_final_maximum_difference": 1.1132995962948034e-05,
+        "metal_maximum_difference": 2.1737893129980534e-07,
+        "current_peak_normalized_error": 0.00018255444079511598,
+        "temperature_error_K": 0.00046015418377010064,
+        "data_sha": "37935f55c351d7612e6c175f4ed6dca5979c9b52ba992578914a2eec5e045afb"
+      },
+      "2e-09": {
+        "oxide_maximum_difference": 0.00017919681195416315,
+        "time": 51.449999999999996,
+        "cell": 22,
+        "oxide_final_maximum_difference": 1.2724349326975748e-06,
+        "metal_maximum_difference": 2.4154336364379247e-08,
+        "current_peak_normalized_error": 1.9859536804408183e-05,
+        "temperature_error_K": 5.253311019259854e-05,
+        "data_sha": "2ea32f0c50512662ca9c7e362486fe20f0b2ff02d8e5ba085efcd7f95c613857"
+      }
+    },
+    "reference_data_sha": "555b318a88d419fe171754d91b3f6b88f1e74dddc3465e2fee1385526d4bd62e",
+    "reference_2e9_state_converged": true,
+    "default_2e8_state_gate": false
+  },
+  "spatial_thermal_FEM": false,
+  "measured_temperature_prediction": false
+}

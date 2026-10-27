@@ -1,0 +1,38 @@
+{
+  "status": "completed",
+  "accepted": false,
+  "selection": null,
+  "screened_set_counts": [
+    8,
+    32,
+    128
+  ],
+  "validation_attempts": [
+    {
+      "set_count": 32,
+      "wait_tau": 10,
+      "stable_selection": null
+    },
+    {
+      "set_count": 128,
+      "wait_tau": 1,
+      "stable_selection": null
+    }
+  ],
+  "extension": {
+    "set_count": 32,
+    "wait_tau": 10,
+    "maximum_reset_count": 32,
+    "stable_selection": null,
+    "numerical": null
+  },
+  "prior_extension_attempts": [
+    {
+      "set_count": 128,
+      "wait_tau": 1,
+      "maximum_reset_count": 32,
+      "stable_selection": null,
+      "numerical": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "seed": 19,
+  "lr": 0.003,
+  "epoch": 225,
+  "training": {
+    "correct": 1001,
+    "cross_entropy": 0.23072454484557453
+  },
+  "selected_training_epoch": 220,
+  "selected_training": {
+    "correct": 1031,
+    "cross_entropy": 0.16970181679313975
+  },
+  "validation": {
+    "correct": 255,
+    "cross_entropy": 0.24436147375459144
+  }
+}

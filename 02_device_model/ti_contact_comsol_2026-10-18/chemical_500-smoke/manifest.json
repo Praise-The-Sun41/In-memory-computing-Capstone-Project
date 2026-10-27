@@ -1,0 +1,114 @@
+{
+  "case": "chemical_500",
+  "smoke": true,
+  "class_name": "Chem500Smoke",
+  "rows": [
+    [
+      2,
+      0,
+      1,
+      "C1-pos-rise",
+      "linear"
+    ],
+    [
+      2,
+      1,
+      0,
+      "C1-pos-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      -1,
+      "C1-neg-rise",
+      "linear"
+    ],
+    [
+      2,
+      -1,
+      0,
+      "C1-neg-fall",
+      "linear"
+    ]
+  ],
+  "points": 481,
+  "ports": [
+    "t",
+    "c.source",
+    "c.physicalI",
+    "c.bias",
+    "c.ifaceV",
+    "c.devV",
+    "c.outV",
+    "c.tempK",
+    "c.TiDrop",
+    "c.AlDrop",
+    "c.ifaceR",
+    "c.Bbound",
+    "c.boundO",
+    "c.mobileO",
+    "c.totalTiO",
+    "c.regionFraction",
+    "c.inventory",
+    "c.heatResidual",
+    "c.powerResidual",
+    "c.devicePowerResidual",
+    "c.voltageResidual",
+    "c.exchange",
+    "c.bindingFlux",
+    "c.ionicPass",
+    "c.deviceG"
+  ],
+  "n_oxide": 440,
+  "n_metal": 256,
+  "n_bound": 48,
+  "unknowns": 1188,
+  "origin": {
+    "parent_sha": "300bbad2764acc2d738bb3a0327b39d24c3d3b414d12fc44720979bf98bd3fce",
+    "parent_index": 600,
+    "parent_time_tau": 21.4
+  },
+  "contact": {
+    "reference_ohm": 500.0,
+    "chemical_sensitivity_eV": 0.2
+  },
+  "chemistry": {
+    "interface_depth_nm": 1.0,
+    "bound_site_fraction": 0.25,
+    "binding_delta_g_eV": -0.08,
+    "capture_rate_per_tau": 0.1,
+    "capture_Ea_eV": 0.45,
+    "passivation_barrier_eV": 0.1
+  },
+  "thermal": {
+    "bath_K": 300.0,
+    "reference_G_S": 0.0001,
+    "series_ohm": 1000.0,
+    "compliance_A": 0.0003,
+    "thermal_R_K_W": 100000.0,
+    "thermal_tau": 0.05,
+    "oxide_migration_Ea_eV": 0.65,
+    "metal_migration_Ea_eV": 0.5,
+    "exchange_Ea_eV": 0.4,
+    "contact_reference_barrier_eV": 0.5
+  },
+  "reference_B": 0.7795009318830616,
+  "solver": {
+    "rtol": 2e-08,
+    "atol": 1e-13,
+    "newton_tolerance_factor": 0.01,
+    "strict_output_steps": true,
+    "max_step": 1.0
+  },
+  "java_sha": "a6cac5a7817a90ad13e50d4c756a39797cea74950b806306eb8d94e3fca10653",
+  "generator_sha": "1004ead763f08d0541d385bedf60164622f329f435ace13a053a79d6dca34be2",
+  "template_sha": "6959195c94fc08300c13fa4a958170fc9c44aeee10e5714d04ba1638f753bb28",
+  "interface_source_sha": "18486450814c03fbe15f7b19935bdce4f0bc8321a09f19f7bc6662204361a866",
+  "chemistry_source_sha": "49e3a447c5d74584569664a6282cbba580efebf5734c7a93e542f619ded1fda9",
+  "thermal_source_sha": "ef183f59e51d9421b93561b1715e151b4fd83851dc8d913bd3a808cd7dcd703f",
+  "initial_sha": "ba1ad5b5e7c16f787c600bdee5e7b4f0511c1ac63cce77532155973e1158e4d2",
+  "imported_initial_state": true,
+  "imported_trajectory": false,
+  "spatial_3D_FEM": false
+}

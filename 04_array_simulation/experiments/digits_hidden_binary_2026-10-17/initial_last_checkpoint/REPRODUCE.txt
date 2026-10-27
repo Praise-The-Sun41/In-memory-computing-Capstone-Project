@@ -1,0 +1,19 @@
+Python dependencies: numpy scipy scikit-learn matplotlib threadpoolctl.
+Run in this directory:
+  python train.py
+  python evaluate.py
+
+Training writes its protocol before fitting and selected_before_test.json before
+full-training refit and final test evaluation. No test-score-dependent reruns or
+selection. Four fixed configurations, binary forward passes, digital8-bit hidden
+activation, and a fixed200-epoch continuous initializer are documented in train.py.
+The original training/test indices are reused from vteam16/digits_checkpoint.npz.
+No prior experiment or COMSOL source is modified. No new COMSOL solve is needed.
+
+Both array layers store only the measured RESET12/19 conductance levels after
+SET32/wait10. Positive class/unit gains, biases and hidden nonlinearity are digital.
+10 logical16x16 tiles can be resident or reused in time; this program does not model
+memory bandwidth, programming latency, read disturbance evolution or wire effects.
+The frozen-snapshot comparison uses the same four histories and five short windows,
+and the same100 seeds extended to the new layer shapes.56 bit-plane read slots
+are an arithmetic schedule, not evidence that the full sequence preserves state.

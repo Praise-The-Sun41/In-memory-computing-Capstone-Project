@@ -1,0 +1,772 @@
+[
+  {
+    "kind": "memory",
+    "start_tau": 0.0,
+    "start_seconds": 0.0,
+    "duration_tau": 0.0,
+    "duration_seconds": 1.14e-07,
+    "sample": -1,
+    "detail": "Load array 0 once",
+    "address": 0,
+    "bytes": 32,
+    "arrays": null
+  },
+  {
+    "kind": "initial_programming",
+    "start_tau": 0.0,
+    "start_seconds": 1.14e-07,
+    "duration_tau": 43.48,
+    "duration_seconds": 0.0,
+    "sample": -1,
+    "detail": "Array 0: SET32, wait10, masked RESET12/19",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      0
+    ]
+  },
+  {
+    "kind": "memory",
+    "start_tau": 43.48,
+    "start_seconds": 1.14e-07,
+    "duration_tau": 0.0,
+    "duration_seconds": 2e-09,
+    "sample": -1,
+    "detail": "Load array 1 once",
+    "address": 32,
+    "bytes": 32,
+    "arrays": null
+  },
+  {
+    "kind": "initial_programming",
+    "start_tau": 43.48,
+    "start_seconds": 1.16e-07,
+    "duration_tau": 43.48,
+    "duration_seconds": 0.0,
+    "sample": -1,
+    "detail": "Array 1: SET32, wait10, masked RESET12/19",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      1
+    ]
+  },
+  {
+    "kind": "memory",
+    "start_tau": 86.96,
+    "start_seconds": 1.16e-07,
+    "duration_tau": 0.0,
+    "duration_seconds": 1.14e-07,
+    "sample": -1,
+    "detail": "Load array 2 once",
+    "address": 64,
+    "bytes": 32,
+    "arrays": null
+  },
+  {
+    "kind": "initial_programming",
+    "start_tau": 86.96,
+    "start_seconds": 2.3000000000000002e-07,
+    "duration_tau": 43.48,
+    "duration_seconds": 0.0,
+    "sample": -1,
+    "detail": "Array 2: SET32, wait10, masked RESET12/19",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      2
+    ]
+  },
+  {
+    "kind": "memory",
+    "start_tau": 130.44,
+    "start_seconds": 2.3000000000000002e-07,
+    "duration_tau": 0.0,
+    "duration_seconds": 2e-09,
+    "sample": -1,
+    "detail": "Load array 3 once",
+    "address": 96,
+    "bytes": 32,
+    "arrays": null
+  },
+  {
+    "kind": "initial_programming",
+    "start_tau": 130.44,
+    "start_seconds": 2.32e-07,
+    "duration_tau": 43.48,
+    "duration_seconds": 0.0,
+    "sample": -1,
+    "detail": "Array 3: SET32, wait10, masked RESET12/19",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      3
+    ]
+  },
+  {
+    "kind": "memory",
+    "start_tau": 173.92,
+    "start_seconds": 2.32e-07,
+    "duration_tau": 0.0,
+    "duration_seconds": 1.14e-07,
+    "sample": -1,
+    "detail": "Load array 4 once",
+    "address": 128,
+    "bytes": 32,
+    "arrays": null
+  },
+  {
+    "kind": "initial_programming",
+    "start_tau": 173.92,
+    "start_seconds": 3.46e-07,
+    "duration_tau": 43.48,
+    "duration_seconds": 0.0,
+    "sample": -1,
+    "detail": "Array 4: SET32, wait10, masked RESET12/19",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      4
+    ]
+  },
+  {
+    "kind": "memory",
+    "start_tau": 217.39999999999998,
+    "start_seconds": 3.46e-07,
+    "duration_tau": 0.0,
+    "duration_seconds": 2e-09,
+    "sample": -1,
+    "detail": "Load array 5 once",
+    "address": 160,
+    "bytes": 32,
+    "arrays": null
+  },
+  {
+    "kind": "initial_programming",
+    "start_tau": 217.39999999999998,
+    "start_seconds": 3.48e-07,
+    "duration_tau": 43.48,
+    "duration_seconds": 0.0,
+    "sample": -1,
+    "detail": "Array 5: SET32, wait10, masked RESET12/19",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      5
+    ]
+  },
+  {
+    "kind": "memory",
+    "start_tau": 260.88,
+    "start_seconds": 3.48e-07,
+    "duration_tau": 0.0,
+    "duration_seconds": 1.14e-07,
+    "sample": -1,
+    "detail": "Load array 6 once",
+    "address": 192,
+    "bytes": 32,
+    "arrays": null
+  },
+  {
+    "kind": "initial_programming",
+    "start_tau": 260.88,
+    "start_seconds": 4.62e-07,
+    "duration_tau": 43.48,
+    "duration_seconds": 0.0,
+    "sample": -1,
+    "detail": "Array 6: SET32, wait10, masked RESET12/19",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      6
+    ]
+  },
+  {
+    "kind": "memory",
+    "start_tau": 304.36,
+    "start_seconds": 4.62e-07,
+    "duration_tau": 0.0,
+    "duration_seconds": 2e-09,
+    "sample": -1,
+    "detail": "Load array 7 once",
+    "address": 224,
+    "bytes": 32,
+    "arrays": null
+  },
+  {
+    "kind": "initial_programming",
+    "start_tau": 304.36,
+    "start_seconds": 4.6399999999999997e-07,
+    "duration_tau": 43.48,
+    "duration_seconds": 0.0,
+    "sample": -1,
+    "detail": "Array 7: SET32, wait10, masked RESET12/19",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      7
+    ]
+  },
+  {
+    "kind": "memory",
+    "start_tau": 347.84000000000003,
+    "start_seconds": 4.6399999999999997e-07,
+    "duration_tau": 0.0,
+    "duration_seconds": 1.14e-07,
+    "sample": -1,
+    "detail": "Load array 8 once",
+    "address": 256,
+    "bytes": 32,
+    "arrays": null
+  },
+  {
+    "kind": "initial_programming",
+    "start_tau": 347.84000000000003,
+    "start_seconds": 5.78e-07,
+    "duration_tau": 43.48,
+    "duration_seconds": 0.0,
+    "sample": -1,
+    "detail": "Array 8: SET32, wait10, masked RESET12/19",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      8
+    ]
+  },
+  {
+    "kind": "memory",
+    "start_tau": 391.32000000000005,
+    "start_seconds": 5.78e-07,
+    "duration_tau": 0.0,
+    "duration_seconds": 2e-09,
+    "sample": -1,
+    "detail": "Load array 9 once",
+    "address": 288,
+    "bytes": 32,
+    "arrays": null
+  },
+  {
+    "kind": "initial_programming",
+    "start_tau": 391.32000000000005,
+    "start_seconds": 5.800000000000001e-07,
+    "duration_tau": 43.48,
+    "duration_seconds": 0.0,
+    "sample": -1,
+    "detail": "Array 9: SET32, wait10, masked RESET12/19",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      9
+    ]
+  },
+  {
+    "kind": "memory",
+    "start_tau": 434.80000000000007,
+    "start_seconds": 5.800000000000001e-07,
+    "duration_tau": 0.0,
+    "duration_seconds": 7.98e-07,
+    "sample": -1,
+    "detail": "Load digital parameters once",
+    "address": 320,
+    "bytes": 416,
+    "arrays": null
+  },
+  {
+    "kind": "memory",
+    "start_tau": 434.80000000000007,
+    "start_seconds": 1.3780000000000002e-06,
+    "duration_tau": 0.0,
+    "duration_seconds": 1.14e-07,
+    "sample": 0,
+    "detail": "Fetch image into 64-byte local input buffer",
+    "address": 768,
+    "bytes": 64,
+    "arrays": null
+  },
+  {
+    "kind": "readout_control",
+    "start_tau": 434.80000000000007,
+    "start_seconds": 1.4920000000000003e-06,
+    "duration_tau": 0.0,
+    "duration_seconds": 2e-08,
+    "sample": 0,
+    "detail": "L1 bit 0: parallel readout",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "kind": "inference_reads",
+    "start_tau": 434.80000000000007,
+    "start_seconds": 1.5120000000000003e-06,
+    "duration_tau": 0.14,
+    "duration_seconds": 0.0,
+    "sample": 0,
+    "detail": "L1 bit 0: +0.02 V on active rows",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "kind": "readout_control",
+    "start_tau": 434.94000000000005,
+    "start_seconds": 1.5120000000000003e-06,
+    "duration_tau": 0.0,
+    "duration_seconds": 2e-08,
+    "sample": 0,
+    "detail": "L1 bit 1: parallel readout",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "kind": "inference_reads",
+    "start_tau": 434.94000000000005,
+    "start_seconds": 1.5320000000000003e-06,
+    "duration_tau": 0.14,
+    "duration_seconds": 0.0,
+    "sample": 0,
+    "detail": "L1 bit 1: +0.02 V on active rows",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "kind": "readout_control",
+    "start_tau": 435.08000000000004,
+    "start_seconds": 1.5320000000000003e-06,
+    "duration_tau": 0.0,
+    "duration_seconds": 2e-08,
+    "sample": 0,
+    "detail": "L1 bit 2: parallel readout",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "kind": "inference_reads",
+    "start_tau": 435.08000000000004,
+    "start_seconds": 1.5520000000000003e-06,
+    "duration_tau": 0.14,
+    "duration_seconds": 0.0,
+    "sample": 0,
+    "detail": "L1 bit 2: +0.02 V on active rows",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "kind": "readout_control",
+    "start_tau": 435.22,
+    "start_seconds": 1.5520000000000003e-06,
+    "duration_tau": 0.0,
+    "duration_seconds": 2e-08,
+    "sample": 0,
+    "detail": "L1 bit 3: parallel readout",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "kind": "inference_reads",
+    "start_tau": 435.22,
+    "start_seconds": 1.5720000000000004e-06,
+    "duration_tau": 0.14,
+    "duration_seconds": 0.0,
+    "sample": 0,
+    "detail": "L1 bit 3: +0.02 V on active rows",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "kind": "readout_control",
+    "start_tau": 435.36,
+    "start_seconds": 1.5720000000000004e-06,
+    "duration_tau": 0.0,
+    "duration_seconds": 2e-08,
+    "sample": 0,
+    "detail": "L1 bit 4: parallel readout",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "kind": "inference_reads",
+    "start_tau": 435.36,
+    "start_seconds": 1.5920000000000004e-06,
+    "duration_tau": 0.14,
+    "duration_seconds": 0.0,
+    "sample": 0,
+    "detail": "L1 bit 4: +0.02 V on active rows",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "kind": "digital_activation",
+    "start_tau": 435.5,
+    "start_seconds": 1.5920000000000004e-06,
+    "duration_tau": 0.0,
+    "duration_seconds": 1e-07,
+    "sample": 0,
+    "detail": "8-bit hidden activation",
+    "address": null,
+    "bytes": null,
+    "arrays": null
+  },
+  {
+    "kind": "readout_control",
+    "start_tau": 435.5,
+    "start_seconds": 1.6920000000000005e-06,
+    "duration_tau": 0.0,
+    "duration_seconds": 2e-08,
+    "sample": 0,
+    "detail": "L2 bit 0: parallel readout",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      8,
+      9
+    ]
+  },
+  {
+    "kind": "inference_reads",
+    "start_tau": 435.5,
+    "start_seconds": 1.7120000000000005e-06,
+    "duration_tau": 0.14,
+    "duration_seconds": 0.0,
+    "sample": 0,
+    "detail": "L2 bit 0: +0.02 V on active rows",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      8,
+      9
+    ]
+  },
+  {
+    "kind": "readout_control",
+    "start_tau": 435.64,
+    "start_seconds": 1.7120000000000005e-06,
+    "duration_tau": 0.0,
+    "duration_seconds": 2e-08,
+    "sample": 0,
+    "detail": "L2 bit 1: parallel readout",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      8,
+      9
+    ]
+  },
+  {
+    "kind": "inference_reads",
+    "start_tau": 435.64,
+    "start_seconds": 1.7320000000000005e-06,
+    "duration_tau": 0.14,
+    "duration_seconds": 0.0,
+    "sample": 0,
+    "detail": "L2 bit 1: +0.02 V on active rows",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      8,
+      9
+    ]
+  },
+  {
+    "kind": "readout_control",
+    "start_tau": 435.78,
+    "start_seconds": 1.7320000000000005e-06,
+    "duration_tau": 0.0,
+    "duration_seconds": 2e-08,
+    "sample": 0,
+    "detail": "L2 bit 2: parallel readout",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      8,
+      9
+    ]
+  },
+  {
+    "kind": "inference_reads",
+    "start_tau": 435.78,
+    "start_seconds": 1.7520000000000005e-06,
+    "duration_tau": 0.14,
+    "duration_seconds": 0.0,
+    "sample": 0,
+    "detail": "L2 bit 2: +0.02 V on active rows",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      8,
+      9
+    ]
+  },
+  {
+    "kind": "readout_control",
+    "start_tau": 435.91999999999996,
+    "start_seconds": 1.7520000000000005e-06,
+    "duration_tau": 0.0,
+    "duration_seconds": 2e-08,
+    "sample": 0,
+    "detail": "L2 bit 3: parallel readout",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      8,
+      9
+    ]
+  },
+  {
+    "kind": "inference_reads",
+    "start_tau": 435.91999999999996,
+    "start_seconds": 1.7720000000000006e-06,
+    "duration_tau": 0.14,
+    "duration_seconds": 0.0,
+    "sample": 0,
+    "detail": "L2 bit 3: +0.02 V on active rows",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      8,
+      9
+    ]
+  },
+  {
+    "kind": "readout_control",
+    "start_tau": 436.05999999999995,
+    "start_seconds": 1.7720000000000006e-06,
+    "duration_tau": 0.0,
+    "duration_seconds": 2e-08,
+    "sample": 0,
+    "detail": "L2 bit 4: parallel readout",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      8,
+      9
+    ]
+  },
+  {
+    "kind": "inference_reads",
+    "start_tau": 436.05999999999995,
+    "start_seconds": 1.7920000000000006e-06,
+    "duration_tau": 0.14,
+    "duration_seconds": 0.0,
+    "sample": 0,
+    "detail": "L2 bit 4: +0.02 V on active rows",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      8,
+      9
+    ]
+  },
+  {
+    "kind": "readout_control",
+    "start_tau": 436.19999999999993,
+    "start_seconds": 1.7920000000000006e-06,
+    "duration_tau": 0.0,
+    "duration_seconds": 2e-08,
+    "sample": 0,
+    "detail": "L2 bit 5: parallel readout",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      8,
+      9
+    ]
+  },
+  {
+    "kind": "inference_reads",
+    "start_tau": 436.19999999999993,
+    "start_seconds": 1.8120000000000006e-06,
+    "duration_tau": 0.14,
+    "duration_seconds": 0.0,
+    "sample": 0,
+    "detail": "L2 bit 5: +0.02 V on active rows",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      8,
+      9
+    ]
+  },
+  {
+    "kind": "readout_control",
+    "start_tau": 436.3399999999999,
+    "start_seconds": 1.8120000000000006e-06,
+    "duration_tau": 0.0,
+    "duration_seconds": 2e-08,
+    "sample": 0,
+    "detail": "L2 bit 6: parallel readout",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      8,
+      9
+    ]
+  },
+  {
+    "kind": "inference_reads",
+    "start_tau": 436.3399999999999,
+    "start_seconds": 1.8320000000000006e-06,
+    "duration_tau": 0.14,
+    "duration_seconds": 0.0,
+    "sample": 0,
+    "detail": "L2 bit 6: +0.02 V on active rows",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      8,
+      9
+    ]
+  },
+  {
+    "kind": "readout_control",
+    "start_tau": 436.4799999999999,
+    "start_seconds": 1.8320000000000006e-06,
+    "duration_tau": 0.0,
+    "duration_seconds": 2e-08,
+    "sample": 0,
+    "detail": "L2 bit 7: parallel readout",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      8,
+      9
+    ]
+  },
+  {
+    "kind": "inference_reads",
+    "start_tau": 436.4799999999999,
+    "start_seconds": 1.8520000000000006e-06,
+    "duration_tau": 0.14,
+    "duration_seconds": 0.0,
+    "sample": 0,
+    "detail": "L2 bit 7: +0.02 V on active rows",
+    "address": null,
+    "bytes": null,
+    "arrays": [
+      8,
+      9
+    ]
+  },
+  {
+    "kind": "digital_activation",
+    "start_tau": 436.6199999999999,
+    "start_seconds": 1.8520000000000006e-06,
+    "duration_tau": 0.0,
+    "duration_seconds": 1e-07,
+    "sample": 0,
+    "detail": "Final bias and argmax",
+    "address": null,
+    "bytes": null,
+    "arrays": null
+  },
+  {
+    "kind": "memory",
+    "start_tau": 436.6199999999999,
+    "start_seconds": 1.9520000000000005e-06,
+    "duration_tau": 0.0,
+    "duration_seconds": 1.3e-07,
+    "sample": 0,
+    "detail": "Write output logits",
+    "address": 29568,
+    "bytes": 80,
+    "arrays": null
+  }
+]

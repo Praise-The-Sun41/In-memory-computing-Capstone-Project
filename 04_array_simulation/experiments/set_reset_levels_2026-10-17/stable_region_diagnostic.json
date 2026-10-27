@@ -1,0 +1,86 @@
+[
+  {
+    "set_count": 32,
+    "wait_tau": 10,
+    "level_count": 2,
+    "reset_counts": [
+      12,
+      19
+    ],
+    "nominal_G": [
+      8.460136035578983e-09,
+      7.713335788825457e-09
+    ],
+    "short_ranges_percent": [
+      0.954255052557771,
+      0.9977451403784494
+    ],
+    "adjacent_separation_percent": [
+      9.234878631645012
+    ],
+    "minimum_separation_percent": 9.234878631645012,
+    "observed_short_envelopes_nonoverlapping": true,
+    "passes_original_10_percent_spacing": false,
+    "scope": "Exploratory subset of tested nominal histories; no relaxed-gate acceptance or refined-reference claim."
+  },
+  {
+    "set_count": 32,
+    "wait_tau": 10,
+    "level_count": 3,
+    "reset_counts": [
+      12,
+      15,
+      19
+    ],
+    "nominal_G": [
+      8.460136035578983e-09,
+      8.093837642975504e-09,
+      7.713335788825457e-09
+    ],
+    "short_ranges_percent": [
+      0.954255052557771,
+      0.9671018656372061,
+      0.9977451403784494
+    ],
+    "adjacent_separation_percent": [
+      4.425504108152776,
+      4.814293406619447
+    ],
+    "minimum_separation_percent": 4.425504108152776,
+    "observed_short_envelopes_nonoverlapping": true,
+    "passes_original_10_percent_spacing": false,
+    "scope": "Exploratory subset of tested nominal histories; no relaxed-gate acceptance or refined-reference claim."
+  },
+  {
+    "set_count": 32,
+    "wait_tau": 10,
+    "level_count": 4,
+    "reset_counts": [
+      12,
+      14,
+      16,
+      19
+    ],
+    "nominal_G": [
+      8.460136035578983e-09,
+      8.206038022418537e-09,
+      7.989597678508339e-09,
+      7.713335788825457e-09
+    ],
+    "short_ranges_percent": [
+      0.954255052557771,
+      0.9627235006777085,
+      0.9711707826690295,
+      0.9977451403784494
+    ],
+    "adjacent_separation_percent": [
+      3.0492662836257134,
+      2.672823072919711,
+      3.5186023077481487
+    ],
+    "minimum_separation_percent": 2.672823072919711,
+    "observed_short_envelopes_nonoverlapping": true,
+    "passes_original_10_percent_spacing": false,
+    "scope": "Exploratory subset of tested nominal histories; no relaxed-gate acceptance or refined-reference claim."
+  }
+]

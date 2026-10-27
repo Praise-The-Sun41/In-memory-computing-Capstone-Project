@@ -1,0 +1,46 @@
+{
+  "contact_model.py": {
+    "bytes": 10184,
+    "sha256": "09252e69d2736c0fffe7d0c315ecd4b00b0ab4ebc8814328c8d4f1325318baa1"
+  },
+  "build_native.py": {
+    "bytes": 7150,
+    "sha256": "8c08011c6b8c846cb6e9d7a2d6cf1a19edd0e53de41ce749a0d1a325c9d415d8"
+  },
+  "report_contacts.py": {
+    "bytes": 7759,
+    "sha256": "403b83ac0ab952e0cf8b9e799dc2fa0520ab05a579b06fe9df3fa7882d11cdf4"
+  },
+  "README.md": {
+    "bytes": 8862,
+    "sha256": "bd8c389f5ca93eadfcf5c6dfbcec9a85c8bf7e59f861372dd4671cae262b1da3"
+  },
+  "Pt_Contacts_Geometry_Bound.mph": {
+    "bytes": 223697484,
+    "sha256": "d5335714de39decc6024753d984f43fb624e58c54090e4ddef7a29ae9344be04"
+  },
+  "Pt-contacts-solved.mph": {
+    "bytes": 147202856,
+    "sha256": "d28b1d0676c2841823cf07f9b5b9acc334c39462caff322cc4150dea780957a4"
+  },
+  "Pt-hold-pos.mph": {
+    "bytes": 78556950,
+    "sha256": "6417fefdd43f9583e0cd6f5e3dea4da151264c274802237cf4cff454aea3e8c3"
+  },
+  "Pt-hold-neg.mph": {
+    "bytes": 78548023,
+    "sha256": "fccf352fccb02f1b34ba4ebbb3a3d5e5eb11444be113916c86cd36acdd0e9a3d"
+  },
+  "comparison.json": {
+    "bytes": 4308,
+    "sha256": "c53edf1898607294524b87990d1d75478c981e391acffe7934232d76271afed9"
+  },
+  "contact_comparison.png": {
+    "bytes": 298679,
+    "sha256": "3f43f9e32149726f91ffa306588f7a514bf3a4893c53cc8fc6cb73ed74ad108d"
+  },
+  "contact_comparison.svg": {
+    "bytes": 72155,
+    "sha256": "522160da704e82564ce8d1f77871d41f9f15cb36d53dcd0c8b850187859f5947"
+  }
+}

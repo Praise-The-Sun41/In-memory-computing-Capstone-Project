@@ -1,0 +1,97 @@
+{
+  "disabled_exact_RHS": true,
+  "jacobians": [
+    {
+      "case": "binding",
+      "V": 0.0,
+      "jac_error": 6.014463797540825e-09,
+      "mass_rate_residual": 0.0,
+      "limited": false
+    },
+    {
+      "case": "binding",
+      "V": 1.0,
+      "jac_error": 1.04569382417984e-09,
+      "mass_rate_residual": -2.5326962749261384e-16,
+      "limited": false
+    },
+    {
+      "case": "binding",
+      "V": -0.9,
+      "jac_error": 1.3249740093520466e-09,
+      "mass_rate_residual": -9.8879238130678e-17,
+      "limited": false
+    },
+    {
+      "case": "binding_barrier",
+      "V": 0.0,
+      "jac_error": 2.8379650530630526e-09,
+      "mass_rate_residual": 0.0,
+      "limited": false
+    },
+    {
+      "case": "binding_barrier",
+      "V": 1.0,
+      "jac_error": 1.7402222145983127e-09,
+      "mass_rate_residual": -2.411265631607762e-16,
+      "limited": false
+    },
+    {
+      "case": "binding_barrier",
+      "V": -0.9,
+      "jac_error": 1.3278648922179745e-09,
+      "mass_rate_residual": -9.8879238130678e-17,
+      "limited": false
+    }
+  ],
+  "active_CC_jacobian_error": 3.5937116586720967e-09,
+  "detailed_balance_errors": [
+    8.881784197001252e-16,
+    6.38378239159465e-16
+  ],
+  "closed_pair_binds_and_releases": [
+    {
+      "initial": [
+        0.3,
+        0.3
+      ],
+      "initial_binding_rate": 0.020048785536340215,
+      "equilibrium_error": 6.494804694057166e-14,
+      "final": [
+        0.13947451889509369,
+        0.7815764433147177
+      ]
+    },
+    {
+      "initial": [
+        0.005,
+        0.99
+      ],
+      "initial_binding_rate": -0.004456875273467013,
+      "equilibrium_error": 2.6556534749033744e-13,
+      "final": [
+        0.09898202185969941,
+        0.7080539344209038
+      ]
+    }
+  ],
+  "capacity_and_initial_inventory": [
+    {
+      "M": 128,
+      "bound_capacity": 0.285,
+      "initial_oxygen": 10.26
+    },
+    {
+      "M": 256,
+      "bound_capacity": 0.285,
+      "initial_oxygen": 10.26
+    },
+    {
+      "M": 512,
+      "bound_capacity": 0.28500000000000003,
+      "initial_oxygen": 10.26
+    }
+  ],
+  "all_pass": true,
+  "source_sha": "49e3a447c5d74584569664a6282cbba580efebf5734c7a93e542f619ded1fda9"
+}

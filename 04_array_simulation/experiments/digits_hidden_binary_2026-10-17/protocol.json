@@ -1,0 +1,40 @@
+{
+  "architecture": [
+    64,
+    16,
+    10
+  ],
+  "binary_weights": "Both layers use only +/-1 signs times per-output positive digital gains; differential GH/GL pair per sign.",
+  "hidden_activation": "Digital clipped ReLU [0,1], rounded to8 bits; straight-through derivative for rounding during training. Inputs are unchanged5-bit pixels0..16.",
+  "selection": "For each QAT configuration/budget, retain the checkpoint with minimum training cross entropy within that budget. Select configuration/budget by inner-validation correct count, then validation cross entropy, then earlier budget. Refit on all1347 examples with the same training-loss checkpoint policy and selected budget; do not select on test score.",
+  "configs": [
+    {
+      "seed": 7,
+      "lr": 0.001
+    },
+    {
+      "seed": 7,
+      "lr": 0.003
+    },
+    {
+      "seed": 19,
+      "lr": 0.001
+    },
+    {
+      "seed": 19,
+      "lr": 0.003
+    }
+  ],
+  "continuous_initializer": "200 epochs, Adam lr0.003, same architecture and8-bit activations, fit on inner training only during selection.",
+  "inner_training_count": 1077,
+  "validation_count": 270,
+  "test_count": 450,
+  "split_seed": 7301,
+  "read_voltage": 0.02,
+  "levels": [
+    12,
+    19
+  ],
+  "hardware_scope": "Same four COMSOL histories and five short snapshots; same seeds0..99 assignment policy extended to both layer shapes. Frozen-state inference only; ideal periphery/interconnect.",
+  "adaptive_correction": "Initial last-checkpoint run is archived in initial_last_checkpoint. Its final full-training accuracy dropped to84% while earlier training checkpoints were around93%, exposing sign-flip instability. One bounded correction applies training-loss checkpoint retention consistently in inner selection and full refit. The earlier test score was already observed; final evaluation reuses that cohort and is exploratory, not a fresh independent test."
+}

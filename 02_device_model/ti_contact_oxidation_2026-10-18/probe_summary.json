@@ -1,0 +1,8 @@
+{
+  "R_min_ohm": 269.651085762029,
+  "R_max_ohm": 927.1240250841347,
+  "region_fraction": 0.3004122223670185,
+  "mean_fraction": 0.3000000974396021,
+  "total_oxygen_variation": 3.552713678800501e-15,
+  "note": "Instantaneous counterfactuals at fixed total oxygen. eta is unmeasured; x=eta*theta requires all oxygen to be represented. No phase fraction inferred."
+}

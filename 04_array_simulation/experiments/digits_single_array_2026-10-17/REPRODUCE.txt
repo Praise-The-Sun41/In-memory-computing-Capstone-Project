@@ -1,0 +1,21 @@
+Run from this experiment directory with numpy, sklearn, matplotlib, threadpoolctl:
+  python run.py
+  python finish.py
+  python audit.py
+
+No retraining, new native solver runs, downloads or modifications to prior data.
+run.py evaluates the 450-image fixed test set with 16 branch-pair history maps
+and 100 mixed physical-cell maps. It scans architecture assumptions, not measured
+hardware operating points. Outputs include all scenario metrics and baseline
+predictions, memory counters, timing components and the first-image event trace.
+
+finish.py adds the deliberately unoptimized complete-protocol-per-row serial
+programming boundary, timing only. audit.py independently replays every image
+through actual byte buffers, reading and writing partial sums, hidden activations
+and logits; it compares scalar current-domain evaluation with batched inference.
+
+Read protocol.json and the report limitations before using numbers. Neither
+absolute physical time nor rewrite-cycle closure has been calibrated. Existing
+retention/read data only bound marginal age and read count. Gapped read disturbance
+uses an explicitly approximate additive interpolation, not a validated full-state
+device trajectory. Parallel per-cell masking is an optimistic architecture bound.

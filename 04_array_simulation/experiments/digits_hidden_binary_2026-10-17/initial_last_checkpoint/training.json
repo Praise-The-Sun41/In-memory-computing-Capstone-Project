@@ -1,0 +1,172 @@
+{
+  "selected": {
+    "seed": 7,
+    "lr": 0.001,
+    "epoch": 275,
+    "training": {
+      "correct": 1011,
+      "cross_entropy": 0.19335679122695565
+    },
+    "validation": {
+      "correct": 253,
+      "cross_entropy": 0.2587871934746514
+    }
+  },
+  "continuous_history": [
+    {
+      "epoch": 0,
+      "training": {
+        "correct": 118,
+        "cross_entropy": 2.5460398256669996
+      }
+    },
+    {
+      "epoch": 25,
+      "training": {
+        "correct": 1281,
+        "cross_entropy": 0.39723525548921645
+      }
+    },
+    {
+      "epoch": 50,
+      "training": {
+        "correct": 1329,
+        "cross_entropy": 0.14468020435743612
+      }
+    },
+    {
+      "epoch": 75,
+      "training": {
+        "correct": 1341,
+        "cross_entropy": 0.07004526310242615
+      }
+    },
+    {
+      "epoch": 100,
+      "training": {
+        "correct": 1345,
+        "cross_entropy": 0.044278462500243365
+      }
+    },
+    {
+      "epoch": 125,
+      "training": {
+        "correct": 1346,
+        "cross_entropy": 0.03109671898501698
+      }
+    },
+    {
+      "epoch": 150,
+      "training": {
+        "correct": 1347,
+        "cross_entropy": 0.023144529606839038
+      }
+    },
+    {
+      "epoch": 175,
+      "training": {
+        "correct": 1347,
+        "cross_entropy": 0.018331802658504474
+      }
+    },
+    {
+      "epoch": 200,
+      "training": {
+        "correct": 1347,
+        "cross_entropy": 0.015150492105655753
+      }
+    }
+  ],
+  "binary_history": [
+    {
+      "epoch": 0,
+      "training": {
+        "correct": 927,
+        "cross_entropy": 0.8796272771267187
+      }
+    },
+    {
+      "epoch": 25,
+      "training": {
+        "correct": 1189,
+        "cross_entropy": 0.38676985478571196
+      }
+    },
+    {
+      "epoch": 50,
+      "training": {
+        "correct": 1247,
+        "cross_entropy": 0.25501839596308
+      }
+    },
+    {
+      "epoch": 75,
+      "training": {
+        "correct": 1245,
+        "cross_entropy": 0.27921673859949453
+      }
+    },
+    {
+      "epoch": 100,
+      "training": {
+        "correct": 1232,
+        "cross_entropy": 0.2693544672016098
+      }
+    },
+    {
+      "epoch": 125,
+      "training": {
+        "correct": 1158,
+        "cross_entropy": 0.43502094459239543
+      }
+    },
+    {
+      "epoch": 150,
+      "training": {
+        "correct": 1252,
+        "cross_entropy": 0.26615798988713635
+      }
+    },
+    {
+      "epoch": 175,
+      "training": {
+        "correct": 1171,
+        "cross_entropy": 0.4180352384996582
+      }
+    },
+    {
+      "epoch": 200,
+      "training": {
+        "correct": 1215,
+        "cross_entropy": 0.2867590386876438
+      }
+    },
+    {
+      "epoch": 225,
+      "training": {
+        "correct": 1240,
+        "cross_entropy": 0.24979490921225744
+      }
+    },
+    {
+      "epoch": 250,
+      "training": {
+        "correct": 1243,
+        "cross_entropy": 0.25512653125412843
+      }
+    },
+    {
+      "epoch": 275,
+      "training": {
+        "correct": 1130,
+        "cross_entropy": 0.4868846975660322
+      }
+    }
+  ],
+  "training_seconds": 4.345664399999805,
+  "binary_signs_per_layer": [
+    1024,
+    160
+  ],
+  "method": "Binary forward pass in both layers; clipped shadow weights, learned digital gains/biases, Adam with straight-through sign and activation-rounding derivatives. Finite validation-selected search, not a global optimum claim."
+}

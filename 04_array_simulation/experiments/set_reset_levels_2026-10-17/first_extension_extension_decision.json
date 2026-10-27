@@ -1,0 +1,7 @@
+{
+  "executed": true,
+  "set_count": 128,
+  "wait_tau": 1,
+  "reason": "Widest span among history-passing counts, without changing acceptance gates.",
+  "extra_checkpoint_read_after_reset16": true
+}

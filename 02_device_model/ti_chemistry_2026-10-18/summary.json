@@ -1,0 +1,803 @@
+{
+  "cases": {
+    "baseline": {
+      "ratios": [
+        2.6356412079614384,
+        2.4547413330665564,
+        2.2977800013112106,
+        2.1549307922792096,
+        2.039895090415045,
+        1.9517482318675874,
+        1.8865673563482825,
+        1.8392350468334,
+        1.8049225045122248,
+        1.7798066084940516
+      ],
+      "Gpos_S": [
+        0.0003848624834598522,
+        0.00040142555609686166,
+        0.0004153034796999744,
+        0.0004268175307315722,
+        0.00043622789770557066,
+        0.00044373189366934344,
+        0.0004494945483272157,
+        0.0004537618870207518,
+        0.00045684863077617157,
+        0.00045906181901457624
+      ],
+      "Gneg_S": [
+        0.00014602233501938899,
+        0.00016353069494103706,
+        0.00018074118473612995,
+        0.0001980655398590037,
+        0.00021384820217240392,
+        0.00022735099047316445,
+        0.00023826053536581693,
+        0.0002467122882428708,
+        0.0002531126015848717,
+        0.0002579279213953489
+      ],
+      "window_S": [
+        0.00023884014844046322,
+        0.0002378948611558246,
+        0.00023456229496384445,
+        0.0002287519908725685,
+        0.00022237969553316674,
+        0.000216380903196179,
+        0.00021123401296139878,
+        0.00020704959877788096,
+        0.00020373602919129987,
+        0.00020113389761922736
+      ],
+      "ratio_C1": 2.6356412079614384,
+      "ratio_C10": 1.7798066084940516,
+      "ratio_change_pct": -32.471589717226344,
+      "bound_oxygen_C0": 0.0,
+      "bound_oxygen_C10": 0.0,
+      "bound_change_cycled": 0.0,
+      "bound_change_same_age_zero": 0.0,
+      "exchange_factor_C0": 1.0,
+      "exchange_factor_C10": 1.0,
+      "maximum_temperature_K": 319.5156614023653,
+      "reads": {
+        "SET": {
+          "current_A": 6.3284676912432495e-06,
+          "device_voltage_V": 0.013671532308756751,
+          "conductance_S": 0.00046289381090002646
+        },
+        "RESET": {
+          "current_A": 4.738839712734258e-06,
+          "device_voltage_V": 0.015261160287265743,
+          "conductance_S": 0.0003105163449917011
+        },
+        "current_ratio": 1.3354466651904955
+      }
+    },
+    "partition_only": {
+      "ratios": [
+        2.623196779223942,
+        2.4298132955684446,
+        2.245883236248752,
+        2.0837624216629544,
+        1.955235128171615,
+        1.86031693071039,
+        1.7931590349200544,
+        1.7459331776263811,
+        1.7120870410853821,
+        1.6870830436837396
+      ],
+      "Gpos_S": [
+        0.00038708025330330665,
+        0.00040538305473339256,
+        0.00042123110595944065,
+        0.0004348112967655598,
+        0.00044617304234951106,
+        0.0004552118954191417,
+        0.0004620024590962994,
+        0.00046695932977447457,
+        0.0004706025391350526,
+        0.00047335869204017723
+      ],
+      "Gneg_S": [
+        0.00014756050951611116,
+        0.000166837120972521,
+        0.00018755699279496534,
+        0.00020866644500602762,
+        0.00022819406010096476,
+        0.00024469588375208314,
+        0.0002576472304459583,
+        0.00026745544202860723,
+        0.0002748706858015308,
+        0.0002805781812652211
+      ],
+      "window_S": [
+        0.00023951974378719548,
+        0.00023854593376087155,
+        0.0002336741131644753,
+        0.00022614485175953216,
+        0.0002179789822485463,
+        0.00021051601166705854,
+        0.0002043552286503411,
+        0.00019950388774586734,
+        0.00019573185333352183,
+        0.0001927805107749561
+      ],
+      "ratio_C1": 2.623196779223942,
+      "ratio_C10": 1.6870830436837396,
+      "ratio_change_pct": -35.68598981800925,
+      "bound_oxygen_C0": 0.22282779893639476,
+      "bound_oxygen_C10": 0.22282779893639476,
+      "bound_change_cycled": 0.0,
+      "bound_change_same_age_zero": 0.0,
+      "exchange_factor_C0": 1.0,
+      "exchange_factor_C10": 1.0,
+      "maximum_temperature_K": 319.44257552331004,
+      "reads": {
+        "SET": {
+          "current_A": 6.529532779468663e-06,
+          "device_voltage_V": 0.013470467220531336,
+          "conductance_S": 0.00048472949546371475
+        },
+        "RESET": {
+          "current_A": 5.26269933895437e-06,
+          "device_voltage_V": 0.014737300661045631,
+          "conductance_S": 0.00035710062921258027
+        },
+        "current_ratio": 1.2407193265131493
+      }
+    },
+    "binding": {
+      "ratios": [
+        2.623208019011364,
+        2.429869389419611,
+        2.2460839868726534,
+        2.0841702789077448,
+        1.9558795170481214,
+        1.86117886199279,
+        1.794202464089301,
+        1.7471307472825388,
+        1.713422903696751,
+        1.6885478029982257
+      ],
+      "Gpos_S": [
+        0.0003870795563637909,
+        0.00040537752179298816,
+        0.00042121283101394783,
+        0.0004347719217328131,
+        0.00044610598741212014,
+        0.0004551152913828918,
+        0.00046187822017339117,
+        0.0004668097130780274,
+        0.00047042870228499134,
+        0.0004731610368011081
+      ],
+      "Gneg_S": [
+        0.00014755961157425618,
+        0.00016683099246326776,
+        0.0001875320929563394,
+        0.0002086067180464088,
+        0.00022808459494754471,
+        0.00024453065778728733,
+        0.0002574281495081051,
+        0.0002671864792054609,
+        0.00027455492819083375,
+        0.0002802177326344875
+      ],
+      "window_S": [
+        0.00023951994478953471,
+        0.0002385465293297204,
+        0.00023368073805760844,
+        0.0002261652036864043,
+        0.00021802139246457542,
+        0.00021058463359560446,
+        0.00020445007066528608,
+        0.0001996232338725665,
+        0.0001958737740941576,
+        0.0001929433041666206
+      ],
+      "ratio_C1": 2.623208019011364,
+      "ratio_C10": 1.6885478029982257,
+      "ratio_change_pct": -35.630426913889714,
+      "bound_oxygen_C0": 0.22215471410784365,
+      "bound_oxygen_C10": 0.22006925900653068,
+      "bound_change_cycled": -0.002085455101312972,
+      "bound_change_same_age_zero": 0.0007172702333206049,
+      "exchange_factor_C0": 1.0,
+      "exchange_factor_C10": 1.0,
+      "maximum_temperature_K": 319.44258907598754,
+      "reads": {
+        "SET": {
+          "current_A": 6.526661098095437e-06,
+          "device_voltage_V": 0.013473338901904563,
+          "conductance_S": 0.0004844130430930407
+        },
+        "RESET": {
+          "current_A": 5.256011811997262e-06,
+          "device_voltage_V": 0.01474398818800274,
+          "conductance_S": 0.0003564850802223313
+        },
+        "current_ratio": 1.2417516039819045
+      }
+    },
+    "static_barrier": {
+      "ratios": [
+        2.6595188023683405,
+        2.4678872376484717,
+        2.2822526835373806,
+        2.111362074328206,
+        1.9724443328514703,
+        1.8682006757791525,
+        1.7942309586557421,
+        1.7425699323679664,
+        1.7059399772102293,
+        1.6791739827744285
+      ],
+      "Gpos_S": [
+        0.00038304370131137715,
+        0.000401886310886137,
+        0.0004182899093053561,
+        0.000432540895179191,
+        0.0004446662100774238,
+        0.00045447811120187667,
+        0.0004619190472486655,
+        0.0004673512199397748,
+        0.0004713244856689303,
+        0.00047431270394218314
+      ],
+      "Gneg_S": [
+        0.0001440274462321045,
+        0.0001628463021953445,
+        0.0001832794029875023,
+        0.0002048634388380861,
+        0.00022543916838179697,
+        0.0002432704993066828,
+        0.000257446815874106,
+        0.0002681965361956489,
+        0.00027628433119886213,
+        0.00028246787337575123
+      ],
+      "window_S": [
+        0.00023901625507927264,
+        0.00023904000869079249,
+        0.0002350105063178538,
+        0.0002276774563411049,
+        0.00021922704169562683,
+        0.00021120761189519387,
+        0.00020447223137455952,
+        0.00019915468374412588,
+        0.0001950401544700682,
+        0.00019184483056643192
+      ],
+      "ratio_C1": 2.6595188023683405,
+      "ratio_C10": 1.6791739827744285,
+      "ratio_change_pct": -36.86173674429,
+      "bound_oxygen_C0": 0.22282779893639476,
+      "bound_oxygen_C10": 0.22282779893639476,
+      "bound_change_cycled": 0.0,
+      "bound_change_same_age_zero": 0.0,
+      "exchange_factor_C0": 0.04859012624118775,
+      "exchange_factor_C10": 0.04860049242357917,
+      "maximum_temperature_K": 319.623140283804,
+      "reads": {
+        "SET": {
+          "current_A": 6.554182584888321e-06,
+          "device_voltage_V": 0.01344581741511168,
+          "conductance_S": 0.000487451404592339
+        },
+        "RESET": {
+          "current_A": 5.008262252112128e-06,
+          "device_voltage_V": 0.014991737747887873,
+          "conductance_S": 0.0003340681604984534
+        },
+        "current_ratio": 1.3086739980767248
+      }
+    },
+    "binding_barrier": {
+      "ratios": [
+        2.659503008919357,
+        2.4678753176066306,
+        2.2822615549607117,
+        2.1113971802757154,
+        1.9725068744178398,
+        1.8682856106929056,
+        1.7943316274522558,
+        1.7426817139714794,
+        1.7060604481291484,
+        1.6793019673577088
+      ],
+      "Gpos_S": [
+        0.00038304451908702805,
+        0.0004018858873107507,
+        0.00041828761591889476,
+        0.0004325360876792586,
+        0.0004446584741558842,
+        0.0004544675829689848,
+        0.0004619062632633129,
+        0.0004673366324081212,
+        0.0004713083211130514,
+        0.00047429504955488213
+      ],
+      "Gneg_S": [
+        0.00014402860903047878,
+        0.00016284691712079827,
+        0.00018327768568405622,
+        0.00020485775567000432,
+        0.0002254280985900845,
+        0.0002432538046473702,
+        0.0002574252474829118,
+        0.00026817096240889897,
+        0.00027625534700712637,
+        0.0002824358327294524
+      ],
+      "window_S": [
+        0.00023901591005654927,
+        0.00023903897018995242,
+        0.00023500993023483854,
+        0.0002276783320092543,
+        0.0002192303755657997,
+        0.0002112137783216146,
+        0.00020448101578040108,
+        0.00019916566999922223,
+        0.00019505297410592502,
+        0.00019185921682542974
+      ],
+      "ratio_C1": 2.659503008919357,
+      "ratio_C10": 1.6793019673577088,
+      "ratio_change_pct": -36.85654944830975,
+      "bound_oxygen_C0": 0.2221577655866725,
+      "bound_oxygen_C10": 0.2200687235958404,
+      "bound_change_cycled": -0.0020890419908320967,
+      "bound_change_same_age_zero": 0.000664277487956888,
+      "exchange_factor_C0": 0.04903402221593327,
+      "exchange_factor_C10": 0.05045483680803092,
+      "maximum_temperature_K": 319.62308948452693,
+      "reads": {
+        "SET": {
+          "current_A": 6.5539602160577295e-06,
+          "device_voltage_V": 0.013446039783942272,
+          "conductance_S": 0.0004874268053174063
+        },
+        "RESET": {
+          "current_A": 5.007565225099843e-06,
+          "device_voltage_V": 0.014992434774900159,
+          "conductance_S": 0.00033400613711412265
+        },
+        "current_ratio": 1.3088117521079425
+      }
+    },
+    "neutral_binding": {
+      "ratios": [
+        2.6356542788598536,
+        2.454638778972188,
+        2.2972913317184194,
+        2.1540541823710804,
+        2.03866033111183,
+        1.9502214128306976,
+        1.884825930715241,
+        1.8373370039847274,
+        1.8029000041014889,
+        1.7776734499129299
+      ],
+      "Gpos_S": [
+        0.0003848623368139762,
+        0.0004014518897962217,
+        0.00041536300208021174,
+        0.0004269166338527955,
+        0.00043637026943974574,
+        0.0004439169809868288,
+        0.0004497178236321689,
+        0.0004540179699804426,
+        0.00045713369051924164,
+        0.00045937399023083907
+      ],
+      "Gneg_S": [
+        0.0001460215552171972,
+        0.000163548255342205,
+        0.00018080554100620403,
+        0.00019819215196475046,
+        0.0002140475599492149,
+        0.0002276238882755853,
+        0.00023859912806988655,
+        0.0002471065291755353,
+        0.00025355465609811417,
+        0.0002584130343249145
+      ],
+      "window_S": [
+        0.000238840781596779,
+        0.00023790363445401672,
+        0.0002345574610740077,
+        0.00022872448188804504,
+        0.00022232270949053084,
+        0.00021629309271124352,
+        0.00021111869556228235,
+        0.00020691144080490733,
+        0.00020357903442112747,
+        0.0002009609559059246
+      ],
+      "ratio_C1": 2.6356542788598536,
+      "ratio_C10": 1.7776734499129299,
+      "ratio_change_pct": -32.552859296784334,
+      "bound_oxygen_C0": 0.08550815442778012,
+      "bound_oxygen_C10": 0.08543035391625062,
+      "bound_change_cycled": -7.780051152950218e-05,
+      "bound_change_same_age_zero": 3.814739358748431e-05,
+      "exchange_factor_C0": 1.0,
+      "exchange_factor_C10": 1.0,
+      "maximum_temperature_K": 319.51593500010694,
+      "reads": {
+        "SET": {
+          "current_A": 6.333703038444784e-06,
+          "device_voltage_V": 0.013666296961555217,
+          "conductance_S": 0.000463454222915116
+        },
+        "RESET": {
+          "current_A": 4.749395123624816e-06,
+          "device_voltage_V": 0.015250604876375187,
+          "conductance_S": 0.00031142339350632157
+        },
+        "current_ratio": 1.3335809873849362
+      }
+    }
+  },
+  "checks": {
+    "baseline": {
+      "cycles": {
+        "internal_node_mass_error": 1.282955430781385e-08,
+        "internal_node_minimum": 1.7500045833671304e-12,
+        "internal_node_maximum": 0.9769103266511583,
+        "sampled_mass_error": 1.282955430781385e-08,
+        "thermal_balance_Wtau": 3.230798975941349e-17,
+        "power_balance_W": 5.421010862427522e-20,
+        "voltage_balance_V": 5.551115123125783e-17,
+        "current_excess_A": 0.0,
+        "minimum_binding_dissipation": 0.0
+      },
+      "holds": {
+        "internal_node_mass_error": 1.547867611861875e-09,
+        "internal_node_minimum": 3.206246780759075e-08,
+        "internal_node_maximum": 0.8465990015123178,
+        "sampled_mass_error": 1.547867611861875e-09,
+        "thermal_balance_Wtau": 1.363214825311071e-17,
+        "power_balance_W": 5.421010862427522e-20,
+        "voltage_balance_V": 5.551115123125783e-17,
+        "current_excess_A": 0.0,
+        "minimum_binding_dissipation": 0.0
+      },
+      "zero": {
+        "internal_node_mass_error": 7.608136343151273e-12,
+        "internal_node_minimum": 0.00025333683075549966,
+        "internal_node_maximum": 0.5281828371377782,
+        "sampled_mass_error": 7.608136343151273e-12,
+        "thermal_balance_Wtau": 2.3061413889629135e-19,
+        "power_balance_W": 0.0,
+        "voltage_balance_V": 0.0,
+        "current_excess_A": 0.0,
+        "minimum_binding_dissipation": 0.0
+      }
+    },
+    "partition_only": {
+      "cycles": {
+        "internal_node_mass_error": 1.2453387654431936e-08,
+        "internal_node_minimum": 2.148675667171479e-12,
+        "internal_node_maximum": 0.9766381129244809,
+        "sampled_mass_error": 1.2427301854245343e-08,
+        "thermal_balance_Wtau": 2.347467110020568e-17,
+        "power_balance_W": 5.421010862427522e-20,
+        "voltage_balance_V": 8.326672684688674e-17,
+        "current_excess_A": 0.0,
+        "minimum_binding_dissipation": 0.0
+      },
+      "holds": {
+        "internal_node_mass_error": 1.2633236678993853e-09,
+        "internal_node_minimum": 7.245702485766716e-07,
+        "internal_node_maximum": 0.9009982275219357,
+        "sampled_mass_error": 1.2353922329566558e-09,
+        "thermal_balance_Wtau": 4.466177427886464e-17,
+        "power_balance_W": 5.421010862427522e-20,
+        "voltage_balance_V": 5.551115123125783e-17,
+        "current_excess_A": 0.0,
+        "minimum_binding_dissipation": 0.0
+      },
+      "zero": {
+        "internal_node_mass_error": 8.988365607365267e-12,
+        "internal_node_minimum": 0.0002954844836039718,
+        "internal_node_maximum": 0.9009982275219357,
+        "sampled_mass_error": 8.988365607365267e-12,
+        "thermal_balance_Wtau": 1.5747264603405143e-18,
+        "power_balance_W": 0.0,
+        "voltage_balance_V": 0.0,
+        "current_excess_A": 0.0,
+        "minimum_binding_dissipation": 0.0
+      }
+    },
+    "binding": {
+      "cycles": {
+        "internal_node_mass_error": 1.248115744090228e-08,
+        "internal_node_minimum": 2.147684466682356e-12,
+        "internal_node_maximum": 0.9766378912219049,
+        "sampled_mass_error": 1.2481159217259119e-08,
+        "thermal_balance_Wtau": 6.386120202529072e-17,
+        "power_balance_W": 5.421010862427522e-20,
+        "voltage_balance_V": 5.551115123125783e-17,
+        "current_excess_A": 0.0,
+        "minimum_binding_dissipation": 8.11017633670452e-36
+      },
+      "holds": {
+        "internal_node_mass_error": 1.2138201554989791e-09,
+        "internal_node_minimum": 6.875794399676038e-07,
+        "internal_node_maximum": 0.8950707248399111,
+        "sampled_mass_error": 1.183716236141663e-09,
+        "thermal_balance_Wtau": 7.69302398385756e-17,
+        "power_balance_W": 5.421010862427522e-20,
+        "voltage_balance_V": 5.551115123125783e-17,
+        "current_excess_A": 0.0,
+        "minimum_binding_dissipation": 4.0958592972673623e-10
+      },
+      "zero": {
+        "internal_node_mass_error": 8.995471034722868e-12,
+        "internal_node_minimum": 0.0002954421339909883,
+        "internal_node_maximum": 0.8993414334713729,
+        "sampled_mass_error": 8.997247391562269e-12,
+        "thermal_balance_Wtau": 6.663211649104994e-19,
+        "power_balance_W": 0.0,
+        "voltage_balance_V": 0.0,
+        "current_excess_A": 0.0,
+        "minimum_binding_dissipation": 1.6218857541032432e-09
+      }
+    },
+    "static_barrier": {
+      "cycles": {
+        "internal_node_mass_error": 1.2565131157771248e-08,
+        "internal_node_minimum": 1.112589648208694e-13,
+        "internal_node_maximum": 0.9774485370308187,
+        "sampled_mass_error": 1.2510739111348812e-08,
+        "thermal_balance_Wtau": 8.789999706836776e-17,
+        "power_balance_W": 5.421010862427522e-20,
+        "voltage_balance_V": 5.551115123125783e-17,
+        "current_excess_A": 0.0,
+        "minimum_binding_dissipation": 0.0
+      },
+      "holds": {
+        "internal_node_mass_error": 1.1462120141914056e-09,
+        "internal_node_minimum": 8.087731846267173e-08,
+        "internal_node_maximum": 0.9009982275219357,
+        "sampled_mass_error": 1.1451017911667805e-09,
+        "thermal_balance_Wtau": 8.319388201342287e-17,
+        "power_balance_W": 5.421010862427522e-20,
+        "voltage_balance_V": 5.551115123125783e-17,
+        "current_excess_A": 0.0,
+        "minimum_binding_dissipation": 0.0
+      },
+      "zero": {
+        "internal_node_mass_error": 1.9024781749976682e-12,
+        "internal_node_minimum": 4.389643579059958e-05,
+        "internal_node_maximum": 0.9009982275219357,
+        "sampled_mass_error": 1.9024781749976682e-12,
+        "thermal_balance_Wtau": 3.0849559018442147e-18,
+        "power_balance_W": 0.0,
+        "voltage_balance_V": 0.0,
+        "current_excess_A": 0.0,
+        "minimum_binding_dissipation": 0.0
+      }
+    },
+    "binding_barrier": {
+      "cycles": {
+        "internal_node_mass_error": 1.2413041261538638e-08,
+        "internal_node_minimum": 1.122592860848313e-13,
+        "internal_node_maximum": 0.9774493727501886,
+        "sampled_mass_error": 1.2358796652733872e-08,
+        "thermal_balance_Wtau": 2.945006502661114e-17,
+        "power_balance_W": 5.421010862427522e-20,
+        "voltage_balance_V": 1.1102230246251565e-16,
+        "current_excess_A": 0.0,
+        "minimum_binding_dissipation": 8.11017633670452e-36
+      },
+      "holds": {
+        "internal_node_mass_error": 1.1245120390412922e-09,
+        "internal_node_minimum": 8.081235583516673e-08,
+        "internal_node_maximum": 0.895073792305736,
+        "sampled_mass_error": 1.1241194641797847e-09,
+        "thermal_balance_Wtau": 3.3247071778823e-17,
+        "power_balance_W": 5.421010862427522e-20,
+        "voltage_balance_V": 5.551115123125783e-17,
+        "current_excess_A": 0.0,
+        "minimum_binding_dissipation": 3.865206331417814e-10
+      },
+      "zero": {
+        "internal_node_mass_error": 1.907807245515869e-12,
+        "internal_node_minimum": 4.4078091672240966e-05,
+        "internal_node_maximum": 0.8993515776074196,
+        "sampled_mass_error": 1.9060308886764687e-12,
+        "thermal_balance_Wtau": 7.873632301702571e-19,
+        "power_balance_W": 0.0,
+        "voltage_balance_V": 0.0,
+        "current_excess_A": 0.0,
+        "minimum_binding_dissipation": 8.485677573762e-10
+      }
+    },
+    "neutral_binding": {
+      "cycles": {
+        "internal_node_mass_error": 1.2870218668581401e-08,
+        "internal_node_minimum": 1.7459586591697517e-12,
+        "internal_node_maximum": 0.9769124817977689,
+        "sampled_mass_error": 1.2870218668581401e-08,
+        "thermal_balance_Wtau": 6.108843967245377e-17,
+        "power_balance_W": 6.776263578034403e-20,
+        "voltage_balance_V": 5.551115123125783e-17,
+        "current_excess_A": 0.0,
+        "minimum_binding_dissipation": 0.0
+      },
+      "holds": {
+        "internal_node_mass_error": 1.5981314049895445e-09,
+        "internal_node_minimum": 3.454663470930415e-08,
+        "internal_node_maximum": 0.8461357052235818,
+        "sampled_mass_error": 1.5981314049895445e-09,
+        "thermal_balance_Wtau": 6.62176979357744e-17,
+        "power_balance_W": 5.421010862427522e-20,
+        "voltage_balance_V": 5.551115123125783e-17,
+        "current_excess_A": 0.0,
+        "minimum_binding_dissipation": 1.777736409443835e-11
+      },
+      "zero": {
+        "internal_node_mass_error": 7.666756118851481e-12,
+        "internal_node_minimum": 0.00025285987763383624,
+        "internal_node_maximum": 0.5281808598930176,
+        "sampled_mass_error": 7.666756118851481e-12,
+        "thermal_balance_Wtau": 1.4663062430919638e-18,
+        "power_balance_W": 0.0,
+        "voltage_balance_V": 0.0,
+        "current_excess_A": 0.0,
+        "minimum_binding_dissipation": 3.65090268456987e-11
+      }
+    }
+  },
+  "disabled_regression": {
+    "current_peak_normalized_error": 3.4007151867018634e-07,
+    "state_maximum_error": 2.2206126072177312e-05
+  },
+  "frozen_dependencies_unchanged": true,
+  "COMSOL_verified": false,
+  "real_endurance_prediction": false,
+  "full_spatial_convergence": false,
+  "unit_checks": {
+    "disabled_exact_RHS": true,
+    "jacobians": [
+      {
+        "case": "binding",
+        "V": 0.0,
+        "jac_error": 6.014463797540825e-09,
+        "mass_rate_residual": 0.0,
+        "limited": false
+      },
+      {
+        "case": "binding",
+        "V": 1.0,
+        "jac_error": 1.04569382417984e-09,
+        "mass_rate_residual": -2.5326962749261384e-16,
+        "limited": false
+      },
+      {
+        "case": "binding",
+        "V": -0.9,
+        "jac_error": 1.3249740093520466e-09,
+        "mass_rate_residual": -9.8879238130678e-17,
+        "limited": false
+      },
+      {
+        "case": "binding_barrier",
+        "V": 0.0,
+        "jac_error": 2.8379650530630526e-09,
+        "mass_rate_residual": 0.0,
+        "limited": false
+      },
+      {
+        "case": "binding_barrier",
+        "V": 1.0,
+        "jac_error": 1.7402222145983127e-09,
+        "mass_rate_residual": -2.411265631607762e-16,
+        "limited": false
+      },
+      {
+        "case": "binding_barrier",
+        "V": -0.9,
+        "jac_error": 1.3278648922179745e-09,
+        "mass_rate_residual": -9.8879238130678e-17,
+        "limited": false
+      }
+    ],
+    "active_CC_jacobian_error": 3.5937116586720967e-09,
+    "detailed_balance_errors": [
+      8.881784197001252e-16,
+      6.38378239159465e-16
+    ],
+    "closed_pair_binds_and_releases": [
+      {
+        "initial": [
+          0.3,
+          0.3
+        ],
+        "initial_binding_rate": 0.020048785536340215,
+        "equilibrium_error": 6.494804694057166e-14,
+        "final": [
+          0.13947451889509369,
+          0.7815764433147177
+        ]
+      },
+      {
+        "initial": [
+          0.005,
+          0.99
+        ],
+        "initial_binding_rate": -0.004456875273467013,
+        "equilibrium_error": 2.6556534749033744e-13,
+        "final": [
+          0.09898202185969941,
+          0.7080539344209038
+        ]
+      }
+    ],
+    "capacity_and_initial_inventory": [
+      {
+        "M": 128,
+        "bound_capacity": 0.285,
+        "initial_oxygen": 10.26
+      },
+      {
+        "M": 256,
+        "bound_capacity": 0.285,
+        "initial_oxygen": 10.26
+      },
+      {
+        "M": 512,
+        "bound_capacity": 0.28500000000000003,
+        "initial_oxygen": 10.26
+      }
+    ],
+    "all_pass": true,
+    "source_sha": "49e3a447c5d74584569664a6282cbba580efebf5734c7a93e542f619ded1fda9"
+  },
+  "resolution": {
+    "checks": {
+      "time": {
+        "metrics": {
+          "current_peak_normalized": 1.3990981750061927e-05,
+          "bound_fraction_absolute": 2.8076877489624508e-09,
+          "exchange_factor_relative": 5.476618063493532e-07,
+          "temperature_K": 6.0610401590110996e-05,
+          "all_ionic_occupancy_absolute": 7.957423863422242e-05
+        },
+        "gates": {
+          "current": true,
+          "bound_fraction": true,
+          "exchange": true,
+          "temperature": true,
+          "ionic_states": true
+        },
+        "all_pass": true
+      },
+      "Ti_grid": {
+        "metrics": {
+          "current_peak_normalized": 9.006902025335129e-06,
+          "bound_fraction_absolute": 0.00041806885677797556,
+          "exchange_factor_relative": 0.0016183695546965193,
+          "temperature_K": 2.9291700059275172e-05
+        },
+        "gates": {
+          "current": true,
+          "bound_fraction": true,
+          "exchange": true,
+          "temperature": true
+        },
+        "all_pass": true
+      }
+    },
+    "all_pass": true,
+    "data_hashes": {
+      "binding_barrier-C10-L256-M256-R2e-09.npz": "300bbad2764acc2d738bb3a0327b39d24c3d3b414d12fc44720979bf98bd3fce",
+      "binding_barrier-C5-L256-M256-R2e-10.npz": "2fa627d3f4d28d56172d69f0a343fc1a61679acd044ebe7019a61aaadb7f62ed",
+      "binding_barrier-C5-L256-M512-R2e-09.npz": "ca2f96efa565cc6245120bb2fd77e94b7676c51c4780133f49f108c13478ca70"
+    },
+    "source_sha": "49e3a447c5d74584569664a6282cbba580efebf5734c7a93e542f619ded1fda9",
+    "scope": "Own preparation plus five cycles; time and Ti grid only, oxide L256 fixed"
+  }
+}

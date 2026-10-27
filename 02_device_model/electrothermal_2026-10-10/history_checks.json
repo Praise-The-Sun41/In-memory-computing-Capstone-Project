@@ -1,0 +1,33 @@
+{
+  "Ti": {
+    "hold_end_temperature_K": [
+      300.0,
+      300.0
+    ],
+    "continuous_state": true
+  },
+  "Pt": {
+    "hold_end_temperature_K": [
+      300.0,
+      300.0
+    ],
+    "continuous_state": true
+  },
+  "Pt_contact": {
+    "hold_end_temperature_K": [
+      300.0,
+      300.0
+    ],
+    "continuous_state": true
+  },
+  "frozen_device_analytic": {
+    "heat_error_K": 8.069946488831192e-09,
+    "cool_error_K": 8.035726750676986e-09
+  },
+  "Ti_time_tolerance": {
+    "current_peak_normalized_error": 0.0001626949039907078,
+    "temperature_error_K": 0.0004076210735775021,
+    "device_voltage_error_V": 4.880847119703713e-05
+  },
+  "all_pass": true
+}

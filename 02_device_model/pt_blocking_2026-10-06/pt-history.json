@@ -1,0 +1,574 @@
+{
+  "script_sha256": "d8e68b80a29cf1cd53c409d623b87798e1dfe48f688e37809d0c927e324311a7",
+  "oxide_parameters": {
+    "cells": 440,
+    "electronic_sampling_nm": 0.25,
+    "Ti_nm": 30.0,
+    "TiOx_nm": 20.0,
+    "AlOx_nm": 5.0,
+    "active_Ti_nm": 1.0,
+    "backbone": true,
+    "diffusion_Ti_nm2_per_tau": 5e-05,
+    "diffusion_Al_nm2_per_tau": 0.0005,
+    "lattice_hop_nm": 0.25,
+    "hop_barrier_eV": 0.65,
+    "localization_Ti_nm": 0.175,
+    "localization_Al_nm": 0.25,
+    "electron_activation_Ti_eV": 0.08,
+    "electron_activation_Al_eV": 0.06,
+    "Ti_exchange_nm_per_tau": 0.0,
+    "Ti_reaction_standard_eV": 0.06,
+    "Ti_initial_oxygen_fraction": 0.3,
+    "vacancy_transport": true,
+    "vacancy_conductivity_feedback": true,
+    "high_field_hopping": true
+  },
+  "rows": [
+    [
+      10,
+      0,
+      -1,
+      "prep-rise",
+      "smooth"
+    ],
+    [
+      10,
+      -1,
+      0,
+      "prep-fall",
+      "smooth"
+    ],
+    [
+      0.2,
+      0,
+      0.02,
+      "read-rise",
+      "smooth"
+    ],
+    [
+      1,
+      0.02,
+      0.02,
+      "read",
+      "smooth"
+    ],
+    [
+      0.2,
+      0.02,
+      0,
+      "read-fall",
+      "smooth"
+    ],
+    [
+      2,
+      0,
+      1,
+      "C1-pos-rise",
+      "linear"
+    ],
+    [
+      2,
+      1,
+      0,
+      "C1-pos-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      -1,
+      "C1-neg-rise",
+      "linear"
+    ],
+    [
+      2,
+      -1,
+      0,
+      "C1-neg-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      1,
+      "C2-pos-rise",
+      "linear"
+    ],
+    [
+      2,
+      1,
+      0,
+      "C2-pos-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      -1,
+      "C2-neg-rise",
+      "linear"
+    ],
+    [
+      2,
+      -1,
+      0,
+      "C2-neg-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      1,
+      "C3-pos-rise",
+      "linear"
+    ],
+    [
+      2,
+      1,
+      0,
+      "C3-pos-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      -1,
+      "C3-neg-rise",
+      "linear"
+    ],
+    [
+      2,
+      -1,
+      0,
+      "C3-neg-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      1,
+      "C4-pos-rise",
+      "linear"
+    ],
+    [
+      2,
+      1,
+      0,
+      "C4-pos-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      -1,
+      "C4-neg-rise",
+      "linear"
+    ],
+    [
+      2,
+      -1,
+      0,
+      "C4-neg-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      1,
+      "C5-pos-rise",
+      "linear"
+    ],
+    [
+      2,
+      1,
+      0,
+      "C5-pos-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      -1,
+      "C5-neg-rise",
+      "linear"
+    ],
+    [
+      2,
+      -1,
+      0,
+      "C5-neg-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      1,
+      "C6-pos-rise",
+      "linear"
+    ],
+    [
+      2,
+      1,
+      0,
+      "C6-pos-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      -1,
+      "C6-neg-rise",
+      "linear"
+    ],
+    [
+      2,
+      -1,
+      0,
+      "C6-neg-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      1,
+      "C7-pos-rise",
+      "linear"
+    ],
+    [
+      2,
+      1,
+      0,
+      "C7-pos-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      -1,
+      "C7-neg-rise",
+      "linear"
+    ],
+    [
+      2,
+      -1,
+      0,
+      "C7-neg-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      1,
+      "C8-pos-rise",
+      "linear"
+    ],
+    [
+      2,
+      1,
+      0,
+      "C8-pos-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      -1,
+      "C8-neg-rise",
+      "linear"
+    ],
+    [
+      2,
+      -1,
+      0,
+      "C8-neg-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      1,
+      "C9-pos-rise",
+      "linear"
+    ],
+    [
+      2,
+      1,
+      0,
+      "C9-pos-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      -1,
+      "C9-neg-rise",
+      "linear"
+    ],
+    [
+      2,
+      -1,
+      0,
+      "C9-neg-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      1,
+      "C10-pos-rise",
+      "linear"
+    ],
+    [
+      2,
+      1,
+      0,
+      "C10-pos-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      -1,
+      "C10-neg-rise",
+      "linear"
+    ],
+    [
+      2,
+      -1,
+      0,
+      "C10-neg-fall",
+      "linear"
+    ]
+  ],
+  "audits": [
+    {
+      "label": "prep-rise",
+      "mass_error": 3.38175210057301e-10,
+      "steps": 605
+    },
+    {
+      "label": "prep-fall",
+      "mass_error": 3.319804986468e-10,
+      "steps": 227
+    },
+    {
+      "label": "read-rise",
+      "mass_error": 3.320644315074617e-10,
+      "steps": 28
+    },
+    {
+      "label": "read",
+      "mass_error": 3.3205749261355777e-10,
+      "steps": 29
+    },
+    {
+      "label": "read-fall",
+      "mass_error": 3.321689034940789e-10,
+      "steps": 28
+    },
+    {
+      "label": "C1-pos-rise",
+      "mass_error": 4.477446746697922e-10,
+      "steps": 945
+    },
+    {
+      "label": "C1-pos-fall",
+      "mass_error": 4.749977078333245e-10,
+      "steps": 310
+    },
+    {
+      "label": "C1-neg-rise",
+      "mass_error": 8.761430470016762e-10,
+      "steps": 1571
+    },
+    {
+      "label": "C1-neg-fall",
+      "mass_error": 8.801959716642216e-10,
+      "steps": 356
+    },
+    {
+      "label": "C2-pos-rise",
+      "mass_error": 9.277785761874213e-10,
+      "steps": 871
+    },
+    {
+      "label": "C2-pos-fall",
+      "mass_error": 9.316086790889244e-10,
+      "steps": 289
+    },
+    {
+      "label": "C2-neg-rise",
+      "mass_error": 1.3123872544262838e-09,
+      "steps": 1558
+    },
+    {
+      "label": "C2-neg-fall",
+      "mass_error": 1.3153442779412217e-09,
+      "steps": 352
+    },
+    {
+      "label": "C3-pos-rise",
+      "mass_error": 1.3525862097019115e-09,
+      "steps": 851
+    },
+    {
+      "label": "C3-pos-fall",
+      "mass_error": 1.3552302613462075e-09,
+      "steps": 295
+    },
+    {
+      "label": "C3-neg-rise",
+      "mass_error": 1.7392260409643256e-09,
+      "steps": 1532
+    },
+    {
+      "label": "C3-neg-fall",
+      "mass_error": 1.741692290391228e-09,
+      "steps": 352
+    },
+    {
+      "label": "C4-pos-rise",
+      "mass_error": 1.77967190984063e-09,
+      "steps": 853
+    },
+    {
+      "label": "C4-pos-fall",
+      "mass_error": 1.7833005627743148e-09,
+      "steps": 290
+    },
+    {
+      "label": "C4-neg-rise",
+      "mass_error": 2.1506095793100144e-09,
+      "steps": 1521
+    },
+    {
+      "label": "C4-neg-fall",
+      "mass_error": 2.1528933080716683e-09,
+      "steps": 351
+    },
+    {
+      "label": "C5-pos-rise",
+      "mass_error": 2.1966857777222515e-09,
+      "steps": 818
+    },
+    {
+      "label": "C5-pos-fall",
+      "mass_error": 2.1998607935280745e-09,
+      "steps": 288
+    },
+    {
+      "label": "C5-neg-rise",
+      "mass_error": 2.563678658251689e-09,
+      "steps": 1507
+    },
+    {
+      "label": "C5-neg-fall",
+      "mass_error": 2.566152013105949e-09,
+      "steps": 354
+    },
+    {
+      "label": "C6-pos-rise",
+      "mass_error": 2.620499039984736e-09,
+      "steps": 807
+    },
+    {
+      "label": "C6-pos-fall",
+      "mass_error": 2.6252910956259257e-09,
+      "steps": 290
+    },
+    {
+      "label": "C6-neg-rise",
+      "mass_error": 2.9815254709575356e-09,
+      "steps": 1497
+    },
+    {
+      "label": "C6-neg-fall",
+      "mass_error": 2.9839967718992e-09,
+      "steps": 356
+    },
+    {
+      "label": "C7-pos-rise",
+      "mass_error": 3.0322990229869617e-09,
+      "steps": 813
+    },
+    {
+      "label": "C7-pos-fall",
+      "mass_error": 3.0344794454961743e-09,
+      "steps": 279
+    },
+    {
+      "label": "C7-neg-rise",
+      "mass_error": 3.3935135257401328e-09,
+      "steps": 1491
+    },
+    {
+      "label": "C7-neg-fall",
+      "mass_error": 3.3958884593232597e-09,
+      "steps": 362
+    },
+    {
+      "label": "C8-pos-rise",
+      "mass_error": 3.4432960371866272e-09,
+      "steps": 783
+    },
+    {
+      "label": "C8-pos-fall",
+      "mass_error": 3.446895158187857e-09,
+      "steps": 282
+    },
+    {
+      "label": "C8-neg-rise",
+      "mass_error": 3.795570469034004e-09,
+      "steps": 1476
+    },
+    {
+      "label": "C8-neg-fall",
+      "mass_error": 3.797780534497974e-09,
+      "steps": 360
+    },
+    {
+      "label": "C9-pos-rise",
+      "mass_error": 3.845524121359745e-09,
+      "steps": 793
+    },
+    {
+      "label": "C9-pos-fall",
+      "mass_error": 3.844478513315153e-09,
+      "steps": 280
+    },
+    {
+      "label": "C9-neg-rise",
+      "mass_error": 4.187848123837767e-09,
+      "steps": 1464
+    },
+    {
+      "label": "C9-neg-fall",
+      "mass_error": 4.190763569500433e-09,
+      "steps": 356
+    },
+    {
+      "label": "C10-pos-rise",
+      "mass_error": 4.237889206226697e-09,
+      "steps": 779
+    },
+    {
+      "label": "C10-pos-fall",
+      "mass_error": 4.236654749245616e-09,
+      "steps": 281
+    },
+    {
+      "label": "C10-neg-rise",
+      "mass_error": 4.585161195169718e-09,
+      "steps": 1456
+    },
+    {
+      "label": "C10-neg-fall",
+      "mass_error": 4.587951907275567e-09,
+      "steps": 357
+    }
+  ],
+  "electrode_oxygen_states": 0,
+  "physical_clock_calibrated": false,
+  "current_calibrated": false,
+  "contact_barriers_recalibrated": false
+}

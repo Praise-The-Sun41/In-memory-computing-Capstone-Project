@@ -1,0 +1,21 @@
+{
+  "all_pass": true,
+  "metrics": {
+    "minimum_occupancy": 1.751842788380305e-12,
+    "maximum_occupancy": 0.9768732939133511,
+    "oxide_maximum_absolute_difference": 0.00021879334248209314,
+    "metal_maximum_absolute_difference": 2.334108351043085e-08
+  },
+  "gates": {
+    "physical_bounds": true,
+    "oxide_state": true,
+    "metal_state": true
+  },
+  "native_states_csv": "Ti-thermal-states.csv",
+  "native_states_sha": "9587acd88641e188853ebb100cc2d461e13c0e7a6c513ab1cf659845ae9ed334",
+  "presentation_model": "Ti-thermal-presentation.mph",
+  "presentation_model_sha": "18c6a501636b69f7604bff8a7adba899eb237f3e5a90e6c6f6b3a1dbf531a0b8",
+  "python_npz_sha": "2ea32f0c50512662ca9c7e362486fe20f0b2ff02d8e5ba085efcd7f95c613857",
+  "export_java_sha": "617450224a8e9c3bf63cad27769a05ad4fd2d856538f9490fa5894e2f109ebac",
+  "scope": "All 696 ionic states at 3001 output times; no spatial-grid refinement claim"
+}

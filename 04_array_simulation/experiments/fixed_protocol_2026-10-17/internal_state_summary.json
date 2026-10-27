@@ -1,0 +1,44 @@
+{
+  "scope": "Spatial occupancy diagnostics at native RESET endpoints. Absolute occupancy spread is diagnostic, not a new pass threshold. Programming-only spread excludes level zero for diagnosis; the original all-level gate remains unchanged.",
+  "candidates": [
+    {
+      "reset_count": 8,
+      "oxide_max_absolute_occupancy_spread": 0.2644651102374044,
+      "ti_max_absolute_occupancy_spread": 0.028879554060742274,
+      "physical_state_rms_range": 0.04858056825110676,
+      "programming_only_max_relative_G_spread": 0.380739950445575,
+      "downward_steps_by_history": [
+        0,
+        12,
+        0,
+        15
+      ]
+    },
+    {
+      "reset_count": 32,
+      "oxide_max_absolute_occupancy_spread": 0.14021561595854742,
+      "ti_max_absolute_occupancy_spread": 0.023470012848482213,
+      "physical_state_rms_range": 0.02976362395756634,
+      "programming_only_max_relative_G_spread": 0.8279036773381551,
+      "downward_steps_by_history": [
+        0,
+        12,
+        0,
+        15
+      ]
+    },
+    {
+      "reset_count": 128,
+      "oxide_max_absolute_occupancy_spread": 0.060018356708121834,
+      "ti_max_absolute_occupancy_spread": 0.016432700217557217,
+      "physical_state_rms_range": 0.012715252490850478,
+      "programming_only_max_relative_G_spread": 0.34013473754540874,
+      "downward_steps_by_history": [
+        0,
+        0,
+        0,
+        13
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "saved_model_matches_selected_training_checkpoint": true,
+  "same_train_test_indices": true,
+  "same_conductance_levels_and_scenario_identifiers": true,
+  "prior_sources_unchanged": true,
+  "report_links_resolve": true,
+  "forward_checks": {
+    "passed": true,
+    "binary_sign_counts": [
+      1024,
+      160
+    ],
+    "partitions_disjoint": true,
+    "validation_selection_verified": true,
+    "direct_vs_tiled_max_error": 0.0,
+    "two_layer_current_bit_plane_errors": {
+      "ready": 6.039613253960852e-14,
+      "read8": 4.085620730620576e-14
+    }
+  }
+}

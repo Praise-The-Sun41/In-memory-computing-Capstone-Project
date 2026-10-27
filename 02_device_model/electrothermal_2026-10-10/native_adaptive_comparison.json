@@ -1,0 +1,36 @@
+{
+  "all_pass": true,
+  "gates": {
+    "current": true,
+    "temperature": true,
+    "voltage": true,
+    "layer_voltage": true,
+    "inventory": true,
+    "heat_balance": true,
+    "compliance": true
+  },
+  "metrics": {
+    "current_peak_normalized_error": 0.00023872180462600464,
+    "temperature_error_K": 0.0005902386794787162,
+    "device_voltage_error_V": 0.00013363115951892102,
+    "layer_voltage_error_V": 0.0001315103751614588,
+    "native_inventory_drift": 1.3500311979441904e-13,
+    "native_heat_balance_Wtau": 6.7649878754405535e-15,
+    "native_current_excess_A": 4.027811070783649e-17
+  },
+  "native_points": 3001,
+  "scope": "Ti lumped temperature + circuit, own preparation + five continuous cycles; Pt thermal native not included",
+  "imported_Python_trajectory": false,
+  "spatial_heat_FEM": false,
+  "native_csv": "Ti-thermal-adaptive-native.csv",
+  "native_java": "NativeThermalAdaptive.java",
+  "native_csv_sha": "e308dcc03ccdf707bdf176541f45f5a5b0731de8e5d15926b02a868d105a2c2a",
+  "python_npz_sha": "2ea32f0c50512662ca9c7e362486fe20f0b2ff02d8e5ba085efcd7f95c613857",
+  "java_sha": "a5a6a4267a2fe25380efb6572c36eb5d1f035ab06faf9ee1228652b3565fefd5",
+  "base_java_sha": "ed303a4d329f059e1a874e035a0afc6ed53489e00085fc38a590132175ffac69",
+  "native_rtol": 2e-06,
+  "adaptive_output_interpolation": true,
+  "solved_model": "Ti-thermal-adaptive-geometry.mph",
+  "solved_model_sha": "671b843b3a2d44ce5400b4517d30094d8b6f71d1f69bb99f97241ed32b366171",
+  "unsolved_model_sha": "6959195c94fc08300c13fa4a958170fc9c44aeee10e5714d04ba1638f753bb28"
+}

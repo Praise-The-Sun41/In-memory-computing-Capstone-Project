@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "all_450_images_replayed_through_byte_memory": true,
+  "scalar_current_vs_batched_logits_max_error": 3.375077994860476e-14,
+  "predictions_identical": true,
+  "memory_counters_identical": true,
+  "timing_identical": true,
+  "source_hashes_verified": true,
+  "host_runtime_s": 2.2136829999981273
+}

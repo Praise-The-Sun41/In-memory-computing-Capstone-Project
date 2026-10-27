@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "baseline": 3.552713678800501e-15,
+  "slow_memory": 3.552713678800501e-15,
+  "fast_memory": 3.552713678800501e-15,
+  "no_cache": 3.552713678800501e-15,
+  "tau_100ns": 3.552713678800501e-15,
+  "tau_10us": 3.552713678800501e-15,
+  "programming_s_baseline": 0.1956599999995888,
+  "expected_programming_s": 0.19566,
+  "native_read8_endpoint_reconstruction": true
+}

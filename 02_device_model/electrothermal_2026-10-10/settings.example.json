@@ -1,0 +1,12 @@
+{
+  "bath_K": 300.0,
+  "reference_G_S": 0.0001,
+  "series_ohm": 1000.0,
+  "compliance_A": 0.0003,
+  "thermal_R_K_W": 100000.0,
+  "thermal_tau": 0.05,
+  "oxide_migration_Ea_eV": 0.65,
+  "metal_migration_Ea_eV": 0.5,
+  "exchange_Ea_eV": 0.4,
+  "contact_reference_barrier_eV": 0.5
+}

@@ -1,0 +1,38 @@
+{
+  "scope": "Post-result numerical sensitivity diagnostic for histories 0 and 3, which produced the short-envelope extrema at RESET19 and RESET20. Last eight SET pulses, wait, RESET0-32 and both eight-READ branches repeated at rtol=1e-9. Histories1/2 and other stability branches were not repeated. This is not an accepted level release.",
+  "histories": [
+    {
+      "history": 0,
+      "maximum_program_G_relative_error": 1.2262582967426048e-07,
+      "read8_checks": [
+        {
+          "reset_count": 19,
+          "relative_error": 1.0541628994235621e-07,
+          "refined_last_G": 7.773294516427315e-09
+        },
+        {
+          "reset_count": 20,
+          "relative_error": 1.0544389446613443e-07,
+          "refined_last_G": 7.692413924431425e-09
+        }
+      ]
+    },
+    {
+      "history": 3,
+      "maximum_program_G_relative_error": 1.421035942541299e-07,
+      "read8_checks": [
+        {
+          "reset_count": 19,
+          "relative_error": 1.1116300952085928e-07,
+          "refined_last_G": 7.738303519391804e-09
+        },
+        {
+          "reset_count": 20,
+          "relative_error": 1.0991010070403693e-07,
+          "refined_last_G": 7.654199324330577e-09
+        }
+      ]
+    }
+  ],
+  "maximum_relative_G_error": 1.421035942541299e-07
+}

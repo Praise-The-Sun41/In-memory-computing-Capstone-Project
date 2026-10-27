@@ -1,0 +1,956 @@
+{
+  "passed": true,
+  "expected_cases": 94,
+  "validated_cases": 94,
+  "maximum_global_inventory_absolute_error": 9.947598300641403e-14,
+  "scope": "Completeness, imported model hash, finite values, physical bounds and cross-case inventory; scientific acceptance gates remain separate.",
+  "cases": [
+    {
+      "case": "polarity_positive",
+      "rows": 63,
+      "final_tau": 2.7,
+      "read_levels": 5,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 2.1933869739469104e-08,
+      "max_occupancy": 0.988038106379219,
+      "sha256": "aecce333dedd38703c2f4ac6ccd1c42994e914ecc7acc85bcbeacee3168d4d7d"
+    },
+    {
+      "case": "polarity_negative",
+      "rows": 63,
+      "final_tau": 2.7,
+      "read_levels": 5,
+      "global_inventory_absolute_error": 1.7763568394002505e-15,
+      "min_occupancy": 1.2962883628176795e-12,
+      "max_occupancy": 0.5583963318386812,
+      "sha256": "0f90d9cc2525c7067d20f9265c234e3deafa84a0975e191b43f0dde211e27f4d"
+    },
+    {
+      "case": "polarity_positive_refined",
+      "rows": 63,
+      "final_tau": 2.7,
+      "read_levels": 5,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 2.1933862068618902e-08,
+      "max_occupancy": 0.9880381048829847,
+      "sha256": "13e3429687463ad613c6843d5de1b57791d6168504f0ab8799c8ba0dcf7960e0"
+    },
+    {
+      "case": "history_high",
+      "rows": 63,
+      "final_tau": 2.7,
+      "read_levels": 5,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 2.1933869739469104e-08,
+      "max_occupancy": 0.988038106379219,
+      "sha256": "fb678124de75b7913679ecf86208cde2f6b284fd0194d5bf1562e5a781bd5bb0"
+    },
+    {
+      "case": "history_low",
+      "rows": 63,
+      "final_tau": 2.7,
+      "read_levels": 5,
+      "global_inventory_absolute_error": 1.7763568394002505e-15,
+      "min_occupancy": 1.2962883628176795e-12,
+      "max_occupancy": 0.5583963318386812,
+      "sha256": "660a4e0e9c6d5b40509ede34dda0907afd3c0eb843bee0376cda240758f1e328"
+    },
+    {
+      "case": "history_aged",
+      "rows": 9,
+      "final_tau": 100.13999999999999,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 7.245924788761745e-05,
+      "max_occupancy": 0.8852312423695199,
+      "sha256": "c8a24e44dbcf795de35bbaa48febb2e2f664fe0909b31c25dcccaedb4da15616"
+    },
+    {
+      "case": "init8_history0",
+      "rows": 71,
+      "final_tau": 4.14,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 1.7763568394002505e-15,
+      "min_occupancy": 1.2956155273553394e-12,
+      "max_occupancy": 0.5583963318386812,
+      "sha256": "c7b34e4ec5b572500c7424a0c553aee901129e0cba87f3ab171ea2aed0f4134b"
+    },
+    {
+      "case": "probe8_history0",
+      "rows": 231,
+      "final_tau": 10.379999999999988,
+      "read_levels": 17,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 1.4139176301932934e-08,
+      "max_occupancy": 0.9793131717836681,
+      "sha256": "f34b93842e75081de1be81da9433336c1776dcccd652a1259bac48b5bcace90b"
+    },
+    {
+      "case": "init8_history1",
+      "rows": 71,
+      "final_tau": 4.14,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.3066173419197137e-12,
+      "max_occupancy": 0.8852312423695199,
+      "sha256": "e9839073524ec55ed6312d6dce4e2829587786ed6d2dbcf4576b61c46b949040"
+    },
+    {
+      "case": "probe8_history1",
+      "rows": 231,
+      "final_tau": 10.379999999999988,
+      "read_levels": 17,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 1.39925879151516e-07,
+      "max_occupancy": 0.9412356647196953,
+      "sha256": "4af45032ce96864c06150376f36309ed32597b5f8a85b21e10e6e8a64c19b891"
+    },
+    {
+      "case": "init8_history2",
+      "rows": 71,
+      "final_tau": 4.14,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 1.7763568394002505e-15,
+      "min_occupancy": 1.2945164924966095e-12,
+      "max_occupancy": 0.5459191838932612,
+      "sha256": "c78772ac50b29ccd79634e79d7b7c4d37e4590f27e938233464410fc453370fe"
+    },
+    {
+      "case": "probe8_history2",
+      "rows": 231,
+      "final_tau": 10.379999999999988,
+      "read_levels": 17,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 1.354737177451907e-08,
+      "max_occupancy": 0.9916047703998855,
+      "sha256": "a2f248e360df1d96da0be9a6934619c612a311110b2d2b8d6250336071b3b3a5"
+    },
+    {
+      "case": "init8_history3",
+      "rows": 71,
+      "final_tau": 4.14,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.987293006695036e-12,
+      "max_occupancy": 0.8409249279448358,
+      "sha256": "1f0700bc62174e12534e4ba9e83535f2fcf4d5ff0e9c3395baf0c3d1e644b04c"
+    },
+    {
+      "case": "probe8_history3",
+      "rows": 231,
+      "final_tau": 10.379999999999988,
+      "read_levels": 17,
+      "global_inventory_absolute_error": 8.881784197001252e-15,
+      "min_occupancy": 2.9742858656908135e-07,
+      "max_occupancy": 0.933004096527047,
+      "sha256": "f34525b8f1afb6e66e63063fbb0155bfeb80459036f860ec2fe2cd308867e671"
+    },
+    {
+      "case": "init32_history0",
+      "rows": 199,
+      "final_tau": 12.139999999999999,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.2911176956194114e-12,
+      "max_occupancy": 0.5456662969394637,
+      "sha256": "3e2084000ac6afe81b7df575d3c665742b46f91361ba9427274200360ed74f99"
+    },
+    {
+      "case": "probe32_history0",
+      "rows": 231,
+      "final_tau": 10.379999999999988,
+      "read_levels": 17,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 6.182379155731072e-09,
+      "max_occupancy": 0.9882371108860306,
+      "sha256": "df04b9eb67c93216af651e1035fcd5dfd3ac80459425a3fcb74e819ae3cdc895"
+    },
+    {
+      "case": "init32_history1",
+      "rows": 199,
+      "final_tau": 12.139999999999999,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.2967149772461987e-12,
+      "max_occupancy": 0.6643919223027944,
+      "sha256": "59893b40104ba363889fc24c8f2acba1a96fde62e45c80045a19e41374f67ea9"
+    },
+    {
+      "case": "probe32_history1",
+      "rows": 231,
+      "final_tau": 10.379999999999988,
+      "read_levels": 17,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 1.7583807807804203e-08,
+      "max_occupancy": 0.9832734139199405,
+      "sha256": "3b4e5070133817f7e708b77cb87a231fef1b0d6fed6fbcd0328a3e82dcbec0de"
+    },
+    {
+      "case": "init32_history2",
+      "rows": 199,
+      "final_tau": 12.139999999999999,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.2902347740547066e-12,
+      "max_occupancy": 0.5411979704095844,
+      "sha256": "35dd3fd23140bc6096ea5171b7c6aa7b41d1beedd16d9b9352646df1c6ec4e8c"
+    },
+    {
+      "case": "probe32_history2",
+      "rows": 231,
+      "final_tau": 10.379999999999988,
+      "read_levels": 17,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 5.033140769429638e-09,
+      "max_occupancy": 0.9866240655081565,
+      "sha256": "c55040fbf1d703747c7b3189fa3b658e868a9d80b22701727c2660f8b89b4917"
+    },
+    {
+      "case": "init32_history3",
+      "rows": 199,
+      "final_tau": 12.139999999999999,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 1.3344458649584012e-12,
+      "max_occupancy": 0.7005527829779798,
+      "sha256": "5ad8cd8855636b4f99369e920c10c56dae169364e84ae2c67d3811ab496ad326"
+    },
+    {
+      "case": "probe32_history3",
+      "rows": 231,
+      "final_tau": 10.379999999999988,
+      "read_levels": 17,
+      "global_inventory_absolute_error": 8.881784197001252e-15,
+      "min_occupancy": 1.8923917273854756e-08,
+      "max_occupancy": 0.9864548391657114,
+      "sha256": "448a445337ce2f8b3c76f453bfa44c1ef0c08d1a8f7313838f0917f5a6b17797"
+    },
+    {
+      "case": "init128_history0",
+      "rows": 775,
+      "final_tau": 48.14,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 1.2786406621564649e-12,
+      "max_occupancy": 0.5244273231935647,
+      "sha256": "299030d3f9e31eb16c288c9380b2a2280001c99df23fa99db3d149d6cd2ab98e"
+    },
+    {
+      "case": "probe128_history0",
+      "rows": 231,
+      "final_tau": 10.379999999999988,
+      "read_levels": 17,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 2.50596798881668e-09,
+      "max_occupancy": 0.9929968721590692,
+      "sha256": "355e327b91270be8b45845a545729adb633a049d424d69d64006691e6b6d8b94"
+    },
+    {
+      "case": "init128_history1",
+      "rows": 775,
+      "final_tau": 48.14,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.2813795902907653e-12,
+      "max_occupancy": 0.5751619111971212,
+      "sha256": "287e888dd7727f1c1818e53e1382f6d44e6dbc698cc13227c101c17374114231"
+    },
+    {
+      "case": "probe128_history1",
+      "rows": 231,
+      "final_tau": 10.379999999999988,
+      "read_levels": 17,
+      "global_inventory_absolute_error": 8.881784197001252e-15,
+      "min_occupancy": 2.9096139851678744e-09,
+      "max_occupancy": 0.9946956793808941,
+      "sha256": "ac817133c68af9fb363592c9d21e7814eaa625ed57b4bd35780abd324837e5ed"
+    },
+    {
+      "case": "init128_history2",
+      "rows": 775,
+      "final_tau": 48.14,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 8.881784197001252e-15,
+      "min_occupancy": 1.278072601272066e-12,
+      "max_occupancy": 0.519649133824346,
+      "sha256": "b60a1b37a9548aa6c28e5a37fd09f05430c6768761b5265bb65f136192f218b7"
+    },
+    {
+      "case": "probe128_history2",
+      "rows": 231,
+      "final_tau": 10.379999999999988,
+      "read_levels": 17,
+      "global_inventory_absolute_error": 8.881784197001252e-15,
+      "min_occupancy": 2.449921373364398e-09,
+      "max_occupancy": 0.994383587960598,
+      "sha256": "b0fd6020cffcb6df32ce2affb9509cbe22e7550a951a9ec91c1d37942ab489df"
+    },
+    {
+      "case": "init128_history3",
+      "rows": 775,
+      "final_tau": 48.14,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 9.947598300641403e-14,
+      "min_occupancy": 1.3090583106106404e-12,
+      "max_occupancy": 0.5974203990419276,
+      "sha256": "b0c33abf64884ca0cb2f0c77b7acafebce3345d0fba46a79b76aa96944bfd948"
+    },
+    {
+      "case": "probe128_history3",
+      "rows": 231,
+      "final_tau": 10.379999999999988,
+      "read_levels": 17,
+      "global_inventory_absolute_error": 9.947598300641403e-14,
+      "min_occupancy": 2.9862467568687927e-09,
+      "max_occupancy": 0.9945810357586768,
+      "sha256": "8edecdae04f5c30de5afd656960fdf5f22a5c967eab0189171e665b3ede183dd"
+    },
+    {
+      "case": "independent_probe128",
+      "rows": 231,
+      "final_tau": 10.379999999999988,
+      "read_levels": 17,
+      "global_inventory_absolute_error": 8.881784197001252e-15,
+      "min_occupancy": 2.5059680257791388e-09,
+      "max_occupancy": 0.9929968714905097,
+      "sha256": "3eee0fb642e025be2203ef72aab5d564b414c37d684a49746c29aa5dd830447e"
+    },
+    {
+      "case": "hold1_state0",
+      "rows": 9,
+      "final_tau": 1.1400000000000001,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 9.266806641614731e-07,
+      "max_occupancy": 0.45925148518810865,
+      "sha256": "4128cb6d7bbe6498a8da7eaddd96f1f2380974f0998f591c3550d3b869a7ad4f"
+    },
+    {
+      "case": "hold10_state0",
+      "rows": 9,
+      "final_tau": 10.139999999999999,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 9.266806641614731e-07,
+      "max_occupancy": 0.45925148518810865,
+      "sha256": "0b149bf96cf4ba097cec7b7bb47dd0a513ac2d3381432fe5034a23a9819460f5"
+    },
+    {
+      "case": "hold100_state0",
+      "rows": 9,
+      "final_tau": 100.13999999999999,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 9.266806641614731e-07,
+      "max_occupancy": 0.45925148518810865,
+      "sha256": "f226c588350e841c12265bcc619c95c2dabdffc616860f282470aa82ec3db6c5"
+    },
+    {
+      "case": "reads1_state0",
+      "rows": 7,
+      "final_tau": 0.14,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 9.266806641614731e-07,
+      "max_occupancy": 0.45925148518810865,
+      "sha256": "036288d6934f575094b030196832b15375e898ab37b14aafb1da56f9cb391a9f"
+    },
+    {
+      "case": "reads16_state0",
+      "rows": 97,
+      "final_tau": 2.240000000000001,
+      "read_levels": 16,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 9.266806641614731e-07,
+      "max_occupancy": 0.45925148518810865,
+      "sha256": "64f1fb59e8d0721636f32039dc887dc931aa193c62c2eb877c9cb34bbc5a18c3"
+    },
+    {
+      "case": "reads80_state0",
+      "rows": 481,
+      "final_tau": 11.19999999999994,
+      "read_levels": 80,
+      "global_inventory_absolute_error": 1.0658141036401503e-14,
+      "min_occupancy": 9.266806641614731e-07,
+      "max_occupancy": 0.45925148518810865,
+      "sha256": "b334af19047b3e8ebb14ea3c337bfbaac289a09139915912037eb7ec478072d4"
+    },
+    {
+      "case": "readsham1_state0",
+      "rows": 7,
+      "final_tau": 0.14,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 9.266806641614731e-07,
+      "max_occupancy": 0.45925148518810865,
+      "sha256": "4ddac76241796c2c6baf8772c1f4d5509a022ce51232aeb0b5a33f3a556d5a32"
+    },
+    {
+      "case": "readsham16_state0",
+      "rows": 9,
+      "final_tau": 2.24,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 9.266806641614731e-07,
+      "max_occupancy": 0.45925148518810865,
+      "sha256": "7506794354baffe69515f3b97b2bcc466a9ec2722976ed9f84e6a601f9c4cc23"
+    },
+    {
+      "case": "readsham80_state0",
+      "rows": 9,
+      "final_tau": 11.2,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 9.266806641614731e-07,
+      "max_occupancy": 0.45925148518810865,
+      "sha256": "dbb459e43eceed41880bd127b943512690e1f4da6acb3475d48123ddbdeaa1da"
+    },
+    {
+      "case": "array2_set_N1_state0_factor1.0",
+      "rows": 21,
+      "final_tau": 0.78,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 2.5059679755562847e-09,
+      "max_occupancy": 0.9329700997459263,
+      "sha256": "62c34cd652b3fe731df29aa308278284086a4be55a8824e2cac6b19470bb9eff"
+    },
+    {
+      "case": "array2_set_N1_state0_factor0.5",
+      "rows": 21,
+      "final_tau": 0.78,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 9.266806641614731e-07,
+      "max_occupancy": 0.45925148518810865,
+      "sha256": "fe3cee4db7b9bd27d575de8ed4570263259c0af63aff708a9972f5f145bfc319"
+    },
+    {
+      "case": "array2_set_N1_state0_factor0.0",
+      "rows": 21,
+      "final_tau": 0.78,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 9.266806641614731e-07,
+      "max_occupancy": 0.45925148518810865,
+      "sha256": "5668fdc190f5411e0739cf202a472df1f28dfc9087de362b5d89eff8ef0de627"
+    },
+    {
+      "case": "array2_set_N16_state0_factor1.0",
+      "rows": 141,
+      "final_tau": 8.279999999999998,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 2.50596798881668e-09,
+      "max_occupancy": 0.9932812104579453,
+      "sha256": "cfbc9f2ebec0cdde55649ef223b02f7bbb42c6f84aadb8dcc3fd7607ede1de34"
+    },
+    {
+      "case": "array2_set_N16_state0_factor0.5",
+      "rows": 141,
+      "final_tau": 8.279999999999998,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 9.266806641614731e-07,
+      "max_occupancy": 0.6324372716629778,
+      "sha256": "d7c093f24f8427ac8e67e8427283347551f2165ffc9820da91826480716f2f7c"
+    },
+    {
+      "case": "array2_set_N16_state0_factor0.0",
+      "rows": 141,
+      "final_tau": 8.279999999999998,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 9.266806641614731e-07,
+      "max_occupancy": 0.45925148518810865,
+      "sha256": "bcd71cb39bcc37aa64c06c4443004bbfb7936fe91153c60d0079442458021975"
+    },
+    {
+      "case": "array2_reset_N1_state0_factor1.0",
+      "rows": 21,
+      "final_tau": 0.78,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 1.278506501093613e-12,
+      "max_occupancy": 0.45925148518810865,
+      "sha256": "ad4aeae283b39f01e52397d3695a2388a4fcb7f51d6173376d82d2e9a54230bd"
+    },
+    {
+      "case": "array2_reset_N1_state0_factor0.5",
+      "rows": 21,
+      "final_tau": 0.78,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 5.14457744501636e-08,
+      "max_occupancy": 0.45925148518810865,
+      "sha256": "42f4cd2a6b112e648a779cd759055e40f6d7491fd20ebc62d544f86426e0e712"
+    },
+    {
+      "case": "array2_reset_N1_state0_factor0.0",
+      "rows": 21,
+      "final_tau": 0.78,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 9.266806641614731e-07,
+      "max_occupancy": 0.45925148518810865,
+      "sha256": "0dfe1c16171f4e240cc6a457efd6051978074ee84ca512c509335befc295b163"
+    },
+    {
+      "case": "array2_reset_N16_state0_factor1.0",
+      "rows": 141,
+      "final_tau": 8.279999999999998,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 1.4210854715202004e-14,
+      "min_occupancy": 1.2769571163732704e-12,
+      "max_occupancy": 0.45925148518810865,
+      "sha256": "edb418e9e84928abfac1c471cdbe5a35ef4ced07a7d622f8a2972625b088e6bf"
+    },
+    {
+      "case": "array2_reset_N16_state0_factor0.5",
+      "rows": 141,
+      "final_tau": 8.279999999999998,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 1.0658141036401503e-14,
+      "min_occupancy": 5.144577445016312e-08,
+      "max_occupancy": 0.45925148518810865,
+      "sha256": "9f37da6665a187f39af444d18eee755898b9893b9ee730e5303783b203c743ce"
+    },
+    {
+      "case": "array2_reset_N16_state0_factor0.0",
+      "rows": 141,
+      "final_tau": 8.279999999999998,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 9.266806641614731e-07,
+      "max_occupancy": 0.45925148518810865,
+      "sha256": "533bce4e4911155495b60d5e18504d4a6ed7e3269bb29aa7e23e2c4c6a5e03a5"
+    },
+    {
+      "case": "hold1_state1",
+      "rows": 9,
+      "final_tau": 1.1400000000000001,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 2.581477645864984e-06,
+      "max_occupancy": 0.6093974360591004,
+      "sha256": "98c3db850ade152b66bc45179f47c35ef9b31c4811fdf61d5cba2590d2195e70"
+    },
+    {
+      "case": "hold10_state1",
+      "rows": 9,
+      "final_tau": 10.139999999999999,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 2.581477645864984e-06,
+      "max_occupancy": 0.6093974360591004,
+      "sha256": "d608ba49b003fa67b5250c226bd91ecda44a0e19577fe893eeb86cf57b8c8cbc"
+    },
+    {
+      "case": "hold100_state1",
+      "rows": 9,
+      "final_tau": 100.13999999999999,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 1.0658141036401503e-14,
+      "min_occupancy": 2.581477645864984e-06,
+      "max_occupancy": 0.6093974360591004,
+      "sha256": "88eaef6730b2ba078194003783515e2bfddc9f3c2a52af4ebfae7f87fe2cec66"
+    },
+    {
+      "case": "reads1_state1",
+      "rows": 7,
+      "final_tau": 0.14,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 2.581477645864984e-06,
+      "max_occupancy": 0.6093974360591004,
+      "sha256": "54db2bf2b0f66bcc47102b1b9fff7de4c6e12ad9c0bab00e94262ba3421e9098"
+    },
+    {
+      "case": "reads16_state1",
+      "rows": 97,
+      "final_tau": 2.240000000000001,
+      "read_levels": 16,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 2.581477645864984e-06,
+      "max_occupancy": 0.6093974360591004,
+      "sha256": "d85535e1de7f20e8af930a649078495ca30531b6e9f16899894887dcb8922649"
+    },
+    {
+      "case": "reads80_state1",
+      "rows": 481,
+      "final_tau": 11.19999999999994,
+      "read_levels": 80,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 2.581477645864984e-06,
+      "max_occupancy": 0.6093974360591004,
+      "sha256": "d83593bf8280eaf775fa0504efc9458a23a77ce11c3cd2b1f76f63b9e079320f"
+    },
+    {
+      "case": "readsham1_state1",
+      "rows": 7,
+      "final_tau": 0.14,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 2.581477645864984e-06,
+      "max_occupancy": 0.6093974360591004,
+      "sha256": "fae182f96f3b44fea6da01a7efe1d9a2c1c96623201bd8bca0028065b0ec5b8b"
+    },
+    {
+      "case": "readsham16_state1",
+      "rows": 9,
+      "final_tau": 2.24,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 2.581477645864984e-06,
+      "max_occupancy": 0.6093974360591004,
+      "sha256": "388f76c9cf64091088c400873bf90b4b2a0b7ee51352ba930eb6769ec5b53664"
+    },
+    {
+      "case": "readsham80_state1",
+      "rows": 9,
+      "final_tau": 11.2,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 2.581477645864984e-06,
+      "max_occupancy": 0.6093974360591004,
+      "sha256": "b386d595a8dfca63aa3f2d18f732660418e4d38d8948c8c1127dad10dc2558b1"
+    },
+    {
+      "case": "array2_set_N1_state1_factor1.0",
+      "rows": 21,
+      "final_tau": 0.78,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 3.775803352446826e-09,
+      "max_occupancy": 0.9925036912118659,
+      "sha256": "45c6171dde3ebe8147142f637e57d10412786a8551a9628e107236724d7599fa"
+    },
+    {
+      "case": "array2_set_N1_state1_factor0.5",
+      "rows": 21,
+      "final_tau": 0.78,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 2.495108187270482e-06,
+      "max_occupancy": 0.7700971657230681,
+      "sha256": "1adceb568940c1d098a34902ef99c7df4675ac7db02fc256fe4d75236c76d543"
+    },
+    {
+      "case": "array2_set_N1_state1_factor0.0",
+      "rows": 21,
+      "final_tau": 0.78,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 2.581477645864984e-06,
+      "max_occupancy": 0.6093974360591004,
+      "sha256": "11021337222c4f272ba51200bc87c9821d3d72f50363a1ff2a8bf8bc01e3d9c3"
+    },
+    {
+      "case": "array2_set_N16_state1_factor1.0",
+      "rows": 141,
+      "final_tau": 8.279999999999998,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 3.775803286383451e-09,
+      "max_occupancy": 0.993084013000516,
+      "sha256": "6303ca206e5e20464c302c77acf22dddc4a10c8e932932d95ce91e6c13b87225"
+    },
+    {
+      "case": "array2_set_N16_state1_factor0.5",
+      "rows": 141,
+      "final_tau": 8.279999999999998,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 2.4951081872704714e-06,
+      "max_occupancy": 0.8598329580938753,
+      "sha256": "eff78039e6bbd6848f09690dcd788fbc9d75d81dd5c62f000f8a48d0482d42bc"
+    },
+    {
+      "case": "array2_set_N16_state1_factor0.0",
+      "rows": 141,
+      "final_tau": 8.279999999999998,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 2.581477645864984e-06,
+      "max_occupancy": 0.6093974360591004,
+      "sha256": "5cc0b4bc49363ebad46f9755bfc998c76b741d5131a55ecf217a7882d695e578"
+    },
+    {
+      "case": "array2_reset_N1_state1_factor1.0",
+      "rows": 21,
+      "final_tau": 0.78,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 7.105427357601002e-15,
+      "min_occupancy": 1.2857414933641665e-12,
+      "max_occupancy": 0.6093974360591004,
+      "sha256": "0f8fbeff13a764c0d4280c2a3038714e7371ff3c4d4d8f8e17f2466e94d95aa4"
+    },
+    {
+      "case": "array2_reset_N1_state1_factor0.5",
+      "rows": 21,
+      "final_tau": 0.78,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 8.204352166117733e-08,
+      "max_occupancy": 0.6093974360591004,
+      "sha256": "c9aca0760bfd5347148cdddd39283cc070b0bcc7dab7b06b6c1dc204412122b9"
+    },
+    {
+      "case": "array2_reset_N1_state1_factor0.0",
+      "rows": 21,
+      "final_tau": 0.78,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 2.581477645864984e-06,
+      "max_occupancy": 0.6093974360591004,
+      "sha256": "50e79b3f8c8e1d270e7afacde470ce919735d4e87bb385f6043aaaa7ac07bfb7"
+    },
+    {
+      "case": "array2_reset_N16_state1_factor1.0",
+      "rows": 141,
+      "final_tau": 8.279999999999998,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 1.0658141036401503e-14,
+      "min_occupancy": 1.2788930014612553e-12,
+      "max_occupancy": 0.6093974360591004,
+      "sha256": "217d4c9279641c367c113f107f1ddb759d440d367122c700f54041f65ef4a0cf"
+    },
+    {
+      "case": "array2_reset_N16_state1_factor0.5",
+      "rows": 141,
+      "final_tau": 8.279999999999998,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 8.881784197001252e-15,
+      "min_occupancy": 6.760749666986409e-08,
+      "max_occupancy": 0.6093974360591004,
+      "sha256": "56eb4e91b0e47d4859d99e2b9cc52d2a6d3a6254c2fd5efea233be07818def50"
+    },
+    {
+      "case": "array2_reset_N16_state1_factor0.0",
+      "rows": 141,
+      "final_tau": 8.279999999999998,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 2.581477645864984e-06,
+      "max_occupancy": 0.6093974360591004,
+      "sha256": "b88a41399f548f1e7bb622e128fc2a1c62cbff246913bcf8245424e702f45f6c"
+    },
+    {
+      "case": "hold1_state2",
+      "rows": 9,
+      "final_tau": 1.1400000000000001,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.1793826637331594e-05,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "97ad558df2462045fab8c55fce5533946fdb035410a03cdcf8452d11ea94dde9"
+    },
+    {
+      "case": "hold10_state2",
+      "rows": 9,
+      "final_tau": 10.139999999999999,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.1793826637331594e-05,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "fe96ebbcaff35513a760841ae5c70d33dd196e573d75638eb626a17c36f12c75"
+    },
+    {
+      "case": "hold100_state2",
+      "rows": 9,
+      "final_tau": 100.13999999999999,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 8.881784197001252e-15,
+      "min_occupancy": 1.1793826637331594e-05,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "a40ef1c47ae8a25d88daa2e743a51a100aac037e14d702dcb42857e36ced0817"
+    },
+    {
+      "case": "reads1_state2",
+      "rows": 7,
+      "final_tau": 0.14,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.1793826637331594e-05,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "fab9391b98e9fc0b56a8c1e5db47427ac2520687e3e79d0fd1ae1ac1b3d5a84d"
+    },
+    {
+      "case": "reads16_state2",
+      "rows": 97,
+      "final_tau": 2.240000000000001,
+      "read_levels": 16,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.1793826637331594e-05,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "619944385ba62992a4f287e90595151f73cbfb7705de35c1c64be4639a9c5984"
+    },
+    {
+      "case": "reads80_state2",
+      "rows": 481,
+      "final_tau": 11.19999999999994,
+      "read_levels": 80,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.1793826637331594e-05,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "58f4547df1f9881e562a364b4cbd110c8253a70aa397bc453acbee1b09451d87"
+    },
+    {
+      "case": "readsham1_state2",
+      "rows": 7,
+      "final_tau": 0.14,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.1793826637331594e-05,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "50ef486554be8016c986207e9a029848af56e39c8483067ec1b6ce0797a737e0"
+    },
+    {
+      "case": "readsham16_state2",
+      "rows": 9,
+      "final_tau": 2.24,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.1793826637331594e-05,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "714856b024a346e2889b8e474f185fdbd170700345e120835c3e42aee9ff277a"
+    },
+    {
+      "case": "readsham80_state2",
+      "rows": 9,
+      "final_tau": 11.2,
+      "read_levels": 1,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.1793826637331594e-05,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "7fd7239f9cc7c216f88e094f1b2fd68d527d44eeb17811da05b384b662e569ec"
+    },
+    {
+      "case": "array2_set_N1_state2_factor1.0",
+      "rows": 21,
+      "final_tau": 0.78,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 4.120934016522176e-06,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "bf093f549408cca883955e2500a7dec2f73fb3cd3f806b630a1ead7f138eeed4"
+    },
+    {
+      "case": "array2_set_N1_state2_factor0.5",
+      "rows": 21,
+      "final_tau": 0.78,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.1793826637331594e-05,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "6712cb1104bee26c4d60a33ec3cf2b8ca8ed65e7a62950a2697dc19d07ec0d64"
+    },
+    {
+      "case": "array2_set_N1_state2_factor0.0",
+      "rows": 21,
+      "final_tau": 0.78,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.1793826637331594e-05,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "27a034394d44988583655e31f629defe2cb458726092fc2a438dfe21a3e6683d"
+    },
+    {
+      "case": "array2_set_N16_state2_factor1.0",
+      "rows": 141,
+      "final_tau": 8.279999999999998,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 8.881784197001252e-15,
+      "min_occupancy": 1.604169242225509e-06,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "e7f421b8613314f24de2f14f6565baa285d5f95780c1292f73730dc1fb7fd68f"
+    },
+    {
+      "case": "array2_set_N16_state2_factor0.5",
+      "rows": 141,
+      "final_tau": 8.279999999999998,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 5.329070518200751e-15,
+      "min_occupancy": 1.1793826637331594e-05,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "b52bfd5dbd3b368037169af975973d02df8558d1245fe8c7f06eeed5c63b3131"
+    },
+    {
+      "case": "array2_set_N16_state2_factor0.0",
+      "rows": 141,
+      "final_tau": 8.279999999999998,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.1793826637331594e-05,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "5554df9b5a990323a4e61b3fe9a74444a0a46a75997b5ad700f3ac62d57a57eb"
+    },
+    {
+      "case": "array2_reset_N1_state2_factor1.0",
+      "rows": 21,
+      "final_tau": 0.78,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.1793826637331594e-05,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "a41038028a46fce2ee3d96c1c889f126785b7891cb69bf257b70e10e69ed3c4d"
+    },
+    {
+      "case": "array2_reset_N1_state2_factor0.5",
+      "rows": 21,
+      "final_tau": 0.78,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.1793826637331594e-05,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "72c5aaa9a9992aee4beddfb387d6b290ba32acdb4f10e2e7175bb477b8d760f1"
+    },
+    {
+      "case": "array2_reset_N1_state2_factor0.0",
+      "rows": 21,
+      "final_tau": 0.78,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.1793826637331594e-05,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "82d81c022d2ac98eca1fc015c0551c8cc6ad581770f07215b9166156aab2d2da"
+    },
+    {
+      "case": "array2_reset_N16_state2_factor1.0",
+      "rows": 141,
+      "final_tau": 8.279999999999998,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.3033775612897534e-12,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "9ec64e12ca6cf9a7d878c44a3c9fcfeda897813bcff35cc274cdb90330e18050"
+    },
+    {
+      "case": "array2_reset_N16_state2_factor0.5",
+      "rows": 141,
+      "final_tau": 8.279999999999998,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.1793826637331594e-05,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "bf1093aac7ca4524fff8c759d0babd4f97bf8142d2b903027cf2413157b9350b"
+    },
+    {
+      "case": "array2_reset_N16_state2_factor0.0",
+      "rows": 141,
+      "final_tau": 8.279999999999998,
+      "read_levels": 2,
+      "global_inventory_absolute_error": 3.552713678800501e-15,
+      "min_occupancy": 1.1793826637331594e-05,
+      "max_occupancy": 0.797412773373482,
+      "sha256": "fdd81babd6f3cff117bff6945cc42e6e5db8730280d782d9b3f7d1aa72010d0f"
+    }
+  ],
+  "single_run_continuous_completed": false,
+  "recovered_reference_prefix": {
+    "completed_tau": 64.42,
+    "failed_full_attempt": true,
+    "full_attempt_excluded_from_completed_count": true,
+    "sha256": "cdb49470708ae4466a71571c40d08c413203419d519f14c892e365c09f2ca6f8"
+  }
+}

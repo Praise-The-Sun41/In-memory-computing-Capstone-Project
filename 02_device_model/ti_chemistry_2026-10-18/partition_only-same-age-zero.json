@@ -1,0 +1,68 @@
+{
+  "config": {
+    "chemistry": {
+      "interface_depth_nm": 1.0,
+      "bound_site_fraction": 0.25,
+      "binding_delta_g_eV": -0.08,
+      "capture_rate_per_tau": 0.0,
+      "capture_Ea_eV": 0.45,
+      "passivation_barrier_eV": 0.0
+    },
+    "thermal": {
+      "bath_K": 300.0,
+      "reference_G_S": 0.0001,
+      "series_ohm": 1000.0,
+      "compliance_A": 0.0003,
+      "thermal_R_K_W": 100000.0,
+      "thermal_tau": 0.05,
+      "oxide_migration_Ea_eV": 0.65,
+      "metal_migration_Ea_eV": 0.5,
+      "exchange_Ea_eV": 0.4,
+      "contact_reference_barrier_eV": 0.5
+    },
+    "mode": "thermal",
+    "L": 256,
+    "M": 256,
+    "rtol": 2e-09,
+    "rows": [
+      [
+        80,
+        0,
+        0,
+        "same-age-zero",
+        "linear"
+      ]
+    ],
+    "source_sha": "49e3a447c5d74584569664a6282cbba580efebf5734c7a93e542f619ded1fda9",
+    "thermal_source_sha": "ef183f59e51d9421b93561b1715e151b4fd83851dc8d913bd3a808cd7dcd703f",
+    "initial_sha": "057ad94b52979829a753a976d429719e79ba2351433b724d3b268ddbde01c8da"
+  },
+  "checks": {
+    "internal_node_mass_error": 8.988365607365267e-12,
+    "internal_node_minimum": 0.0002954844836039718,
+    "internal_node_maximum": 0.9009982275219357,
+    "sampled_mass_error": 8.988365607365267e-12,
+    "thermal_balance_Wtau": 1.5747264603405143e-18,
+    "power_balance_W": 0.0,
+    "voltage_balance_V": 0.0,
+    "current_excess_A": 0.0,
+    "minimum_binding_dissipation": 0.0
+  },
+  "stats": [
+    {
+      "label": "same-age-zero",
+      "steps": 220,
+      "nfev": 529,
+      "njev": 1
+    }
+  ],
+  "data_sha": "c3878bc865b7a7d6efcf27ab5a1e6968b95a7f90daedc6b566155f49dd94c7f2",
+  "elapsed_s": 0.5271531000034884,
+  "COMSOL_verified": false,
+  "experiment_calibrated": false,
+  "phase_identified": false,
+  "thermal_scope": "Electronic Joule heat only; reaction heat not converted without an absolute oxygen amount scale.",
+  "parent_history_sha": "038c464a8a84cc0cf6b7993706d79566856e49d555041c1add35fad81aac6080",
+  "parent_index": 600,
+  "time_origin_tau": 21.4
+}

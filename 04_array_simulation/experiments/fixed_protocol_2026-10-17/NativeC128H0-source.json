@@ -1,0 +1,6 @@
+{
+  "native_checkpoint": "init32_history0",
+  "sha256": "3e2084000ac6afe81b7df575d3c665742b46f91361ba9427274200360ed74f99",
+  "state_transfer": "Exact exported COMSOL double values; no Python physical integration",
+  "remaining_reset_pulses": 96
+}

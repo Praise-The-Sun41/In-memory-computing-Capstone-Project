@@ -1,0 +1,37 @@
+{
+  "packed_weights": {
+    "address": 0,
+    "bytes": 320,
+    "shape": [
+      10,
+      32
+    ],
+    "dtype": "uint8"
+  },
+  "digital_gains_biases": {
+    "address": 320,
+    "bytes": 416,
+    "shape": [
+      52
+    ],
+    "dtype": "float64"
+  },
+  "input_images": {
+    "address": 768,
+    "bytes": 28800,
+    "shape": [
+      450,
+      64
+    ],
+    "dtype": "uint8"
+  },
+  "output_logits": {
+    "address": 29568,
+    "bytes": 36000,
+    "shape": [
+      450,
+      10
+    ],
+    "dtype": "float64"
+  }
+}

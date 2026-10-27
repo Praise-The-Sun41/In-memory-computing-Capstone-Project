@@ -1,0 +1,78 @@
+{
+  "model": "Same native isothermal 696-state COMSOL baseline; no physical evolution in Python",
+  "source_directory": "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Array Simulation\\experiments\\fixed_protocol_2026-10-17",
+  "set_counts": [
+    8,
+    32,
+    128
+  ],
+  "wait_tau": [
+    0,
+    1,
+    10
+  ],
+  "accepted_wait_tau": [
+    1,
+    10
+  ],
+  "reset_counts": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "pulse_parameters": {
+    "write_amplitude_V": 0.8,
+    "rise_tau": 0.05,
+    "width_tau": 0.2,
+    "fall_tau": 0.05,
+    "gap_tau": 0.2,
+    "read_amplitude_V": 0.02,
+    "read_rise_tau": 0.02,
+    "read_width_tau": 0.1,
+    "read_fall_tau": 0.02
+  },
+  "gates": {
+    "history_relative_range": 0.01,
+    "stationary_last_four_set_relative_steps": 0.001,
+    "adjacent_mean_G_separation": 0.1,
+    "joint_operating_envelope_relative_range": 0.01,
+    "numerical_relative_error": 0.001,
+    "inventory_absolute": 1e-06
+  },
+  "preparation": "Cumulative SET blocks of eight pulses, initial READ per block and READ after each pulse; all four histories have the identical operation prefix. RESET probes never feed back into preparation.",
+  "stability": "For each screened level: baseline READ, hold 1 tau then READ, hold 10 tau then READ, 8 consecutive READs, and 0.98 tau zero-bias then READ. Short envelope includes all except hold10; extended includes all. Include original programming verification G in both envelopes. At least two separated levels must each satisfy the joint 1% envelope across all histories and operations.",
+  "selection": "Ascending SET count, then wait 1 before wait 10. Screen all 17 pulse counts. Validate a maximally separated up-to-four-level set first; if fewer than two remain stable, test further screening-passing counts. Stop at first protocol with at least two jointly stable separated levels; report up to four, preferring the extended window when the same number passes. Wait0 is diagnostic only.",
+  "limits": "No claims outside tested histories/windows; no transistor or array circuit in this run. Tau, absolute G and I remain uncalibrated.",
+  "status": "completed",
+  "original_histories": [
+    "Native reference at prior polarity_positive.csv row 0",
+    "Prior history_high.csv final state: four SET pulses with verify reads",
+    "Prior history_low.csv final state: four RESET pulses with verify reads",
+    "Prior history_aged.csv final state: four SET pulses, 100 tau hold and read"
+  ],
+  "conditional_reset_extension": "If the original campaign finds no accepted protocol, extend one stationary fixed-wait candidate to RESET count 32. Select the candidate with the widest observed G span among its 1%-history-passing counts; ties prefer fewer SET pulses and shorter wait. Continue each native count-16 state with an extra checkpoint READ then 16 further fixed RESET pulses with verification. All original gates remain unchanged. Validate the resulting candidate levels and repeat a refined native reference before acceptance.",
+  "accepted": false,
+  "complete_native_cases": 864,
+  "adaptive_followup": {
+    "recorded_utc": "2026-10-17T10:57:55.278571+00:00",
+    "set_count": 32,
+    "wait_tau": 10,
+    "maximum_reset_count": 32,
+    "reason": "Original maximum-span extension used SET128/wait1, whose tested levels all failed the 1% operating-window gate. Independently test extension of SET32/wait10, where RESET12-16 already passed short-window stability but lacked 10% separation. Bounded to one additional protocol, same pulses and gates. This was selected after inspecting earlier results, not predeclared."
+  },
+  "numerical_boundary_followup": "Adaptive sensitivity check at rtol=1e-9 for histories0/3 producing RESET19/20 envelope extrema, after observing 0.998% versus 1.049% short envelopes. Repeat last SET block, wait, full extended RESET probe and READ8 branches. Other histories and hold branches not repeated."
+}

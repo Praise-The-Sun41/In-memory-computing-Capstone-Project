@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "scenario_image_comparisons": 2700,
+  "max_logit_error": 4.884981308350689e-14,
+  "predictions_identical": true
+}

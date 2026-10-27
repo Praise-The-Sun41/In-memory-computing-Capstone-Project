@@ -1,0 +1,70 @@
+{
+  "script_sha256": "d8e68b80a29cf1cd53c409d623b87798e1dfe48f688e37809d0c927e324311a7",
+  "oxide_parameters": {
+    "cells": 440,
+    "electronic_sampling_nm": 0.25,
+    "Ti_nm": 30.0,
+    "TiOx_nm": 20.0,
+    "AlOx_nm": 5.0,
+    "active_Ti_nm": 1.0,
+    "backbone": true,
+    "diffusion_Ti_nm2_per_tau": 5e-05,
+    "diffusion_Al_nm2_per_tau": 0.0005,
+    "lattice_hop_nm": 0.25,
+    "hop_barrier_eV": 0.65,
+    "localization_Ti_nm": 0.175,
+    "localization_Al_nm": 0.25,
+    "electron_activation_Ti_eV": 0.08,
+    "electron_activation_Al_eV": 0.06,
+    "Ti_exchange_nm_per_tau": 0.0,
+    "Ti_reaction_standard_eV": 0.06,
+    "Ti_initial_oxygen_fraction": 0.3,
+    "vacancy_transport": true,
+    "vacancy_conductivity_feedback": true,
+    "high_field_hopping": true
+  },
+  "rows": [
+    [
+      10,
+      0,
+      0,
+      "hold10",
+      "linear"
+    ],
+    [
+      90,
+      0,
+      0,
+      "hold100",
+      "linear"
+    ],
+    [
+      900,
+      0,
+      0,
+      "hold1000",
+      "linear"
+    ]
+  ],
+  "audits": [
+    {
+      "label": "hold10",
+      "mass_error": 5.402178704372318e-12,
+      "steps": 81
+    },
+    {
+      "label": "hold100",
+      "mass_error": 2.1695034657653878e-11,
+      "steps": 150
+    },
+    {
+      "label": "hold1000",
+      "mass_error": 2.5211815968262385e-10,
+      "steps": 171
+    }
+  ],
+  "electrode_oxygen_states": 0,
+  "physical_clock_calibrated": false,
+  "current_calibrated": false,
+  "contact_barriers_recalibrated": false
+}

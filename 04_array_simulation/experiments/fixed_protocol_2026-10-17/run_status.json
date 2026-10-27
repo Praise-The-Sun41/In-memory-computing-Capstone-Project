@@ -1,0 +1,10 @@
+{
+  "status": "completed_with_failed_scientific_gates",
+  "validated_complete_native_cases": 94,
+  "history_gate_passed": false,
+  "all_halfselect_cases_passed": false,
+  "single_run_continuous_completed": false,
+  "independent_two_block_reference_passed": true,
+  "system_deployment": "not executed: history/addressing gates failed and physical timing uncalibrated",
+  "report": "report.html"
+}

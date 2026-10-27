@@ -1,0 +1,47 @@
+{
+  "Ti": {
+    "SET": {
+      "source_voltage_V": 0.02,
+      "device_voltage_V": 0.013846800394935598,
+      "current_A": 6.153199605064403e-06,
+      "secant_conductance_S": 0.00044437699898634397
+    },
+    "RESET": {
+      "source_voltage_V": 0.02,
+      "device_voltage_V": 0.016214238882933506,
+      "current_A": 3.785761117066493e-06,
+      "secant_conductance_S": 0.00023348373885444858
+    },
+    "actual_read_current_ratio": 1.6253533740745874
+  },
+  "Pt": {
+    "SET": {
+      "source_voltage_V": 0.02,
+      "device_voltage_V": 0.013727402542211196,
+      "current_A": 6.272597457788804e-06,
+      "secant_conductance_S": 0.0004569398645155794
+    },
+    "RESET": {
+      "source_voltage_V": 0.02,
+      "device_voltage_V": 0.016001694208760794,
+      "current_A": 3.998305791239207e-06,
+      "secant_conductance_S": 0.0002498676539544274
+    },
+    "actual_read_current_ratio": 1.5688138389847164
+  },
+  "Pt_contact": {
+    "SET": {
+      "source_voltage_V": 0.02,
+      "device_voltage_V": 0.013788318753025502,
+      "current_A": 6.211681246974614e-06,
+      "secant_conductance_S": 0.0004505031656315325
+    },
+    "RESET": {
+      "source_voltage_V": 0.02,
+      "device_voltage_V": 0.016025690848398833,
+      "current_A": 3.9743091516011715e-06,
+      "secant_conductance_S": 0.000247996120054834
+    },
+    "actual_read_current_ratio": 1.5629587457915923
+  }
+}

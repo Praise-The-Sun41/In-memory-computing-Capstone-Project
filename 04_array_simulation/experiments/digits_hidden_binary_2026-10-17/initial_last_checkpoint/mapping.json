@@ -1,0 +1,42 @@
+{
+  "architecture": [
+    64,
+    16,
+    10
+  ],
+  "layers": [
+    {
+      "matrix": [
+        64,
+        16
+      ],
+      "input_blocks": 4,
+      "output_blocks": 2,
+      "tiles": 8,
+      "active_devices": 2048
+    },
+    {
+      "matrix": [
+        16,
+        10
+      ],
+      "input_blocks": 1,
+      "output_blocks": 2,
+      "tiles": 2,
+      "active_devices": 320
+    }
+  ],
+  "physical_array_shape": [
+    16,
+    16
+  ],
+  "logical_tiles": 10,
+  "active_devices": 2368,
+  "allocated_devices_if_all_tiles_resident": 2560,
+  "padding_devices": 192,
+  "array_read_slots_per_sample": 56,
+  "read_slot_formula": "8 first-layer tiles x5 input bits +2 second-layer tiles x8 hidden bits; no zero-plane skipping.",
+  "hidden_bits": 8,
+  "read_voltage": 0.02,
+  "note": "Logical placement and bit-plane algebra. Tiles may share one physical array by reprogramming. Memory buffers, timing, read-induced state evolution and transistor/interconnect effects are not simulated."
+}

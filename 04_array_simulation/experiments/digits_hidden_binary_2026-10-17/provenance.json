@@ -1,0 +1,34 @@
+[
+  {
+    "path": "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Array Simulation\\experiments\\digits_hidden_binary_2026-10-17\\train.py",
+    "sha256": "ced0d22708806abadde49e3fbb1837a7c44e9487c881621f0862094ef7105e33"
+  },
+  {
+    "path": "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Array Simulation\\experiments\\digits_hidden_binary_2026-10-17\\evaluate.py",
+    "sha256": "6766e919ddd2997bbc11ac69164e96a351b9be00f634071092567d33ac74c7ac"
+  },
+  {
+    "path": "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Array Simulation\\experiments\\digits_hidden_binary_2026-10-17\\binary_model.npz",
+    "sha256": "3402f9c6d7d52fe1a3cbe37990eaa6bc3c61e3d7ca13dcb97db6b488fa901a51"
+  },
+  {
+    "path": "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Array Simulation\\experiments\\digits_hidden_binary_2026-10-17\\continuous_hidden_control.npz",
+    "sha256": "d85569c0afa15df4f42c2dd496c691207ec1ab6ee1258632fecf427c59e3a367"
+  },
+  {
+    "path": "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Array Simulation\\experiments\\digits_hidden_binary_2026-10-17\\protocol.json",
+    "sha256": "7525d241fdb838264142551eef39f0849e3d6061d20d30e12c7d7798367fdbb0"
+  },
+  {
+    "path": "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Array Simulation\\experiments\\set_reset_levels_2026-10-17\\level_s32_w10_l12.json",
+    "sha256": "a8a1798b4749f524d8c98f89e276c4bf6ef44d724a40b5cbf49c2f6dfd62a34d"
+  },
+  {
+    "path": "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Array Simulation\\experiments\\set_reset_levels_2026-10-17\\level_s32_w10_l19.json",
+    "sha256": "273e9c02e86eea09e972f45ce80318fd90bd23f87091d7881575a979ef552ce7"
+  },
+  {
+    "path": "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Array Simulation\\experiments\\digits_trained_binary_2026-10-17\\results.json",
+    "sha256": "a0e57bdf82c4249dc274664f8d28f72c1739905c82652f3379950e55ed7fb39d"
+  }
+]

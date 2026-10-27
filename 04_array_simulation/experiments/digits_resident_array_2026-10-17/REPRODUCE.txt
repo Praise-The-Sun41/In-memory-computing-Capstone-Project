@@ -1,0 +1,18 @@
+Run python run.py in this directory (numpy, scikit-learn, threadpoolctl).
+Open report.html; all assets and dataset examples are local. No network needed.
+Node.js, when available: node audit_viewer.js validates the independent browser
+bit-plane arithmetic against Python for all450 images in all6 displayed scenarios.
+
+Architecture:64-16-10,10 resident16x16 crossbars, adjacent differential columns.
+Layer1:4 input-row partitions x2 output partitions =8 crossbars.
+Layer2:1 input-row partition x2 output partitions =2 crossbars (last has12 unused columns).
+Each layer's arrays run simultaneously. Inputs still use fixed0.02V bitplanes;
+5 first-layer slots plus8 second-layer slots.56 array operations per image.
+One initialization load per crossbar; no weight reload between images.
+
+Accuracy uses frozen nominal / four-history ready-state conductances.
+It is NOT a drift simulation for the full resident lifetime or cumulative reads.
+Initial programming is a timing ledger, not a new native device trajectory.
+Tau remains uncalibrated. Main-memory and readout times are architecture assumptions.
+Timing and scientific scope are documented in protocol.json and the viewer.
+Prior model, checkpoint, results and source files are read-only and hash checked.

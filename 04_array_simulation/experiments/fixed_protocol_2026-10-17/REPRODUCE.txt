@@ -1,0 +1,61 @@
+FIXED-PULSE NATIVE COMSOL EXPERIMENTS
+
+Run from this experiment directory. Outputs must stay in Array Simulation.
+COMSOL 6.4 build 293; comsolcompile.exe and comsolbatch.exe are under
+E:/COMSOL/COMSOLMP64/COMSOL64/Multiphysics/bin/win64.
+
+Source provenance: source_manifest.json. Imported MPH files are read-only copies.
+FixedProtocol.java contains the waveform, state extraction, bounds and inventory checks.
+Time is model tau; a COMSOL numerical second is not a calibrated device second.
+
+Reanalysis of existing completed exports (does not invoke COMSOL):
+  python analyse_native.py history
+  python analyse_internal_state.py
+  python analyse_windows.py
+  python check_encoding.py
+  python benchmark_lookup.py
+  python audit_exports.py
+  python plot_windows.py
+  python build_report.py
+These commands require the corresponding complete native exports. A missing result
+must not be replaced with a synthetic trajectory or counted as a passed experiment.
+
+Native generation, starting in an empty results directory with the imported models:
+  Compile FixedProtocol.java and HistoryProtocol.java with comsolcompile.exe.
+  Run FixedProtocol.class using comsolbatch.exe for polarity/tolerance checks.
+  Run HistoryProtocol.class for the four starting histories and RESET candidates.
+  Run python parallel_history.py to validate/resume the existing native checkpoints
+  and create parallel_history_complete.json.
+  Run python parallel_windows.py for hold/read/half-select and continuous validation.
+  Reanalyse using the commands above (also analyse_native.py stage1).
+
+Do not erase or overwrite the archived results of this run when reproducing it.
+For a new output directory, copy the sources and update FixedProtocol.ROOT first.
+COMSOL batch uses -np 1 -alloc native -autosave off, with separate -prefsdir and
+-tmpdir directories for each worker. Keep console and batch logs. Exit code zero
+alone does not confirm success: require the explicit completion marker and validated
+native tables. The parallel coordinator resumes complete exported checkpoints and
+is not a replacement physical solver. Java classes must be recompiled after edits.
+
+Recovery audit: HistoryProtocol_protocol.mph retained a solved probe whose relative
+table export failed. HistoryResume.java recovered its native table. The same issue
+recurred in NativeC32H0_protocol.mph; Recover32.java recovered export2. All subsequent
+FixedProtocol table/checkpoint writes use absolute paths. Incomplete partial solves
+were not used. Older logs are retained, including intentional stopped continuations.
+
+The uninterrupted ContinuousNative attempt failed near tau=65.84 (repeated error
+test failures). It is NOT a completed 74.8-tau result. RecoverReference.java extracts
+the already completed tau=64.42 initialization checkpoint from that native saved
+model, exports continuous_attempt_partial.csv for audit, and runs the full 16-SET
+probe at rtol=1e-9 with local time. Require INDEPENDENT_REFERENCE_COMPLETE before
+reanalysis. Final validation compares this two-block independent reference with
+the original multi-checkpoint path. The failure's root cause is not established.
+If reproducing the failed attempt, do not rerun all completed window jobs: compile
+and run RecoverReference.class, then execute the reanalysis commands above.
+
+Validity: the history gate compares all 17 read levels across four histories at 1%.
+The lookup microbenchmark only measures indexing one recorded response path. The
+encoding check is a digital bit-plane identity, not new COMSOL classification accuracy.
+Half-select assembly assumes exact ideal voltage sources and zero line resistance;
+the isolation control is zero-bias, not a simulated transistor. Full system deployment
+requires a valid device table, operating window, addressing scheme and timing mapping.

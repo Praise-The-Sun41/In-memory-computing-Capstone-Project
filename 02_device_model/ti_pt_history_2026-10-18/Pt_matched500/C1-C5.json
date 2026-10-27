@@ -1,0 +1,302 @@
+{
+  "config": {
+    "system": {
+      "case": "Pt_matched500",
+      "kind": "Pt",
+      "reference_R": 500.0,
+      "chemical_sensitivity_eV": 0.0,
+      "binding_frozen": false,
+      "initial_sha": "d9c0f0a2a9175213192393942817a5d123625a49f42cbb9b16129cbc8a5dc06e",
+      "origin": {
+        "parent_sha": "300bbad2764acc2d738bb3a0327b39d24c3d3b414d12fc44720979bf98bd3fce",
+        "parent_index": 600,
+        "parent_time_tau": 21.4
+      },
+      "thermal": {
+        "bath_K": 300.0,
+        "reference_G_S": 0.0001,
+        "series_ohm": 1000.0,
+        "compliance_A": 0.0003,
+        "thermal_R_K_W": 100000.0,
+        "thermal_tau": 0.05,
+        "oxide_migration_Ea_eV": 0.65,
+        "metal_migration_Ea_eV": 0.5,
+        "exchange_Ea_eV": 0.4,
+        "contact_reference_barrier_eV": 0.5
+      },
+      "shared_oxide_initial": true,
+      "Pt_oxygen_states": 0,
+      "irreversible_damage": false,
+      "new_history_COMSOL_verified": false
+    },
+    "rows": [
+      [
+        2,
+        0,
+        1,
+        "C1-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C1-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C1-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C1-neg-fall"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C2-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C2-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C2-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C2-neg-fall"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C3-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C3-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C3-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C3-neg-fall"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C4-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C4-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C4-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C4-neg-fall"
+      ],
+      [
+        2,
+        0,
+        1,
+        "C5-pos-rise"
+      ],
+      [
+        2,
+        1,
+        0,
+        "C5-pos-fall"
+      ],
+      [
+        2,
+        0,
+        -1,
+        "C5-neg-rise"
+      ],
+      [
+        2,
+        -1,
+        0,
+        "C5-neg-fall"
+      ]
+    ],
+    "rtol": 2e-09,
+    "sources": {
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\ti_pt_history_2026-10-18\\model.py": "9ad27dad56eff637b2acc7bb23a62db763c0b6003cb47c9d827ac6cf73d6c05a",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\ti_contact_oxidation_2026-10-18\\interface.py": "18486450814c03fbe15f7b19935bdce4f0bc8321a09f19f7bc6662204361a866",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\ti_chemistry_2026-10-18\\chemistry.py": "49e3a447c5d74584569664a6282cbba580efebf5734c7a93e542f619ded1fda9",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\electrothermal_2026-10-10\\coupled.py": "ef183f59e51d9421b93561b1715e151b4fd83851dc8d913bd3a808cd7dcd703f",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\pt_contacts_2026-10-06\\contact_model.py": "09252e69d2736c0fffe7d0c315ecd4b00b0ab4ebc8814328c8d4f1325318baa1",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\pt_blocking_2026-10-06\\pt_model.py": "d8e68b80a29cf1cd53c409d623b87798e1dfe48f688e37809d0c927e324311a7",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\bounded-span-field.py": "23bef680a41c00bc5f891aa536be3795e391e344c1b0c2e5d433f59c7866d3b8"
+    },
+    "runner_sha": "3a74da98a2afc0020053fcd88d6e7637620fc0807ba19240608a6a64355d180c",
+    "initial_sha": "d9c0f0a2a9175213192393942817a5d123625a49f42cbb9b16129cbc8a5dc06e"
+  },
+  "checks": {
+    "mass_error": 4.766040118120429e-09,
+    "min_occupancy": 4.240578296736246e-17,
+    "max_occupancy": 0.9733921188165172,
+    "heat_error": 7.157428404298838e-18,
+    "power_error": 5.421010862427522e-20,
+    "voltage_error": 1.1102230246251565e-16,
+    "max_T": 319.61510569946097,
+    "current_excess": 0.0,
+    "min_ionic_dissipation": 2.0255523010623054e-06
+  },
+  "stats": [
+    {
+      "label": "C1-pos-rise",
+      "steps": 585,
+      "nfev": 2211,
+      "njev": 216
+    },
+    {
+      "label": "C1-pos-fall",
+      "steps": 221,
+      "nfev": 602,
+      "njev": 6
+    },
+    {
+      "label": "C1-neg-rise",
+      "steps": 299,
+      "nfev": 832,
+      "njev": 6
+    },
+    {
+      "label": "C1-neg-fall",
+      "steps": 889,
+      "nfev": 2722,
+      "njev": 73
+    },
+    {
+      "label": "C2-pos-rise",
+      "steps": 438,
+      "nfev": 1494,
+      "njev": 50
+    },
+    {
+      "label": "C2-pos-fall",
+      "steps": 203,
+      "nfev": 530,
+      "njev": 6
+    },
+    {
+      "label": "C2-neg-rise",
+      "steps": 233,
+      "nfev": 667,
+      "njev": 5
+    },
+    {
+      "label": "C2-neg-fall",
+      "steps": 833,
+      "nfev": 2505,
+      "njev": 54
+    },
+    {
+      "label": "C3-pos-rise",
+      "steps": 406,
+      "nfev": 1341,
+      "njev": 34
+    },
+    {
+      "label": "C3-pos-fall",
+      "steps": 190,
+      "nfev": 497,
+      "njev": 5
+    },
+    {
+      "label": "C3-neg-rise",
+      "steps": 220,
+      "nfev": 608,
+      "njev": 5
+    },
+    {
+      "label": "C3-neg-fall",
+      "steps": 750,
+      "nfev": 2284,
+      "njev": 46
+    },
+    {
+      "label": "C4-pos-rise",
+      "steps": 372,
+      "nfev": 1243,
+      "njev": 28
+    },
+    {
+      "label": "C4-pos-fall",
+      "steps": 183,
+      "nfev": 473,
+      "njev": 4
+    },
+    {
+      "label": "C4-neg-rise",
+      "steps": 208,
+      "nfev": 543,
+      "njev": 4
+    },
+    {
+      "label": "C4-neg-fall",
+      "steps": 696,
+      "nfev": 2040,
+      "njev": 32
+    },
+    {
+      "label": "C5-pos-rise",
+      "steps": 361,
+      "nfev": 1166,
+      "njev": 23
+    },
+    {
+      "label": "C5-pos-fall",
+      "steps": 179,
+      "nfev": 475,
+      "njev": 3
+    },
+    {
+      "label": "C5-neg-rise",
+      "steps": 200,
+      "nfev": 512,
+      "njev": 4
+    },
+    {
+      "label": "C5-neg-fall",
+      "steps": 651,
+      "nfev": 1927,
+      "njev": 29
+    }
+  ],
+  "data_sha": "45d0ff51dacd69921ed6ecc075211f0505f619675b8a95e1327f0e241e2b1915",
+  "elapsed_s": 66.98902090000047
+}

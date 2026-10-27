@@ -1,0 +1,58 @@
+{
+  "fingerprint": {
+    "parameters": {
+      "resistance_ratio": 0.0001,
+      "bottom_share": 0.2,
+      "vacancy_lowering_eV": 0.1,
+      "averaging_depth_nm": 0.5
+    },
+    "source_sha256": {
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\pt_contacts_2026-10-06\\contact_model.py": "09252e69d2736c0fffe7d0c315ecd4b00b0ab4ebc8814328c8d4f1325318baa1",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\pt_blocking_2026-10-06\\pt_model.py": "d8e68b80a29cf1cd53c409d623b87798e1dfe48f688e37809d0c927e324311a7",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\bounded-span-field.py": "23bef680a41c00bc5f891aa536be3795e391e344c1b0c2e5d433f59c7866d3b8",
+      "F:\\Cloud Storage\\Onedrive\\Academic Files\\UoM\\Casptone Project\\Commercial Chip Development\\md-python\\comsol\\local-reset-mesh.py": "752efbf6c584426d506cf9f9a67e7de325e03261cf0b06620d5ad3772bfd25a9"
+    }
+  },
+  "rows": [
+    [
+      10,
+      0,
+      0,
+      "hold10",
+      "linear"
+    ],
+    [
+      90,
+      0,
+      0,
+      "hold100",
+      "linear"
+    ],
+    [
+      900,
+      0,
+      0,
+      "hold1000",
+      "linear"
+    ]
+  ],
+  "audits": [
+    {
+      "label": "hold10",
+      "mass_error": 5.398237412634899e-12,
+      "steps": 81
+    },
+    {
+      "label": "hold100",
+      "mass_error": 2.1728507881846326e-11,
+      "steps": 150
+    },
+    {
+      "label": "hold1000",
+      "mass_error": 2.5214386134564393e-10,
+      "steps": 171
+    }
+  ],
+  "rtol": 1e-09,
+  "physical_contact_calibration": false
+}

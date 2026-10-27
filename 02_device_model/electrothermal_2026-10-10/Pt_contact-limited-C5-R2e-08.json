@@ -1,0 +1,368 @@
+{
+  "source_sha": "ef183f59e51d9421b93561b1715e151b4fd83851dc8d913bd3a808cd7dcd703f",
+  "kind": "Pt_contact",
+  "mode": "limited",
+  "settings": {
+    "bath_K": 300.0,
+    "reference_G_S": 0.0001,
+    "series_ohm": 1000.0,
+    "compliance_A": 0.0003,
+    "thermal_R_K_W": 100000.0,
+    "thermal_tau": 0.05,
+    "oxide_migration_Ea_eV": 0.65,
+    "metal_migration_Ea_eV": 0.5,
+    "exchange_Ea_eV": 0.4,
+    "contact_reference_barrier_eV": 0.5
+  },
+  "current_mapping_S_per_model_G": 15228.955646564365,
+  "anchor_model_G": 6.5664384558477515e-09,
+  "rtol": 2e-08,
+  "rows": [
+    [
+      10,
+      0,
+      -1,
+      "prep-rise",
+      "smooth"
+    ],
+    [
+      10,
+      -1,
+      0,
+      "prep-fall",
+      "smooth"
+    ],
+    [
+      0.2,
+      0,
+      0.02,
+      "read-rise",
+      "smooth"
+    ],
+    [
+      1,
+      0.02,
+      0.02,
+      "read",
+      "smooth"
+    ],
+    [
+      0.2,
+      0.02,
+      0,
+      "read-fall",
+      "smooth"
+    ],
+    [
+      2,
+      0,
+      1,
+      "C1-pos-rise",
+      "linear"
+    ],
+    [
+      2,
+      1,
+      0,
+      "C1-pos-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      -1,
+      "C1-neg-rise",
+      "linear"
+    ],
+    [
+      2,
+      -1,
+      0,
+      "C1-neg-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      1,
+      "C2-pos-rise",
+      "linear"
+    ],
+    [
+      2,
+      1,
+      0,
+      "C2-pos-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      -1,
+      "C2-neg-rise",
+      "linear"
+    ],
+    [
+      2,
+      -1,
+      0,
+      "C2-neg-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      1,
+      "C3-pos-rise",
+      "linear"
+    ],
+    [
+      2,
+      1,
+      0,
+      "C3-pos-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      -1,
+      "C3-neg-rise",
+      "linear"
+    ],
+    [
+      2,
+      -1,
+      0,
+      "C3-neg-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      1,
+      "C4-pos-rise",
+      "linear"
+    ],
+    [
+      2,
+      1,
+      0,
+      "C4-pos-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      -1,
+      "C4-neg-rise",
+      "linear"
+    ],
+    [
+      2,
+      -1,
+      0,
+      "C4-neg-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      1,
+      "C5-pos-rise",
+      "linear"
+    ],
+    [
+      2,
+      1,
+      0,
+      "C5-pos-fall",
+      "linear"
+    ],
+    [
+      2,
+      0,
+      -1,
+      "C5-neg-rise",
+      "linear"
+    ],
+    [
+      2,
+      -1,
+      0,
+      "C5-neg-fall",
+      "linear"
+    ]
+  ],
+  "checks": {
+    "mass_error": 3.5826958455498215e-08,
+    "thermal_balance_Wtau": 0.0,
+    "voltage_residual_V": 1.1102230246251565e-16,
+    "power_residual_W": 5.421010862427522e-20,
+    "maximum_current_A": 0.0002957691537540644,
+    "maximum_T_K": 300.0,
+    "compliance_excess_A": 0.0,
+    "minimum_occupancy": 1.561551486989361e-25,
+    "maximum_occupancy": 0.9771487056177889
+  },
+  "stats": [
+    {
+      "label": "prep-rise",
+      "steps": 417,
+      "nfev": 1244,
+      "njev": 58
+    },
+    {
+      "label": "prep-fall",
+      "steps": 222,
+      "nfev": 645,
+      "njev": 45
+    },
+    {
+      "label": "read-rise",
+      "steps": 21,
+      "nfev": 42,
+      "njev": 1
+    },
+    {
+      "label": "read",
+      "steps": 30,
+      "nfev": 60,
+      "njev": 1
+    },
+    {
+      "label": "read-fall",
+      "steps": 19,
+      "nfev": 38,
+      "njev": 1
+    },
+    {
+      "label": "C1-pos-rise",
+      "steps": 483,
+      "nfev": 1821,
+      "njev": 171
+    },
+    {
+      "label": "C1-pos-fall",
+      "steps": 177,
+      "nfev": 433,
+      "njev": 9
+    },
+    {
+      "label": "C1-neg-rise",
+      "steps": 731,
+      "nfev": 2233,
+      "njev": 44
+    },
+    {
+      "label": "C1-neg-fall",
+      "steps": 273,
+      "nfev": 756,
+      "njev": 45
+    },
+    {
+      "label": "C2-pos-rise",
+      "steps": 350,
+      "nfev": 1218,
+      "njev": 54
+    },
+    {
+      "label": "C2-pos-fall",
+      "steps": 193,
+      "nfev": 482,
+      "njev": 7
+    },
+    {
+      "label": "C2-neg-rise",
+      "steps": 391,
+      "nfev": 1128,
+      "njev": 12
+    },
+    {
+      "label": "C2-neg-fall",
+      "steps": 521,
+      "nfev": 1614,
+      "njev": 63
+    },
+    {
+      "label": "C3-pos-rise",
+      "steps": 310,
+      "nfev": 1063,
+      "njev": 46
+    },
+    {
+      "label": "C3-pos-fall",
+      "steps": 185,
+      "nfev": 480,
+      "njev": 7
+    },
+    {
+      "label": "C3-neg-rise",
+      "steps": 216,
+      "nfev": 634,
+      "njev": 7
+    },
+    {
+      "label": "C3-neg-fall",
+      "steps": 632,
+      "nfev": 1943,
+      "njev": 56
+    },
+    {
+      "label": "C4-pos-rise",
+      "steps": 302,
+      "nfev": 1021,
+      "njev": 39
+    },
+    {
+      "label": "C4-pos-fall",
+      "steps": 186,
+      "nfev": 487,
+      "njev": 6
+    },
+    {
+      "label": "C4-neg-rise",
+      "steps": 188,
+      "nfev": 541,
+      "njev": 6
+    },
+    {
+      "label": "C4-neg-fall",
+      "steps": 609,
+      "nfev": 1840,
+      "njev": 49
+    },
+    {
+      "label": "C5-pos-rise",
+      "steps": 274,
+      "nfev": 887,
+      "njev": 31
+    },
+    {
+      "label": "C5-pos-fall",
+      "steps": 178,
+      "nfev": 452,
+      "njev": 5
+    },
+    {
+      "label": "C5-neg-rise",
+      "steps": 164,
+      "nfev": 478,
+      "njev": 5
+    },
+    {
+      "label": "C5-neg-fall",
+      "steps": 563,
+      "nfev": 1660,
+      "njev": 42
+    }
+  ],
+  "spatial_temperature": false,
+  "COMSOL_verified": false,
+  "experiment_calibrated": false,
+  "irreversible_aging": false,
+  "thermal_scope": "Electronic Joule power only; neglect reaction heat and ionic heating. Uniform lumped device temperature.",
+  "thermal_capacity_units": "Cth/t0 = thermal_tau/thermal_R, W tau / K; t0 seconds per tau remains unknown",
+  "elapsed_s": 41.30115579999983,
+  "data_sha": "aadd5fa82c016d8c95a61bb479bdf40cab43e83d603384c47cc06493db088437"
+}

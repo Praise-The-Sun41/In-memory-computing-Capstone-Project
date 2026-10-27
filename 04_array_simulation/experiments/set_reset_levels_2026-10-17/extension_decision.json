@@ -1,0 +1,7 @@
+{
+  "executed": true,
+  "set_count": 32,
+  "wait_tau": 10,
+  "reason": "Bounded adaptive follow-up of the protocol with already demonstrated short-window stable levels; same RESET limit of 32 and unchanged gates.",
+  "extra_checkpoint_read_after_reset16": true
+}

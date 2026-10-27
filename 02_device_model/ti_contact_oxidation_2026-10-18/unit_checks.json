@@ -1,0 +1,108 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "test": "zero_contact_regression",
+      "V": -1.0,
+      "max_rhs_error": 0.0
+    },
+    {
+      "test": "zero_contact_regression",
+      "V": 0.0,
+      "max_rhs_error": 0.0
+    },
+    {
+      "test": "zero_contact_regression",
+      "V": 0.4,
+      "max_rhs_error": 0.0
+    },
+    {
+      "test": "zero_contact_regression",
+      "V": 1.0,
+      "max_rhs_error": 0.0
+    },
+    {
+      "test": "coupled_jacobian",
+      "case": "static_500",
+      "V": 0.2,
+      "limited": false,
+      "relative_error": 1.9067758129804584e-09
+    },
+    {
+      "test": "coupled_jacobian",
+      "case": "static_500",
+      "V": -1.0,
+      "limited": false,
+      "relative_error": 1.302487668468671e-09
+    },
+    {
+      "test": "coupled_jacobian",
+      "case": "static_500",
+      "V": 1.0,
+      "limited": true,
+      "relative_error": 1.0225235333555493e-08
+    },
+    {
+      "test": "coupled_jacobian",
+      "case": "chemical_500",
+      "V": 0.2,
+      "limited": false,
+      "relative_error": 2.1493660137384843e-09
+    },
+    {
+      "test": "coupled_jacobian",
+      "case": "chemical_500",
+      "V": -1.0,
+      "limited": false,
+      "relative_error": 1.7458606290717366e-09
+    },
+    {
+      "test": "coupled_jacobian",
+      "case": "chemical_500",
+      "V": 1.0,
+      "limited": true,
+      "relative_error": 4.106360461236308e-09
+    },
+    {
+      "test": "coupled_jacobian",
+      "case": "chemical_5000",
+      "V": 0.2,
+      "limited": false,
+      "relative_error": 5.1627397176968925e-09
+    },
+    {
+      "test": "coupled_jacobian",
+      "case": "chemical_5000",
+      "V": -1.0,
+      "limited": false,
+      "relative_error": 2.7557177834805296e-09
+    },
+    {
+      "test": "coupled_jacobian",
+      "case": "chemical_5000",
+      "V": 1.0,
+      "limited": true,
+      "relative_error": 5.332600475163556e-09
+    },
+    {
+      "test": "interface_detailed_balance",
+      "Vcontact": -0.1,
+      "flux": -1.921590003870329e-22
+    },
+    {
+      "test": "interface_detailed_balance",
+      "Vcontact": 0.0,
+      "flux": 2.018871346181622e-23
+    },
+    {
+      "test": "interface_detailed_balance",
+      "Vcontact": 0.1,
+      "flux": 1.564759712343634e-24
+    },
+    {
+      "test": "binding_is_not_oxygen_uptake",
+      "delta_total_oxygen": 1.7763568394002505e-15,
+      "R_ratio": 1.0802418013991126
+    }
+  ]
+}
